@@ -1,2 +1,17 @@
-# chainspecs
-Collection of Chain Specification
+# Collection of Chain Specification
+[https://paritytech.github.io/chainspecs](https://paritytech.github.io/chainspecs/)
+
+A chain specification, or "chainspec", is a collection of configuration information that dictates which network a blockchain node will connect to, which entities it will initially communicate with, and what consensus-critical state it must have at genesis.
+
+## Usage 
+You can download chainspec and save it as `chainspec.json` file, then start the substrate node with the `--chain ./chainspec.json` flag.
+
+> Note: for some nodes, you may save chainspec with a different name [see](https://github.com/PureStake/moonbeam/issues/1104#issuecomment-996787548)
+
+> Note: for production, it is better to use chainspec provided in binary, ( example: `--chain kusama`) this repo is designed for test networks that reset often.
+
+# List of Chainspecs
+- [Rococo](rococo/relaychain/chainspec.json)
+- [Rococo Canvas](rococo/parachain/canvas/chainspec.json)
+- [Rococo Moonbase](rococo/parachain/moonbase/chainspec.json)
+- 
