@@ -11,7 +11,11 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 > Note: for production, it is better to use chainspec provided in binary, ( example: `--chain kusama`) this repo is designed for test networks that reset often.
 
 # List of Chainspecs
+### Polkadot
+- [Polkadot](polkadot/relaychain/chainspec.json)
+- [Polkadot Statemint](polkadot/parachain/statemint/chainspec.json)
+
+### Rococo
 - [Rococo](rococo/relaychain/chainspec.json)
 - [Rococo Canvas](rococo/parachain/canvas/chainspec.json)
 - [Rococo Moonbase](rococo/parachain/moonbase/chainspec.json)
-- 
