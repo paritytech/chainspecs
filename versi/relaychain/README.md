@@ -1,4 +1,4 @@
 # Command to generate chainspec:
 `
- 1. Run: `docker run parity/polkadot:v0.9.19 build-spec --chain rococo-staging > chainspec.json`
- 2. Replace `rococo` with `versi` in `chainspec.json` (Example: `"id": "rococo_v1_14"` -> `"id": "versi_v1_7"` ), update bootnodes. 
+ 1. Run: `docker run paritypr/polkadot-debug:5412--2ae16650 build-spec --chain versi-staging --raw > chainspec.json`
+ 2. Update `id`, `protocolId`, `properties`, and `bootnodes`. 
