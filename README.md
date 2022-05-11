@@ -17,6 +17,7 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 
 ### Rococo
 - [Rococo](rococo/relaychain/chainspec.json)
+- [Rococo Rockmine](rococo/parachain/rockmine/chainspec.json)
 - [Rococo adz](rococo/parachain/adz/chainspec.json)
 - [Rococo Canvas](rococo/parachain/canvas/chainspec.json)
 - [Rococo Moonbase](rococo/parachain/moonbase/chainspec.json)
