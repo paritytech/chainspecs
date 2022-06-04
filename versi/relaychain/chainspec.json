@@ -10,8 +10,7 @@
     "/dns/versi-bootnode-4.parity-versi.parity.io/tcp/30333/p2p/12D3KooWHKy3VggzwJTMVuiAYJK3ARtfCYp8qYEjicHNF6py5TGG",
     "/dns/versi-bootnode-5.parity-versi.parity.io/tcp/30333/p2p/12D3KooWLQNS8ULhha5LLTWnSV3DHeXBfUFqr8vjNPGM9SAzBdgu",
     "/dns/versi-bootnode-6.parity-versi.parity.io/tcp/30333/p2p/12D3KooWGsHmcZFhu64ue51SzWNdWVaBdjpKvrURkRHNcX4sLAhh",
-    "/dns/versi-bootnode-7.parity-versi.parity.io/tcp/30333/p2p/12D3KooWDbKdQoWsjDwegEc2XarYWaiTogyVkixE52nAiTXtiEVp",
-    "/dns/versi-bootnode-8.parity-versi.parity.io/tcp/30333/p2p/12D3KooWPho5Fyw4S1XRLj2zCJZTuGpVgGEgk71aTkFaS92nWqZA"
+    "/dns/versi-bootnode-7.parity-versi.parity.io/tcp/30333/p2p/12D3KooWDbKdQoWsjDwegEc2XarYWaiTogyVkixE52nAiTXtiEVp"
   ],
   "telemetryEndpoints": [
     [
