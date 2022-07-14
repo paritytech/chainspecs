@@ -1,6 +1,6 @@
 # Command to generate chainspec:
 
-1. Pull the non-raw collectives-westend in the cumulus repo, then switch to `giles-collections-chainspecs` branch
+1. Pull the non-raw [collectives-westend](https://github.com/paritytech/cumulus/blob/bb94c0db4424ae0ed2c55a5ccdcfd880ca46a4a0/parachains/chain-specs/collectives-westend.json) in the cumulus repo, then switch to `giles-collections-chainspecs` branch
 - `git clone git@github.com:paritytech/cumulus.git
    cd cumulus
    git checkout giles-collections-chainspecs`
