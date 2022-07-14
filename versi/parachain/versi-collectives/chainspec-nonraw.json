@@ -1,5 +1,5 @@
 {
-  "name": "Westend Collectives",
+  "name": "Versi Collectives",
   "id": "collectives_westend",
   "chainType": "Live",
   "bootNodes": [
@@ -10,9 +10,9 @@
   "protocolId": null,
   "properties": {
     "tokenDecimals": 12,
-    "tokenSymbol": "WND"
+    "tokenSymbol": "VRS"
   },
-  "relay_chain": "westend",
+  "relay_chain": "versi",
   "para_id": 1005,
   "genesis": {
     "runtime": {
@@ -21,7 +21,7 @@
       },
       "parachainSystem": null,
       "parachainInfo": {
-        "parachainId": 1002
+        "parachainId": 1005
       },
       "balances": {
         "balances": []
