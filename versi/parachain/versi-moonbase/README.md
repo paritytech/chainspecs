@@ -13,7 +13,7 @@ sed 's/"relayChain": "dev-service"/"relayChain": "versi"/' -i ./moonbase-dev-pla
 sed 's/"paraId": 0/"paraId": 2023/' -i ./moonbase-dev-plain.json
 sed 's/"parachainId": 0/"parachainId": 2023/' -i ./moonbase-dev-plain.json
 # Update bootnodes
-sed 's,"/ip4/127.0.0.1/tcp/30333/p2p/.*","/dns/versi-moonbase-bootnode-node-0/tcp/30333/p2p/12D3KooWEhqcd5K6QyzypTTCtBxPgYJj7wVbaVcCFqiUfgpneatL",' -i ./moonbase-dev-plain.json
+sed 's,"/ip4/127.0.0.1/tcp/30333/p2p/.*","/dns/versi-moonbase-bootnode-0/tcp/30333/p2p/12D3KooWEhqcd5K6QyzypTTCtBxPgYJj7wVbaVcCFqiUfgpneatL",' -i ./moonbase-dev-plain.json
 # Replace alice key with VERSI_VALIDATORS_ROOT_SEED (https://gitlab.parity.io/parity/infrastructure/privileged/parity-testnet-validator-manager/-/blob/e559036e81204c4c953bef0ee4edc7b12390c690/.gitlab-ci.yml#L78)
 # see "How to create eth key" section bellow 
 sed 's/5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY/5CGHDgtYpLNEKYX2NEnTNs9K1FTket4Pps5cofYeDDFFoZkY/' -i ./moonbase-dev-plain.json
