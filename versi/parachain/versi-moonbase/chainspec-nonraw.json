@@ -3,7 +3,7 @@
   "id": "moonbase_versi",
   "chainType": "Live",
   "bootNodes": [
-    "/dns/versi-moonbase-bootnode-node-0/tcp/30333/p2p/12D3KooWEhqcd5K6QyzypTTCtBxPgYJj7wVbaVcCFqiUfgpneatL"
+    "/dns/versi-moonbase-bootnode-0/tcp/30333/p2p/12D3KooWEhqcd5K6QyzypTTCtBxPgYJj7wVbaVcCFqiUfgpneatL"
   ],
   "telemetryEndpoints": null,
   "protocolId": null,
