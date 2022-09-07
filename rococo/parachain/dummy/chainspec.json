@@ -3,8 +3,8 @@
   "id": "rococo_dummy_v1",
   "chainType": "Live",
   "bootNodes": [
-    "/dns/rococo-dummy-parachain-bootnode-0.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWKiaAJ2BWKajVMwnNnjqEB9be6Pq9ryPPUMU2tKWQdJGg",
-    "/dns/rococo-dummy-parachain-bootnode-1.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWKiaAJ2BWKajVMwnNnjqEB9be6Pq9ryPPUMU2tKWQdJGg"
+    "/dns/rococo-dummy-parachain-bootnode-0.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWJcPEsW5HyAQLY6neRfQvZKk3Ap8F3PpEgEJERfhiV3uy",
+    "/dns/rococo-dummy-parachain-bootnode-1.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWMXvLEz1KVvqtAi5BJQJ38dATc1jZW8cJbLJxj1vFoFVL"
   ],
   "telemetryEndpoints": null,
   "protocolId": null,
