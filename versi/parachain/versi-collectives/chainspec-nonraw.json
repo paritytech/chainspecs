@@ -28,8 +28,8 @@
       },
       "collatorSelection": {
         "invulnerables": [
-            "5CSKoaRNdrJbMgeYTH1MMxRw6CBW3gvxoj7xYU3Fpmt3ZugH",
-            "5HNVdfgQFjni3rTiF6GidVxr3coQJ6PRCDok9o4SUPD5jUDX"
+          "5HEWuGN1WBPtNGV6isvva1GNyxPJUZseJvJGjoovTaejZ1BF",
+          "5GxNuFpmHRidfuQWF21QFgE3Dq4zBktbtceMeFdXQt9FPEYz"
         ],
         "candidacyBond": 16000000000,
         "desiredCandidates": 0
@@ -37,15 +37,15 @@
       "session": {
         "keys": [
           [
-            "5CSKoaRNdrJbMgeYTH1MMxRw6CBW3gvxoj7xYU3Fpmt3ZugH",
-            "5CSKoaRNdrJbMgeYTH1MMxRw6CBW3gvxoj7xYU3Fpmt3ZugH",
+            "5HEWuGN1WBPtNGV6isvva1GNyxPJUZseJvJGjoovTaejZ1BF",
+            "5HEWuGN1WBPtNGV6isvva1GNyxPJUZseJvJGjoovTaejZ1BF",
             {
               "aura": "5CSKoaRNdrJbMgeYTH1MMxRw6CBW3gvxoj7xYU3Fpmt3ZugH"
             }
           ],
-          [ 
-            "5HNVdfgQFjni3rTiF6GidVxr3coQJ6PRCDok9o4SUPD5jUDX",
-            "5HNVdfgQFjni3rTiF6GidVxr3coQJ6PRCDok9o4SUPD5jUDX",
+          [
+            "5GxNuFpmHRidfuQWF21QFgE3Dq4zBktbtceMeFdXQt9FPEYz",
+            "5GxNuFpmHRidfuQWF21QFgE3Dq4zBktbtceMeFdXQt9FPEYz",
             {
               "aura": "5HNVdfgQFjni3rTiF6GidVxr3coQJ6PRCDok9o4SUPD5jUDX"
             }
