@@ -1,6 +1,6 @@
 {
   "name": "Rococo Dummy Parachain",
-  "id": "rococo_dummy_v1",
+  "id": "rococo_dummy_v1_0",
   "chainType": "Live",
   "bootNodes": [
     "/dns/rococo-dummy-parachain-bootnode-0.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWJcPEsW5HyAQLY6neRfQvZKk3Ap8F3PpEgEJERfhiV3uy",
@@ -27,19 +27,23 @@
       "balances": {
         "balances": [
           [
-            "5D5NTZaxuakHTa61WDWpsbegdNFGkyy2qKS1eaVXNiPeFLen",
+            "5DwBmEFPXRESyEam5SsQF1zbWSCn2kCjyLW51hJHXe9vW4xs",
             1152921504606846976
           ],
           [
-            "5G79yme464c49DqZrfxDoy5QREchPNtMPdqiyQ9XLmNgQzxT",
+            "5FX9Egk6RbjA1FsoTi7yjDn3h8JhxyHp2qVR77XK3gs8c1t3",
+            1152921504606846976
+          ],
+          [
+            "5DAEg4mSRWrRPQM4HkpXSfr5bMkTEAYUf7pgH54sWpzYXnv6",
             1152921504606846976
           ]
         ]
       },
       "aura": {
         "authorities": [
-          "5D5NTZaxuakHTa61WDWpsbegdNFGkyy2qKS1eaVXNiPeFLen",
-          "5G79yme464c49DqZrfxDoy5QREchPNtMPdqiyQ9XLmNgQzxT"
+          "5FX9Egk6RbjA1FsoTi7yjDn3h8JhxyHp2qVR77XK3gs8c1t3",
+          "5DAEg4mSRWrRPQM4HkpXSfr5bMkTEAYUf7pgH54sWpzYXnv6"
         ]
       },
       "auraExt": null,
