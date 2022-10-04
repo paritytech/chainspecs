@@ -21,6 +21,7 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Rococo adz](rococo/parachain/adz/chainspec.json)
 - [Rococo Contracts](rococo/parachain/contracts/chainspec.json)
 - [Rococo Moonbase](rococo/parachain/moonbase/chainspec.json)
+- [Rococo Bridge-Hub](rococo/parachain/bridge-hub/chainspec.json)
 
 ### Westend
 - [Westend Collectives](westend/parachain/westend-collectives/chainspec.json)
