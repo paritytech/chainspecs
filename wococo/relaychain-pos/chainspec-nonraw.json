@@ -3,10 +3,10 @@
   "id": "wococo",
   "chainType": "Live",
   "bootNodes": [
-    "/dns/wococo-bootnode-0.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWQC541JNa6dguvifYYjwPnviscJHqbwvoNDMX3WBubPJZ",
-    "/dns/wococo-bootnode-1.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWG9v9Aexs6EvBYAwy9cqLyw25BRi2U1RQNQ2r5QJRxfFm",
-    "/dns/wococo-bootnode-2.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWNza3xSzCbw6phggjKD4QyqF8xvVpDFk7ctkoM5c1PQz2",
-    "/dns/wococo-bootnode-3.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWJ4ngb7S1Lkq5C4ZYqfFuJswxTE3UC5zjui5TLhAULTRU"
+    "/dns/wococo-pos-bootnode-0.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWQC541JNa6dguvifYYjwPnviscJHqbwvoNDMX3WBubPJZ",
+    "/dns/wococo-pos-bootnode-1.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWG9v9Aexs6EvBYAwy9cqLyw25BRi2U1RQNQ2r5QJRxfFm",
+    "/dns/wococo-pos-bootnode-2.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWNza3xSzCbw6phggjKD4QyqF8xvVpDFk7ctkoM5c1PQz2",
+    "/dns/wococo-pos-bootnode-3.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWJ4ngb7S1Lkq5C4ZYqfFuJswxTE3UC5zjui5TLhAULTRU"
   ],
   "telemetryEndpoints": null,
   "protocolId": "dot",
@@ -40,19 +40,19 @@
             1000000000000000000
           ],
           [
-            "5GxJGGbEwZYcHQ5Pvq6M1owkgXAR5MxEtXWqomPKrf3GzRAi",
+            "5DP2tG2sGe75YxNPJHPtzAnq4Big1wxrvVPEd6kdDX5CckJp",
             100000000000000
           ],
           [
-            "5CB9AQtxYhMDBSnJLcTu9Fr7QfjDnVc2P3JCiJso6c46Mg5k",
+            "5CDKXP166WjCv6nLnyiVM7KNC4uGzzC71dGm2ezTD9qsu1Ae",
             100000000000000
           ],
           [
-            "5DtcCgCopymjH3H3md8FJeoGukXnJbzvQ4FY3m4TY4EyfHCk",
+            "5GLH2k22Ve3pxmfMtvELoDJaXSgXshaUzJeUfjvJ2WBrG9iv",
             100000000000000
           ],
           [
-            "5Fxes2o2XpdyN9UWnUgoF2JwKoVQfe77fnGvP2jjsvL4M45h",
+            "5H6pkobBDgzpNdDv78VMHBwH3cao1NXrhpSnGZsFTTDeAnZS",
             100000000000000
           ]
         ]
@@ -62,36 +62,36 @@
         "validatorCount": 4,
         "minimumValidatorCount": 1,
         "invulnerables": [
-          "5GxJGGbEwZYcHQ5Pvq6M1owkgXAR5MxEtXWqomPKrf3GzRAi",
-          "5CB9AQtxYhMDBSnJLcTu9Fr7QfjDnVc2P3JCiJso6c46Mg5k",
-          "5DtcCgCopymjH3H3md8FJeoGukXnJbzvQ4FY3m4TY4EyfHCk",
-          "5Fxes2o2XpdyN9UWnUgoF2JwKoVQfe77fnGvP2jjsvL4M45h"
+          "5DP2tG2sGe75YxNPJHPtzAnq4Big1wxrvVPEd6kdDX5CckJp",
+          "5CDKXP166WjCv6nLnyiVM7KNC4uGzzC71dGm2ezTD9qsu1Ae",
+          "5GLH2k22Ve3pxmfMtvELoDJaXSgXshaUzJeUfjvJ2WBrG9iv",
+          "5H6pkobBDgzpNdDv78VMHBwH3cao1NXrhpSnGZsFTTDeAnZS"
         ],
         "forceEra": "NotForcing",
         "slashRewardFraction": 100000000,
         "canceledPayout": 0,
         "stakers": [
           [
-            "5GxJGGbEwZYcHQ5Pvq6M1owkgXAR5MxEtXWqomPKrf3GzRAi",
-            "5E7TdFEsWVYXF5NwzwcYXrJWdgHEYhywD966hJ4wHm29Uzdx",
+            "5DP2tG2sGe75YxNPJHPtzAnq4Big1wxrvVPEd6kdDX5CckJp",
+            "5CSvQG6z4TUs9YoD8vnNJknw8SrdqotMjaUpp7fYtfJM3eEN",
             100000000000000,
             "Validator"
           ],
           [
-            "5CB9AQtxYhMDBSnJLcTu9Fr7QfjDnVc2P3JCiJso6c46Mg5k",
-            "5Gn1RocHttrboxVUXg2hCHoMwu7ftB6PMVSZgTChPSsJh3NK",
+            "5CDKXP166WjCv6nLnyiVM7KNC4uGzzC71dGm2ezTD9qsu1Ae",
+            "5FPN5gUYkwptCsyjNCXNqywQdeNhefBVNdjpYs7xHbTQnxdi",
             100000000000000,
             "Validator"
           ],
           [
-            "5DtcCgCopymjH3H3md8FJeoGukXnJbzvQ4FY3m4TY4EyfHCk",
-            "5F9GQ7PFKGhz3WkdZcGiCZLdgTUYimNwVQEBCs7B6yrW9vng",
+            "5GLH2k22Ve3pxmfMtvELoDJaXSgXshaUzJeUfjvJ2WBrG9iv",
+            "5GgdAHy3Zk1o4hzeVErb9wyHcjhbw4wHc4jbc8vRzsaYyebc",
             100000000000000,
             "Validator"
           ],
           [
-            "5Fxes2o2XpdyN9UWnUgoF2JwKoVQfe77fnGvP2jjsvL4M45h",
-            "5CVNjrwQC4AbuppRUTzEnUNzgbNwHkuMSaTMSM2HdEHqrWPM",
+            "5H6pkobBDgzpNdDv78VMHBwH3cao1NXrhpSnGZsFTTDeAnZS",
+            "5CX2yt7neBV349WBrwPLJj1wn79try4eGbYFs2NJukyUhEj5",
             100000000000000,
             "Validator"
           ]
@@ -104,51 +104,51 @@
       "session": {
         "keys": [
           [
-            "5GxJGGbEwZYcHQ5Pvq6M1owkgXAR5MxEtXWqomPKrf3GzRAi",
-            "5GxJGGbEwZYcHQ5Pvq6M1owkgXAR5MxEtXWqomPKrf3GzRAi",
+            "5DP2tG2sGe75YxNPJHPtzAnq4Big1wxrvVPEd6kdDX5CckJp",
+            "5DP2tG2sGe75YxNPJHPtzAnq4Big1wxrvVPEd6kdDX5CckJp",
             {
-              "grandpa": "5CCpVComC7icjWmx7YF7mXwXLnKfwPnWXzs64E7kQHzPn9Le",
-              "babe": "5F97ZVTxtukeofE3PTFkECuMjyajsQRkch4pDvLweYJCeYyg",
-              "im_online": "5Ek6MoXSsRiFHrqCxzdAgvc4d9D854GVAHrZcdqUGEQw7wBQ",
-              "para_validator": "5GsZfsX6EgTPS7bHMDuvstahA2CJTasXQ4XuTVkYqc5eLSBY",
-              "para_assignment": "5HNUryPbHC7kW1XAWqTcGUfCwDjon5QJvcQCLoJgagmPMdVG",
-              "authority_discovery": "5HBqFNN7VuBUycrgRkF4LbX7AK44ASnJqSEo2iMsXZqVRm4h"
+              "grandpa": "5DdhtxfGkGm2kTHVDD125VrDbKUvF6hAi2RkaL2A1BVxb4Ek",
+              "babe": "5GnNPCeEeLxBSBtYz4sPjTbd6iTbLP1uaptHdJLUJTrwu98F",
+              "im_online": "5GQh841wJgBsGtJH75vrLrCMwd7c7ixtpfWV9rFT3Dd5CH2F",
+              "para_validator": "5Da6oACNzdzYKgdiqrB4w5zE52Y8oberPQ6EsgVtCpcLAMTD",
+              "para_assignment": "5FHb9UNJ1H1BVCJrgysTGcpqH3iyUB85rswGRtrYyRPNbJkV",
+              "authority_discovery": "5CJuepfizE83TCqvUvy7tQj6P7Hquh7SxNCEFV6w2pzo7Qgg"
             }
           ],
           [
-            "5CB9AQtxYhMDBSnJLcTu9Fr7QfjDnVc2P3JCiJso6c46Mg5k",
-            "5CB9AQtxYhMDBSnJLcTu9Fr7QfjDnVc2P3JCiJso6c46Mg5k",
+            "5CDKXP166WjCv6nLnyiVM7KNC4uGzzC71dGm2ezTD9qsu1Ae",
+            "5CDKXP166WjCv6nLnyiVM7KNC4uGzzC71dGm2ezTD9qsu1Ae",
             {
-              "grandpa": "5DzHcLpSrJL47UqtFUs89Yf8gevw4c2RKGjWqTKjEXUPVQHg",
-              "babe": "5GRRnhbG9a3TxMrU9csxFGXtwh3XNHvBWcshfgw6Dkx98nPb",
-              "im_online": "5EC93bHBu3XRkhgdKX1R7HziBGHLsqim3poh8mHi2s4ELue7",
-              "para_validator": "5CaNVshUVvF8UoLcf5ruUTKdAxYyXHSyxMKKhT25SzcNr1ub",
-              "para_assignment": "5DD81AfvTJAw2PN517xmSc6BaxNTTCwu7ZKkY7N8HdoGj9GQ",
-              "authority_discovery": "5ELFSvUxyAZdF63X3X5nYeV7NeaZUSAfWHUCWkPvsfkDHS1k"
+              "grandpa": "5F6JkBNBEUZLHXouijSUbjKbLDcbQz9KGiUajEm3V8zAgwBk",
+              "babe": "5DA2fGVAtq4qhnEgLPZtQYC4mMRpkFfYxhYvaFd6u5GKKwzL",
+              "im_online": "5DSA3icgtwLJx1d3x4mzNRysYXBrAbcKmPjzuJK1Lvfg8KD4",
+              "para_validator": "5E4LEdto21Hcp8qgajHC92qemKcrrwhc4JowZ8YtRddbaRze",
+              "para_assignment": "5HYmSmwZFPffbHEmA8frRGRTZRiioWVqeVc2mkbWNoMsiqBz",
+              "authority_discovery": "5HpJTg3xhd7f5Xd13jmXirgLmDbv3oSMiTwRVeobDVQzWdvb"
             }
           ],
           [
-            "5DtcCgCopymjH3H3md8FJeoGukXnJbzvQ4FY3m4TY4EyfHCk",
-            "5DtcCgCopymjH3H3md8FJeoGukXnJbzvQ4FY3m4TY4EyfHCk",
+            "5GLH2k22Ve3pxmfMtvELoDJaXSgXshaUzJeUfjvJ2WBrG9iv",
+            "5GLH2k22Ve3pxmfMtvELoDJaXSgXshaUzJeUfjvJ2WBrG9iv",
             {
-              "grandpa": "5DixhvWaHHNdfgqegYFCavnJeJZ4uWTv1o9fDGbei7rArFrV",
-              "babe": "5Fv9RnHBYPavcM14aYHrsKjtu5Ufh9zRbjehia2fDfwQS2Zp",
-              "im_online": "5C7Lkmta54CYtrZ1LnRjJfZamWJZmzaVPUnm4t3u6DFMxByA",
-              "para_validator": "5EFQYAZLrHHNnkksKKCdXBnTuitTjV55tqf5U57waDNQFEmT",
-              "para_assignment": "5GuvBMMbnu8ZMFxbZkuDKDasfFK7YGtsyWpoA6wyqmWw1Yms",
-              "authority_discovery": "5FgibPi1LYFebdspz3wesmQRKiVqRyNf8eWb1CWMJo5tHvBs"
+              "grandpa": "5DYDHrMmeQJWYdGt4XKNKX9dZ8CRPLGCGhtPbJdSp61zEZaX",
+              "babe": "5F99wJoJe2J3epbenUxEiKVZeUhmpiDeWtTC9BMRtHEddhvY",
+              "im_online": "5DXffiaPzRr3chtqh7tsC6Jnt1G7Bddek1ZZJW1hmaqVXWvs",
+              "para_validator": "5GpU2fTDU7kX9amccuvK5RQicgKNXwoJngDc8Lk6QZN7oC6a",
+              "para_assignment": "5GVuQrKRCeKdGUuzsuBgTrYjxfUWry5FFrTw1PikuKAo1PLe",
+              "authority_discovery": "5CZtNh8W7boTz1WYTcDDpxfLicms1vvxQwVBjmQwb9cXoC9u"
             }
           ],
           [
-            "5Fxes2o2XpdyN9UWnUgoF2JwKoVQfe77fnGvP2jjsvL4M45h",
-            "5Fxes2o2XpdyN9UWnUgoF2JwKoVQfe77fnGvP2jjsvL4M45h",
+            "5H6pkobBDgzpNdDv78VMHBwH3cao1NXrhpSnGZsFTTDeAnZS",
+            "5H6pkobBDgzpNdDv78VMHBwH3cao1NXrhpSnGZsFTTDeAnZS",
             {
-              "grandpa": "5CCwaz9tgAb1UEys5qDVogkX8fHEF3TvoHsG26syb7wAYFGm",
-              "babe": "5CRynp9T4LyZ2eFp8c32PdV8KpbXmekq5T3HX6rmqt6gihWw",
-              "im_online": "5CkSTNuXb7TjsdzFjmDm9YuRR8HtQ8BGVuDDxmdSmUia3jHb",
-              "para_validator": "5DCMezAHR1mS85F4cNs4n6FjfyLB81VqhTUpZtbvbVJ18hRm",
-              "para_assignment": "5DtR51TWuxbPaqBGSBmQtCY5kgRExywxY5EzjgHaoSiPhK8H",
-              "authority_discovery": "5DwBr3XpVjc3c1tQKfKVPWuLwuFL12UFsfHDrJwYSeBjuhTy"
+              "grandpa": "5GWJWVHJ8Qzby6jwgvGwF4Xex3SB9K5nfz5FzchDZtVKnuEj",
+              "babe": "5CdSqonSXAaok15B5Pgb6KnrzDtzhmutE5eiQRwHzW9CPV4H",
+              "im_online": "5FummasMW2YwH1sUWwCxWSgWWxDGPfa2i5SKFtcC7DJRpCu3",
+              "para_validator": "5HCEk15i1MMKDQCZdLZzTDWRV9qR5SkQuvGaPeuce96kM4Ba",
+              "para_assignment": "5GhMEGFWnZ3KvWYWpMAH9XmGT2X58GpSN3TDCBMWfnSp2ZA4",
+              "authority_discovery": "5GLTaADZ4KyjqwjfCWmvjAn7K4RgaxHWS54ubBYkaoPfMU8x"
             }
           ]
         ]
