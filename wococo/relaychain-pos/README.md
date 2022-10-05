@@ -4,7 +4,7 @@ https://github.com/paritytech/polkadot/pull/6007
 ```
 # Generate keys and accounts
 export SECRET= # seed 
-export PREFIX=wococo-bootnode-
+export PREFIX=wococo-pos-bootnode-
 ./prepare-test-net.sh 4 > ./wococo-override.json
 
 # generate base chainspec  
