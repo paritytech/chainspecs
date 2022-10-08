@@ -3,7 +3,8 @@ Wococo should have session 10 min, but this changes are not ready yet:
 https://github.com/paritytech/polkadot/pull/6007
 ```
 # Generate keys and accounts
-export SECRET= # seed 
+export SUDO_SEED= # seed 
+export VALIDATORS_ROOT_SEED= #base seed to derive from
 export PREFIX=wococo-pos-bootnode-
 ./prepare-test-net.sh 4 > ./wococo-override.json
 
