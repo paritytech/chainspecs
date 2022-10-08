@@ -8,13 +8,14 @@ set -e
 if [ "$#" -ne 1 ]; then
 	echo "Please provide the number of initial validators!"
 	echo "Usage: "
-	echo "export SECRET=seed"
-	echo "export PREFIX=derivation prefix"
+	echo "export SUDO_SEED= sudo account seed"
+  echo "export VALIDATORS_ROOT_SEED= base seed to derive from"
+	echo "export PREFIX= derivation prefix"
 	exit 1
 fi
 
 generate_address() {
-	subkey inspect ${3:-} ${4:-} "$SECRET//$PREFIX$1//$2" | grep "SS58 Address" | awk '{ print $3 }'
+	subkey inspect ${3:-} ${4:-} "$VALIDATORS_ROOT_SEED//$PREFIX$1//$2" | grep "SS58 Address" | awk '{ print $3 }'
 }
 
 V_NUM=$(($1 - 1))
@@ -24,7 +25,7 @@ INVULNERABLES='"invulnerables": [\n'
 STAKERS='"stakers": [\n'
 SESSION='"session": {\n   "keys": [\n'
 
-SUDO_ADDRESS=$(subkey inspect $SECRET | grep "SS58 Address" | awk '{ print $3 }')
+SUDO_ADDRESS=$(subkey inspect $SUDO_SEED | grep "SS58 Address" | awk '{ print $3 }')
 BALANCES+="  [\"${SUDO_ADDRESS}\", 1000000000000000000],\n"
 SUDO="\"sudo\": {\"key\": \"${SUDO_ADDRESS}\" }"
 
@@ -66,7 +67,7 @@ CHAINSPEC='
     "chainType": "Live",
     "genesis": {
       "runtime": {
-       '"$BALANCES, \"staking\": {${INVULNERABLES}, ${STAKERS}}, ${SESSION}, ${SUDO}"'
+       '"$BALANCES, \"staking\": {\"validatorCount\": 10, ${INVULNERABLES}, ${STAKERS}}, ${SESSION}, ${SUDO}"'
        }
     }
   }
