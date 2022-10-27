@@ -1,0 +1,168 @@
+{
+  "name": "Versi",
+  "id": "versi_v1_10",
+  "bootNodes": [
+    "/dns/versi-bootnode-0.parity-versi.parity.io/tcp/30333/p2p/12D3KooWMHy2qkBrpZVv11No8Ysfckab3cCkf1GWMTEVeAz3SQrC",
+    "/dns/versi-bootnode-1.parity-versi.parity.io/tcp/30333/p2p/12D3KooWEQShxW9m9MVecXK5FHq8jaqAqukcjVTkgmnhH61LDMNu",
+    "/dns/versi-bootnode-2.parity-versi.parity.io/tcp/30333/p2p/12D3KooWR1N3e5nwJaqAEn27ydg6dLian7LJYuHB6rx6rUuZWg3u",
+    "/dns/versi-bootnode-3.parity-versi.parity.io/tcp/30333/p2p/12D3KooWJRjtuu5xzjU6WSKYcWC326i8HtVQsyYAVa6x2Ky2hukY",
+    "/dns/versi-bootnode-4.parity-versi.parity.io/tcp/30333/p2p/12D3KooWHKy3VggzwJTMVuiAYJK3ARtfCYp8qYEjicHNF6py5TGG",
+    "/dns/versi-bootnode-5.parity-versi.parity.io/tcp/30333/p2p/12D3KooWLQNS8ULhha5LLTWnSV3DHeXBfUFqr8vjNPGM9SAzBdgu",
+    "/dns/versi-bootnode-6.parity-versi.parity.io/tcp/30333/p2p/12D3KooWGsHmcZFhu64ue51SzWNdWVaBdjpKvrURkRHNcX4sLAhh",
+    "/dns/versi-bootnode-7.parity-versi.parity.io/tcp/30333/p2p/12D3KooWDbKdQoWsjDwegEc2XarYWaiTogyVkixE52nAiTXtiEVp"
+  ],
+  "genesis": {
+    "runtime": {
+      "runtime_genesis_config": {
+        "balances": {
+          "balances": [
+            [
+              "5DwBmEFPXRESyEam5SsQF1zbWSCn2kCjyLW51hJHXe9vW4xs",
+              1000000000000000000
+            ],
+            [
+              "5DV3X8jaZ2pwUFnApusxSQc3hPZrbCKByvdGfLvwFqcKXRte",
+              100000000000000
+            ],
+            [
+              "5Cag9DRBPYVHdpT4jTeciPeSikrFXmo6RvM7tvWTQgbtmVz8",
+              100000000000000
+            ],
+            [
+              "5GYgFK92vZj833faADWvFvtfQNEMKJruA6hfnQAb3Pwj9CMU",
+              100000000000000
+            ],
+            [
+              "5F7EdNXunchNw4DnsSqXnhMZXLQRxuo1my2Ea86suAJYyzLE",
+              100000000000000
+            ],
+            [
+              "5Enyc7KFiNo3cya5nrDe4iwMGxMFxcJHGqAcraKnnrEocL8T",
+              100000000000000
+            ],
+            [
+              "5HisWy38kugc3Ay4XAsrg1DAU3pJfsQhmPToY5Y726ZbunV8",
+              100000000000000
+            ],
+            [
+              "5CkxZrGeGfpQApMw6HAtBF9xiPgxoA3Ei7xZ69aRry6iGzNL",
+              100000000000000
+            ],
+            [
+              "5EyVyQG5L4zY9xTrpqrH4NYFeTxz6Nv7QVi7mAKxashEDaDn",
+              100000000000000
+            ]
+          ]
+        },
+        "session": {
+          "keys": [
+            [
+              "5DV3X8jaZ2pwUFnApusxSQc3hPZrbCKByvdGfLvwFqcKXRte",
+              "5DV3X8jaZ2pwUFnApusxSQc3hPZrbCKByvdGfLvwFqcKXRte",
+              {
+                "grandpa": "5GL8faNkBoJS6TeZANDGjo8PcPyPs5WZQ85J5uB4jqPpyvh8",
+                "babe": "5FNF9A2TFd8PgutZd8bdPpbR1WSZCcjtnggd9EEq3oVKVM36",
+                "im_online": "5EycsfQxcsFBjJ6setX8yivnceNiBoZtiQkcryvNQA9K4ULK",
+                "para_validator": "5DjqDw5NMmFdiafR9oVKZLasjY96jsd4sM5sdhMi8CT29vKx",
+                "para_assignment": "5F7Ka1qtTNVLityecYunrePHew3xCzV8HwZcrGZ9fuCS9NWv",
+                "authority_discovery": "5Hb3UnjMkuTWN47mKFxFfrad3gG8QzVNHogq3Nmj9drmnQPZ",
+                "beefy": "KW7vQVy7rsgoBKjBMSsroY7otKAjSesjexLcQjGFKisbHZT73"
+              }
+            ],
+            [
+              "5Cag9DRBPYVHdpT4jTeciPeSikrFXmo6RvM7tvWTQgbtmVz8",
+              "5Cag9DRBPYVHdpT4jTeciPeSikrFXmo6RvM7tvWTQgbtmVz8",
+              {
+                "grandpa": "5CpyzFD8PePkdLNCpMkGSoHp5xQy4bNoga4fgSV3gik9A5gV",
+                "babe": "5FLny6BTcXSWMjZHgaiEbh5GPgyoTuDjqmd4PCCakKDPyYQL",
+                "im_online": "5HB5z5q5d2AdeT6EiQHd4KTweUr7m3KTZfvcMVJPBZfwh98v",
+                "para_validator": "5FTqYsXezAyeKREwBwMjrQURFMZ9VSVWLom4TNo514aD9F7A",
+                "para_assignment": "5HGhpDMW91xYabtKr29vUTuJqtsz1rucuEKiRz5cMUfYKVeG",
+                "authority_discovery": "5HKqyEHGaAo7zZYxeY5Q4Ti1B2ooXKYvvPBzjNXan3Fpz8z2",
+                "beefy": "KWBmGhFMDzivGY1KEqHaqL5FDPoc2oCVLk4YwTZZDJn4GQCqF"
+              }
+            ],
+            [
+              "5GYgFK92vZj833faADWvFvtfQNEMKJruA6hfnQAb3Pwj9CMU",
+              "5GYgFK92vZj833faADWvFvtfQNEMKJruA6hfnQAb3Pwj9CMU",
+              {
+                "grandpa": "5ExhjXhUcbD6BDDS4B4EUoDkxTWxuh2eADJS9XkrRMBSfp4a",
+                "babe": "5EWkYHRWeLtsZ9ZZcTLt4hvsZ7vFeCyu5N8SFGvghNWN9BMX",
+                "im_online": "5F7YM3nbu6MpYpaLhnTr44dyvkte1T6T5ZPxznRPkL6NA5JY",
+                "para_validator": "5DyXfRM9Q7y9ai88iRwUL9PhGsFu1qsuXkUhV96HyN2QzPB5",
+                "para_assignment": "5Hp5F5ANNvzfAPrAKjMAervCzkrjBTBD1G8FosrVAtAvsA5K",
+                "authority_discovery": "5FjR5ZGcphJwa8ASbN4Zy7G68CBSYncMCvnzb8NKjgavRu8c",
+                "beefy": "KWAE8UnJYapZXwZG1TrEZ4wu1oUpH85GEQTGmaa2jpYEkCPL4"
+              }
+            ],
+            [
+              "5F7EdNXunchNw4DnsSqXnhMZXLQRxuo1my2Ea86suAJYyzLE",
+              "5F7EdNXunchNw4DnsSqXnhMZXLQRxuo1my2Ea86suAJYyzLE",
+              {
+                "grandpa": "5G112ibbo5RpVoEZzfk925XC5ZhudgGGcVp89EtjH8p4sgSd",
+                "babe": "5Dqqu4PZ6CEfLmuHMq1Zh445sNoWMyGJ2koKDvViJaSNSym1",
+                "im_online": "5G8uMor82Z361AL26srzShBJPcZW2WeBWnyQ8zY8HeVT8iDc",
+                "para_validator": "5Cvs52pMzW6ygaKuy9PqBuqd486aaXEi3jGrdAvSPcBqAuMN",
+                "para_assignment": "5CV7RehhbrMXhRy5ULMLz1Z6K9phjAHTh7NciS32PAxcdhUS",
+                "authority_discovery": "5CvZfiLpvRFXnL3TnQ6q174AaKU5ZbEEApDfXqyfwTZthpxp",
+                "beefy": "KWDMyYTBtbn228kuRmdpyMok9LVynZwRJoU63DTVB3JX4s9Kn"
+              }
+            ],
+            [
+              "5Enyc7KFiNo3cya5nrDe4iwMGxMFxcJHGqAcraKnnrEocL8T",
+              "5Enyc7KFiNo3cya5nrDe4iwMGxMFxcJHGqAcraKnnrEocL8T",
+              {
+                "grandpa": "5Dp77hZ1bG4kdkVa2LR44dZqCDrLDfgfRpSygZTCVrhHuFjX",
+                "babe": "5H3Yis5m8ikyU8nUHGYNfvvPyFtHPDb19KGTxYhweznNJHUH",
+                "im_online": "5D5aY6RacUAtLQPRJLNfYUogDmJxQKpuRfGSm75mFLU25cdM",
+                "para_validator": "5Hpvfs89hBjqEF1cXUiKZXBv4no1oC2mHw1NpQ11C6XCgMGW",
+                "para_assignment": "5EPXP8yv65npdoSig3ru22XXS4CYeK1W5P2pGXrTSu13CnUo",
+                "authority_discovery": "5HGTYBcTgosXkVGUchpPT2VYi5QEhYNbYgUdXhX1NQwpAYGD",
+                "beefy": "KW913N8emAEsDFNaQi24g6PCZdQXqfEXed6We9AamguwkRTgj"
+              }
+            ],
+            [
+              "5HisWy38kugc3Ay4XAsrg1DAU3pJfsQhmPToY5Y726ZbunV8",
+              "5HisWy38kugc3Ay4XAsrg1DAU3pJfsQhmPToY5Y726ZbunV8",
+              {
+                "grandpa": "5E2BMeeNPfHoaoeGkRcwuSXmHxQKt7kkVWwzzg1EyeM9Uxsq",
+                "babe": "5FsX7MZEXD8PV4VMKitxHJDQHaw9aufVYDeHj9TnSZMxh19Z",
+                "im_online": "5GNT2rvcVbiyXoBEFCEmyuKPHCeyU7t6Z9b9P9QZZQt5zkyP",
+                "para_validator": "5CDkpJJQDfjwrhWG6mHMQehLLvykkqcutcU8hyv5qR5cxeAs",
+                "para_assignment": "5FgrEDFDrbmghpVaeg59cy5hsRk5bNpXcKBy9sCg8STa9KZ8",
+                "authority_discovery": "5GTFG9KW6j628acwSV9GgjNxMRenUihEvBGfoz8L74EGog9t",
+                "beefy": "KWAkePAS2vGHxESoMeB33Y3E18Qd8rwR1fpzBA5cAj2QU55rx"
+              }
+            ],
+            [
+              "5CkxZrGeGfpQApMw6HAtBF9xiPgxoA3Ei7xZ69aRry6iGzNL",
+              "5CkxZrGeGfpQApMw6HAtBF9xiPgxoA3Ei7xZ69aRry6iGzNL",
+              {
+                "grandpa": "5EvP4zKAJDnj7JSomquk2pVRucYG6vvcepf6b6Hpjv95hKHf",
+                "babe": "5Fv73X7dtFm15hqYG338MNJ1qw351BbgjzFAh3rgXdjDFaCT",
+                "im_online": "5EcGLLCftCN9zGM3sB769kJfZrPDsdvrSskUubGhP8nCH6Zr",
+                "para_validator": "5DAgS6rUfqrVec19jTSZkMFJdQWLUT3WtnvdnHBmigYWadSk",
+                "para_assignment": "5HMfW3gxehXWQzTs7xLcau5jFe5448PB7BzJKzTTUNPbN6xc",
+                "authority_discovery": "5CrF49SzojrG99QMbSJfQAuqaC8Ui23mk8V4crWwfZ2tbA68",
+                "beefy": "KWBPJEgS11nKWgGiCz9W5biznEpHSkTPNgV45XNS8Y2zvEQKd"
+              }
+            ],
+            [
+              "5EyVyQG5L4zY9xTrpqrH4NYFeTxz6Nv7QVi7mAKxashEDaDn",
+              "5EyVyQG5L4zY9xTrpqrH4NYFeTxz6Nv7QVi7mAKxashEDaDn",
+              {
+                "grandpa": "5Ddf9e2CRXeqFaJ7xqvndZwGTY3waxPXCEdYgR81gYfyMTwz",
+                "babe": "5DLugVPwnwTdpxcoL54UVrJy22mBWR1ojy6ft589NSm23jSB",
+                "im_online": "5Eh7u54DiiGH4QUj8sbkL8gDgW5vMh7SP5JFVa8CBMCQvkqi",
+                "para_validator": "5HontyHjLF3jQD7sqwKbKn1u3oFDPX2aoiqnQw1UGDBT1MKc",
+                "para_assignment": "5CSyR1g4pHHzQ7ppafUhXcg6RiqNJpsN5sbrVLnCfX9DCCUp",
+                "authority_discovery": "5HGaFebZR87Yz94GA52uc8eb7k9nLwEqjqdmYUAfk9SveXah",
+                "beefy": "KW6Zrzh4X7y1YiHFgviKAJfPgiTX6GKy4TKSRMEWuXNDhhRRb"
+              }
+            ]
+          ]
+        }
+      }
+    }
+  }
+}
