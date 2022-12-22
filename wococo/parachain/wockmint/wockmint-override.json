@@ -1,0 +1,71 @@
+{
+  "name": "Wockmint",
+  "id": "westmint-wococo",
+  "bootNodes": [
+    "/dns/wococo-wockmint-collator-node-0.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWJHWGqJW76brGnS4VXW9AFREKCW8L1mYmtTgChU1xrTCL",
+    "/dns/wococo-wockmint-collator-node-1.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWMFRVSLCGDgV9NR7whE1nYyRZvQPzPtwPEkatPi7N9Bpg",
+    "/dns/wococo-wockmint-collator-node-2.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWQXxjpGQn8MoYeGe5kfg7WvUcGtKXUihCfXaWooZc4TD5",
+    "/dns/wococo-wockmint-collator-node-3.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWMzMAbKH6o6yQpGCpNFqQRJCivCUDszxN31KCF1QCGj8w"
+  ],
+  "properties": {
+    "tokenDecimals": 12,
+    "tokenSymbol": "WND"
+  },
+  "relay_chain": "wococo",
+  "para_id": 1004,
+  "genesis": {
+    "runtime": {
+      "balances": {
+        "balances": [
+          [
+            "5CGHDgtYpLNEKYX2NEnTNs9K1FTket4Pps5cofYeDDFFoZkY",
+            1000000000000000000
+          ]
+        ]
+      },
+      "parachainInfo": {
+        "parachainId": 1004
+      },
+      "collatorSelection": {
+        "invulnerables": [
+          "5C8RGkS8t5K93fB2hkgKbvSYs5iG6AknJMuQmbBDeazon9Lj",
+          "5GePeDZQeBagXH7kH5QPKnQKi39Z5hoYFB5FmUtEvc4yxKej",
+          "5CfnTTb9NMJDNKDntA83mHKoedZ7wjDC8ypLCTDd4NwUx3zv",
+          "5EqheiwiG22gvGpN7cvrbeaQzhg7rzsYYVkYK4yj5vRrTQRQ"
+        ]
+      },
+      "session": {
+        "keys": [
+          [
+            "5C8RGkS8t5K93fB2hkgKbvSYs5iG6AknJMuQmbBDeazon9Lj",
+            "5C8RGkS8t5K93fB2hkgKbvSYs5iG6AknJMuQmbBDeazon9Lj",
+            {
+              "aura": "5C8RGkS8t5K93fB2hkgKbvSYs5iG6AknJMuQmbBDeazon9Lj"
+            }
+          ],
+          [
+            "5GePeDZQeBagXH7kH5QPKnQKi39Z5hoYFB5FmUtEvc4yxKej",
+            "5GePeDZQeBagXH7kH5QPKnQKi39Z5hoYFB5FmUtEvc4yxKej",
+            {
+              "aura": "5GePeDZQeBagXH7kH5QPKnQKi39Z5hoYFB5FmUtEvc4yxKej"
+            }
+          ],
+          [
+            "5CfnTTb9NMJDNKDntA83mHKoedZ7wjDC8ypLCTDd4NwUx3zv",
+            "5CfnTTb9NMJDNKDntA83mHKoedZ7wjDC8ypLCTDd4NwUx3zv",
+            {
+              "aura": "5CfnTTb9NMJDNKDntA83mHKoedZ7wjDC8ypLCTDd4NwUx3zv"
+            }
+          ],
+          [
+            "5EqheiwiG22gvGpN7cvrbeaQzhg7rzsYYVkYK4yj5vRrTQRQ",
+            "5EqheiwiG22gvGpN7cvrbeaQzhg7rzsYYVkYK4yj5vRrTQRQ",
+            {
+              "aura": "5EqheiwiG22gvGpN7cvrbeaQzhg7rzsYYVkYK4yj5vRrTQRQ"
+            }
+          ]
+        ]
+      }
+    }
+  }
+}
