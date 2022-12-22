@@ -19,8 +19,7 @@ if [ -z "$VALIDATORS_ROOT_SEED" ]; then
 	echo "export VALIDATORS_ROOT_SEED= #base seed to derive from"
 	exit 1
 fi
-
-PREFIX=rococo-rockmine2-collator-node-
+PREFIX=wococo-wockmint-collator-node-
 
 generate_address() {
 	subkey inspect "$VALIDATORS_ROOT_SEED//collator//$PREFIX$1" | grep "SS58 Address" | awk '{ print $3 }'
@@ -66,14 +65,14 @@ INVULNERABLES+="]"
 BOOTNODES+="]"
 
 CHAINSPEC='{
-  "name": "Rockmine2",
-  "id": "statemine-rococo2",
+  "name": "Wockmint",
+  "id": "westmint-wococo",
   '"${BOOTNODES}"',
   "properties": {
     "tokenDecimals": 12,
-    "tokenSymbol": "ROC"
+    "tokenSymbol": "WND"
   },
-  "relay_chain": "rococo",
+  "relay_chain": "wococo",
   "para_id": 1004,
   "genesis": {
     "runtime": {
@@ -90,5 +89,5 @@ CHAINSPEC='{
 }
 '
 
-printf "$CHAINSPEC" | jq | sed 's/1e+18/1000000000000000000/' > ./rockmine2-override.json
-printf "${BOOTNODES_KEY_LIST}" | sed 's/-/_/g' > ./rockmine2_nodekey.yml
+printf "$CHAINSPEC" | jq | sed 's/1e+18/1000000000000000000/' > ./wockmint-override.json
+printf "${BOOTNODES_KEY_LIST}" | sed 's/-/_/g' > ./wockmint_nodekey.yml
