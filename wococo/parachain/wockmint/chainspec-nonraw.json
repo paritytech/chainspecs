@@ -15,7 +15,7 @@
     "tokenSymbol": "WND"
   },
   "relay_chain": "wococo",
-  "para_id": 1004,
+  "para_id": 1000,
   "codeSubstitutes": {},
   "genesis": {
     "runtime": {
@@ -24,7 +24,7 @@
       },
       "parachainSystem": null,
       "parachainInfo": {
-        "parachainId": 1004
+        "parachainId": 1000
       },
       "balances": {
         "balances": [

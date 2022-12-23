@@ -74,12 +74,12 @@ CHAINSPEC='{
     "tokenSymbol": "ROC"
   },
   "relay_chain": "rococo",
-  "para_id": 1004,
+  "para_id": 1015,
   "genesis": {
     "runtime": {
       '"${BALANCES}"',
       "parachainInfo": {
-        "parachainId": 1004
+        "parachainId": 1015
       },
       "collatorSelection": {
         '"${INVULNERABLES}"'

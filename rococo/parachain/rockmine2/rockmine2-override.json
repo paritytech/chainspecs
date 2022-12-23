@@ -12,7 +12,7 @@
     "tokenSymbol": "ROC"
   },
   "relay_chain": "rococo",
-  "para_id": 1004,
+  "para_id": 1015,
   "genesis": {
     "runtime": {
       "balances": {
@@ -24,7 +24,7 @@
         ]
       },
       "parachainInfo": {
-        "parachainId": 1004
+        "parachainId": 1015
       },
       "collatorSelection": {
         "invulnerables": [

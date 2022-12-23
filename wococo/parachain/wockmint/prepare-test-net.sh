@@ -73,12 +73,12 @@ CHAINSPEC='{
     "tokenSymbol": "WND"
   },
   "relay_chain": "wococo",
-  "para_id": 1004,
+  "para_id": 1000,
   "genesis": {
     "runtime": {
       '"${BALANCES}"',
       "parachainInfo": {
-        "parachainId": 1004
+        "parachainId": 1000
       },
       "collatorSelection": {
         '"${INVULNERABLES}"'
