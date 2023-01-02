@@ -25,3 +25,4 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 
 ### Westend
 - [Westend Collectives](westend/parachain/westend-collectives/chainspec.json)
+- [Westend BridgeHub](westend/parachain/bridge-hub/chainspec.json)
