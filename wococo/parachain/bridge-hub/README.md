@@ -10,5 +10,5 @@ polkadot-parachain 0.9.300-6988dc4f4e3
 or [download](https://storage.googleapis.com/parity-testnet-odd-releases/bridge-hub-cumulus/0930/polkadot-parachain) if binary is still available 
 
 3.  Generate the non-raw chainspec from the Cumulus repo
-./polkadot-parachain build-spec --chain bridge-hub-rococo > chainspec.json
+./polkadot-parachain build-spec --chain bridge-hub-wococo > chainspec.json
 

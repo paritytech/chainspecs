@@ -1,5 +1,5 @@
 {
-  "name": "Rococo BrideHub",
+  "name": "Rococo BridgeHub",
   "id": "bridge-hub-rococo",
   "chainType": "Live",
   "bootNodes": [
@@ -14,10 +14,7 @@
   ],
   "telemetryEndpoints": null,
   "protocolId": null,
-  "properties": {
-    "tokenDecimals": 12,
-    "tokenSymbol": "ROC"
-  },
+  "properties": {},
   "relay_chain": "rococo",
   "para_id": 1013,
   "codeSubstitutes": {},
