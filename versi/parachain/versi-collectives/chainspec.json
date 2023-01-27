@@ -3,8 +3,8 @@
   "id": "collectives_westend",
   "chainType": "Live",
   "bootNodes": [
-    "/dns/versi-collectives-bootnode-0.parity-versi.parity.io/tcp/30333/p2p/12D3KooWLAwbMfokVLJCvpeJ6XbKuMDoe5DshSpvqA5rji8ug8bq",
-    "/dns/versi-collectives-bootnode-1.parity-versi.parity.io/tcp/30333/p2p/12D3KooWAQkvteoLFirG2YzbJZGUpM2cbXurRr8HmR7Dg7y5Kvqc"
+    "/dns/versi-collectives-bootnode-0/tcp/30334/p2p/12D3KooWLAwbMfokVLJCvpeJ6XbKuMDoe5DshSpvqA5rji8ug8bq",
+    "/dns/versi-collectives-bootnode-1/tcp/30334/p2p/12D3KooWAQkvteoLFirG2YzbJZGUpM2cbXurRr8HmR7Dg7y5Kvqc"
   ],
   "telemetryEndpoints": null,
   "protocolId": null,

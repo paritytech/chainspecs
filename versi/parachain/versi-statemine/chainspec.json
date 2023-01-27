@@ -3,8 +3,8 @@
   "id": "statemine-versi",
   "chainType": "Live",
   "bootNodes": [
-    "/dns/versi-statemint-bootnode-0.parity-versi.parity.io/tcp/30333/p2p/12D3KooWArVF3yebxyysskMnbiYRXZ8Q8BWLwupFeUnsoU7rWKFt",
-    "/dns/versi-statemint-bootnode-1.parity-versi.parity.io/tcp/30333/p2p/12D3KooWBW6JopiZ2ezZwWAMGgn8U9T2V2Zg4TwaFxYuudAk88G2"
+    "/dns/versi-statemint-bootnode-0/tcp/30334/p2p/12D3KooWArVF3yebxyysskMnbiYRXZ8Q8BWLwupFeUnsoU7rWKFt",
+    "/dns/versi-statemint-bootnode-1/tcp/30334/p2p/12D3KooWBW6JopiZ2ezZwWAMGgn8U9T2V2Zg4TwaFxYuudAk88G2"
   ],
   "telemetryEndpoints": null,
   "protocolId": null,
