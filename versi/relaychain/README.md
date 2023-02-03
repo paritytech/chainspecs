@@ -1,6 +1,6 @@
 # Command to generate chainspec:
-`
- 1. Run following script to generate chainspec.json:
+
+Run following script to generate chainspec.json:
 
     DOCKER_IMAGE=docker.io/paritypr/polkadot-debug:6452-ee6f4cd2
 
