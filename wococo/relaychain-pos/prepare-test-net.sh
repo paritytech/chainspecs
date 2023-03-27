@@ -26,7 +26,9 @@ STAKERS='"stakers": [\n'
 SESSION='"session": {\n   "keys": [\n'
 
 SUDO_ADDRESS=$(subkey inspect $SUDO_SEED | grep "SS58 Address" | awk '{ print $3 }')
+FAUCET_ADDRESS=5FvF2XQsgbAu7g5vGxLjUcsECu6KfwN9vFgknYMNHWgMBNqf
 BALANCES+="  [\"${SUDO_ADDRESS}\", 1000000000000000000],\n"
+BALANCES+="  [\"${FAUCET_ADDRESS}\", 100000000000000],\n"
 SUDO="\"sudo\": {\"key\": \"${SUDO_ADDRESS}\" }"
 
 for i in $(seq 0 $V_NUM); do
@@ -62,9 +64,7 @@ SESSION+='  ]\n}\n'
 
 CHAINSPEC='
   {
-    "name": "Wococo PoS",
-    "id": "wococo",
-    "chainType": "Live",
+    "name": "Wococo",
     "genesis": {
       "runtime": {
        '"$BALANCES, \"staking\": {\"validatorCount\": 10, ${INVULNERABLES}, ${STAKERS}}, ${SESSION}, ${SUDO}"'

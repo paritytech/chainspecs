@@ -1,0 +1,125 @@
+{
+  "name": "Wococo",
+  "genesis": {
+    "runtime": {
+      "balances": {
+        "balances": [
+          [
+            "5FeyRQmjtdHoPH56ASFW76AJEP1yaQC1K9aEMvJTF9nzt9S9",
+            1e+18
+          ],
+          [
+            "5FvF2XQsgbAu7g5vGxLjUcsECu6KfwN9vFgknYMNHWgMBNqf",
+            100000000000000
+          ],
+          [
+            "5GBynWwwvr15TTtU3HBXHLGKhp3mQwsbYhqR2Sfy4efkN72o",
+            100000000000000
+          ],
+          [
+            "5Gj6H7ftmonpFkxEaszJcHXfPs58aeAcvM79TqymPytgMMgy",
+            100000000000000
+          ],
+          [
+            "5EgutnrGAQJw3HpCYY1aKXFpSSM8TXp6pJt788JammufX1jc",
+            100000000000000
+          ],
+          [
+            "5DrAZMQLWLxCaGHePg25esmHJmFViFkm6HJgZmm9N2L9owVF",
+            100000000000000
+          ]
+        ]
+      },
+      "staking": {
+        "validatorCount": 10,
+        "invulnerables": [
+          "5GBynWwwvr15TTtU3HBXHLGKhp3mQwsbYhqR2Sfy4efkN72o",
+          "5Gj6H7ftmonpFkxEaszJcHXfPs58aeAcvM79TqymPytgMMgy",
+          "5EgutnrGAQJw3HpCYY1aKXFpSSM8TXp6pJt788JammufX1jc",
+          "5DrAZMQLWLxCaGHePg25esmHJmFViFkm6HJgZmm9N2L9owVF"
+        ],
+        "stakers": [
+          [
+            "5GBynWwwvr15TTtU3HBXHLGKhp3mQwsbYhqR2Sfy4efkN72o",
+            "5FpzCFHJEHMNsEJgFJGP9McgrzSfAvnZ6ViwEvixCMshoTeW",
+            100000000000000,
+            "Validator"
+          ],
+          [
+            "5Gj6H7ftmonpFkxEaszJcHXfPs58aeAcvM79TqymPytgMMgy",
+            "5DkeNCyPktAihsHNNTPFf3gEybeDPoHKXKKaiYZHR6epuAft",
+            100000000000000,
+            "Validator"
+          ],
+          [
+            "5EgutnrGAQJw3HpCYY1aKXFpSSM8TXp6pJt788JammufX1jc",
+            "5GbTfyiptASmpUVSNNoMkX7R7xFd9aapNsjCCtu3B4FLqFXW",
+            100000000000000,
+            "Validator"
+          ],
+          [
+            "5DrAZMQLWLxCaGHePg25esmHJmFViFkm6HJgZmm9N2L9owVF",
+            "5Dr8A7V1FXxVUpW22TVddnDW5kVJ4SUGJBeQVya5jsFfjKtt",
+            100000000000000,
+            "Validator"
+          ]
+        ]
+      },
+      "session": {
+        "keys": [
+          [
+            "5GBynWwwvr15TTtU3HBXHLGKhp3mQwsbYhqR2Sfy4efkN72o",
+            "5GBynWwwvr15TTtU3HBXHLGKhp3mQwsbYhqR2Sfy4efkN72o",
+            {
+              "grandpa": "5CPeRq1jNnj4tdTcaSD1h79pPEQdMP3uJafzqZ8zipVWzwdw",
+              "babe": "5EvBbLf5ekvwp3JJ89FPvhvAwXoJHR4g6r3N5E193CEychTf",
+              "im_online": "5HivNzgtKDi4SY7fqrNUp21dLKk6jYb8uNnQEjPpNYDNgCmM",
+              "para_validator": "5Eh9uWFroZDqKJ5Ai5qzQxNAPUMD8xasKqsMu33279fPqPF7",
+              "para_assignment": "5CotcigR24Fj6Vwy3ayMo1RPrjARPjmmTmr2Qn9ZMCd9Yj2o",
+              "authority_discovery": "5EJ7SYYpkGXXssQvu5cNfJTaXsno2iNHGxry3tot49wL2Fdo"
+            }
+          ],
+          [
+            "5Gj6H7ftmonpFkxEaszJcHXfPs58aeAcvM79TqymPytgMMgy",
+            "5Gj6H7ftmonpFkxEaszJcHXfPs58aeAcvM79TqymPytgMMgy",
+            {
+              "grandpa": "5Gr8ujdL2rKXcMfMJbjjCvMvzcUumJZRozcGizsgvtCxj12H",
+              "babe": "5DvXw5K59fVUETMRJDHziNtZqQoVGuuLzvGVYfc9AXB8QVtn",
+              "im_online": "5FsGXtbfkAfNJkXHmQCxpcoewbVK8NR79ABiy7DKhXSb82TU",
+              "para_validator": "5CqeT5gxDSDWKPkYuzj88VnVqCM8PSdQGu3pJshqRT7L2bdc",
+              "para_assignment": "5ExaydwD7ETnVnCMxTTUFd5uMbcoPW7RGeemvphMBCQY6dBR",
+              "authority_discovery": "5DJM2hQYh9d33byZRnmbTaCQFqNPsEkFMhXCNAGQjKvPeCyC"
+            }
+          ],
+          [
+            "5EgutnrGAQJw3HpCYY1aKXFpSSM8TXp6pJt788JammufX1jc",
+            "5EgutnrGAQJw3HpCYY1aKXFpSSM8TXp6pJt788JammufX1jc",
+            {
+              "grandpa": "5GHaSbHBoe7rzG3TsJDsLtxnrB2E1tyaxDzZRXFxfcSiS1CN",
+              "babe": "5CaMJvpfw5586tqu3VXafPJrooiGMZEBtew49V8zi5GSoRCB",
+              "im_online": "5HpKa5KioadMhhRbo1QGUQ6DVrwkyqp9GPkdVdabGZG4HwPd",
+              "para_validator": "5HbEcQZYizAsjoYQcAwbqHk3aHcUr93uZhv3ucoGzVSqZyUi",
+              "para_assignment": "5HpH4L9CcMMW9ZWF76vV9wbPbuTHkfyYW59jwQJTYS8yDhck",
+              "authority_discovery": "5F2L8qmyzE1mwji3WDs8TjkMe4rE7uXTUXVvVYjHiKFq7z61"
+            }
+          ],
+          [
+            "5DrAZMQLWLxCaGHePg25esmHJmFViFkm6HJgZmm9N2L9owVF",
+            "5DrAZMQLWLxCaGHePg25esmHJmFViFkm6HJgZmm9N2L9owVF",
+            {
+              "grandpa": "5FpWPyDMFF7uhPhAQfqZnF8MKdVtNNwGxwiUza3B5zKNs41G",
+              "babe": "5F7853kHwKT3Ro45RfMpdzDLz56FPWvxbrrgy7tVACyZ27Ac",
+              "im_online": "5EnJzHX6zve7MnWMXDqJNCCHogZkd1xs3CJqN29QemXTKM3W",
+              "para_validator": "5CcwDBWc7SE9tZEbd5CZK7pgkRKxj7TCP7LJohPYBwZe1Vgd",
+              "para_assignment": "5ELhqhEWPXHbHKSJ4AW8A32Ln4SLYGn6dn4yViazvzCQYr4b",
+              "authority_discovery": "5EcDmLrgGUaqLAyJQ3JrqCJBu1YHNdouAed5kwBh26BG43dw"
+            }
+          ]
+        ]
+      },
+      "sudo": {
+        "key": "5FeyRQmjtdHoPH56ASFW76AJEP1yaQC1K9aEMvJTF9nzt9S9"
+      }
+    }
+  }
+}
