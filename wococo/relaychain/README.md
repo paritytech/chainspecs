@@ -5,7 +5,7 @@ https://github.com/paritytech/polkadot/pull/6953
 # Generate keys and accounts
 export SUDO_SEED= # seed 
 export VALIDATORS_ROOT_SEED= #base seed to derive from
-export PREFIX=wococo-pos-bootnode-
+export PREFIX=wococo-bootnode-
 ./prepare-test-net.sh 4 > ./wococo-override.json
 
 # generate base chainspec  
