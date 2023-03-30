@@ -2,4 +2,4 @@
 
 
 Chainspec is here:
-https://github.com/paritytech/cumulus/blob/master/parachains/chain-specs/bridge-hub-polkadot.json
+https://github.com/paritytech/cumulus/blob/parachains-bridge-hub-polkadot-v9382/parachains/chain-specs/bridge-hub-polkadot.json
