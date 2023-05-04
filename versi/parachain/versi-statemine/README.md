@@ -4,7 +4,7 @@ Note skip to step 4 for updating the runtime only.
 
 1. Generate non-raw versi-statemine chainspec based on the statemine runtime:
 
-- `polkadot-parachain  build-spec --chain statemine-genesis > chainspec-nonraw.json`
+- `polkadot-parachain  build-spec --chain statemine-genesis > versi-statemine-base.json`
 
 2. Edit the following fields manually:
 
@@ -27,8 +27,20 @@ Note skip to step 4 for updating the runtime only.
 - `subkey inspect "$ROOT_SEED//collator//versi-statemint-bootnode-0"`
 - `subkey inspect "$ROOT_SEED//collator//versi-statemint-bootnode-1"`
 
+4. Add stps funded accounts
 
-4. Update chainspec to the latest runtime
+
+```
+    jq  -s '.[0] * .[1]' versi-statemine-base.json ../overrides/stps-funded-accounts.json > ./chainspec-plain.json
+```
+
+5. Build the raw chainspec:
+
+```
+polkadot-parachain build-spec --chain chainspec-plain.json --raw > chainspec.json
+```
+
+5. Update chainspec to the latest runtime
 
 Get the latest runtime as an hex encoded string with:
 
@@ -38,10 +50,10 @@ Get the latest runtime as an hex encoded string with:
 
 Edit `.genesis.runtime.system.code` chainspec key with the new runtime code.
 
-5. Build the raw chainspec:
+6. Build the raw chainspec:
 
   polkadot-parachain build-spec --chain chainspec-nonraw.json --raw > chainspec.json
 
-6. Cleanup
+7. Cleanup
 
   rm runtime.wasm
