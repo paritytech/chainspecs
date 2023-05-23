@@ -2,7 +2,10 @@
   "name": "Versi Glutton 1300",
   "id": "glutton_versi_1300",
   "chainType": "Live",
-  "bootNodes": [],
+  "bootNodes": [
+    "/dns/versi-glutton-collator-1300-0/tcp/30334/p2p/12D3KooWRyyCUdJBonsd54X3FDNLfYyC7P1HgX97Zy6fTDme5bhF",
+    "/dns/versi-glutton-collator-1300-1/tcp/30334/p2p/12D3KooWRfjaLsAjdvL1DgTXhLdDw3i9gePwrgDMDn7Vo9jXd7nv"
+  ],
   "telemetryEndpoints": null,
   "protocolId": "glutton_versi_1300",
   "properties": {
