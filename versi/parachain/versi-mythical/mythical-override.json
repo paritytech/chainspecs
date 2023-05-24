@@ -1,0 +1,55 @@
+{
+  "name": "mythical",
+  "id": "mythical-versi",
+  "bootNodes": [
+    "/dns/versi-mythical-collator-node-0.parity-versi.parity.io/tcp/30333/p2p/12D3KooWFkL1f4dEww43pDST6G5aPuy2UR5zfjTcTWGup5tgBuKM",
+    "/dns/versi-mythical-collator-node-1.parity-versi.parity.io/tcp/30333/p2p/12D3KooWFp8XSAmChsazWuR3gk1fqQ5mRngkHpH8iq74koAPHf88",
+    "/dns/versi-mythical-collator-node-2.parity-versi.parity.io/tcp/30333/p2p/12D3KooWSGu1aUNN1hFAdp8PeaT7KCvnb2KgWra3pWjhnemZ18qB",
+    "/dns/versi-mythical-collator-node-3.parity-versi.parity.io/tcp/30333/p2p/12D3KooWShWxQRM5QLr4BorPdHJFLTqTT1pJyu8rTMqy64MKAXkL"
+  ],
+  "relay_chain": "versi",
+  "genesis": {
+    "runtime": {
+      "collatorSelection": {
+        "invulnerables": [
+          "2wzWoZA5Hb4sRjTDUkCiJVUBu7N4BssXSSUGnb6ebRHafvAU",
+          "2ypGwt1VUyZ7FrHbSkQJMgatx9dxhugWRbFqbcpVBEpKLgBX",
+          "2uZnRzAHf8VxZd9jpiUFC8KDhqjbcr9aF2s1CmoLxa3Dmf8D",
+          "2y5RJCrcTKQsDqHQ36tGs6AHxvuqPEzRYUXXiyz9iFtf3Ve2"
+        ]
+      },
+      "session": {
+        "keys": [
+          [
+            "2wzWoZA5Hb4sRjTDUkCiJVUBu7N4BssXSSUGnb6ebRHafvAU",
+            "2wzWoZA5Hb4sRjTDUkCiJVUBu7N4BssXSSUGnb6ebRHafvAU",
+            {
+              "aura": "2wzWoZA5Hb4sRjTDUkCiJVUBu7N4BssXSSUGnb6ebRHafvAU"
+            }
+          ],
+          [
+            "2ypGwt1VUyZ7FrHbSkQJMgatx9dxhugWRbFqbcpVBEpKLgBX",
+            "2ypGwt1VUyZ7FrHbSkQJMgatx9dxhugWRbFqbcpVBEpKLgBX",
+            {
+              "aura": "2ypGwt1VUyZ7FrHbSkQJMgatx9dxhugWRbFqbcpVBEpKLgBX"
+            }
+          ],
+          [
+            "2uZnRzAHf8VxZd9jpiUFC8KDhqjbcr9aF2s1CmoLxa3Dmf8D",
+            "2uZnRzAHf8VxZd9jpiUFC8KDhqjbcr9aF2s1CmoLxa3Dmf8D",
+            {
+              "aura": "2uZnRzAHf8VxZd9jpiUFC8KDhqjbcr9aF2s1CmoLxa3Dmf8D"
+            }
+          ],
+          [
+            "2y5RJCrcTKQsDqHQ36tGs6AHxvuqPEzRYUXXiyz9iFtf3Ve2",
+            "2y5RJCrcTKQsDqHQ36tGs6AHxvuqPEzRYUXXiyz9iFtf3Ve2",
+            {
+              "aura": "2y5RJCrcTKQsDqHQ36tGs6AHxvuqPEzRYUXXiyz9iFtf3Ve2"
+            }
+          ]
+        ]
+      }
+    }
+  }
+}
