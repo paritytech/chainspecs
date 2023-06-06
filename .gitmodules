@@ -1,0 +1,6 @@
+[submodule "submodules/polkadot"]
+	path = submodules/polkadot
+	url = https://github.com/paritytech/polkadot.git
+[submodule "submodules/cumulus"]
+	path = submodules/cumulus
+	url = https://github.com/paritytech/cumulus.git
