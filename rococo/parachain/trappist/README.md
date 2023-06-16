@@ -2,7 +2,7 @@
 `
  1. Run following script to generate chainspec.json:
 ```
-DOCKER_IMAGE=paritytech/trappist:polkadot-v0.9.37-deployment-fixed
+DOCKER_IMAGE=paritytech/trappist:polkadot-v0.9.37-patched-2
 
 # 1. generate base chainspec  
 docker run $DOCKER_IMAGE trappist-node build-spec --chain trappist-rococo  > ./trappist-base.json
