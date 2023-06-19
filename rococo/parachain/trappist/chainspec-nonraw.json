@@ -28,7 +28,31 @@
       "balances": {
         "balances": [
           [
-            "5CGHDgtYpLNEKYX2NEnTNs9K1FTket4Pps5cofYeDDFFoZkY",
+            "5EU1GR2zeLuSg8u7RiBR4pei5qWXqRozgFWUzVB91S5YU9bP",
+            1500000000000000000
+          ],
+          [
+            "5DUcysvtts9dr8iMwMtr8BwvCRCZCBWHkvgUSr3g82krNu3h",
+            1500000000000000000
+          ],
+          [
+            "5GmVYoczjqTwJBzr4xfUHwM8snFRaBkquKMEtH8yfjgR4P8P",
+            1500000000000000000
+          ],
+          [
+            "5DAU36zH1M2XA7jQBcYe5qsw9KJdrpNqJDkdBEg8cjHN1mpf",
+            1500000000000000000
+          ],
+          [
+            "5GQwv7zdhL5unpSA8AfqUKn8Hn3mGMWWKSTZepn4pKZjDV2H",
+            1500000000000000000
+          ],
+          [
+            "5CeywDWSVtxiFemGCUNo7VRoNcbbQ66vNsT57dKPyfNBQmmZ",
+            1500000000000000000
+          ],
+          [
+            "5HDhDdqSPfrViH4LAYKTAr6uyom4ZbpR1bWWrH5TeDVMX5RW",
             1000000000000000000
           ]
         ]
@@ -77,8 +101,12 @@
       "council": {
         "phantom": null,
         "members": [
-          "5DFiAobYD93HR8HSnacLyywbP371EWY6kugpk33xqrtTUipH",
-          "5F6RV9Lx6DXPudiXAVkN5Lq7ffFczWNiUbwBEaNyo7u4cX23"
+          "5EU1GR2zeLuSg8u7RiBR4pei5qWXqRozgFWUzVB91S5YU9bP",
+          "5DUcysvtts9dr8iMwMtr8BwvCRCZCBWHkvgUSr3g82krNu3h",
+          "5GmVYoczjqTwJBzr4xfUHwM8snFRaBkquKMEtH8yfjgR4P8P",
+          "5DAU36zH1M2XA7jQBcYe5qsw9KJdrpNqJDkdBEg8cjHN1mpf",
+          "5GQwv7zdhL5unpSA8AfqUKn8Hn3mGMWWKSTZepn4pKZjDV2H",
+          "5CeywDWSVtxiFemGCUNo7VRoNcbbQ66vNsT57dKPyfNBQmmZ"
         ]
       },
       "treasury": null,
@@ -86,7 +114,7 @@
         "phantom": null
       },
       "sudo": {
-        "key": "5CGHDgtYpLNEKYX2NEnTNs9K1FTket4Pps5cofYeDDFFoZkY"
+        "key": "5HDhDdqSPfrViH4LAYKTAr6uyom4ZbpR1bWWrH5TeDVMX5RW"
       }
     }
   }

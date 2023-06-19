@@ -69,15 +69,10 @@ CHAINSPEC='{
   "relay_chain": "rococo",
   "genesis": {
     "runtime": {
-      '"${BALANCES}"',
       "collatorSelection": {
         '"${INVULNERABLES}"'
       },
-      '"${SESSION}"',
-      '"${COUNCIL}"',
-      "sudo": {
-        "key": "'"$SUDO_ADDRESS"'"
-      }
+      '"${SESSION}"'
     }
   }
 }
