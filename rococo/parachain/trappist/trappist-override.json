@@ -9,14 +9,6 @@
   "relay_chain": "rococo",
   "genesis": {
     "runtime": {
-      "balances": {
-        "balances": [
-          [
-            "5CGHDgtYpLNEKYX2NEnTNs9K1FTket4Pps5cofYeDDFFoZkY",
-            1000000000000000000
-          ]
-        ]
-      },
       "collatorSelection": {
         "invulnerables": [
           "5DFiAobYD93HR8HSnacLyywbP371EWY6kugpk33xqrtTUipH",
@@ -40,16 +32,6 @@
             }
           ]
         ]
-      },
-      "council": {
-        "phantom": null,
-        "members": [
-          "5DFiAobYD93HR8HSnacLyywbP371EWY6kugpk33xqrtTUipH",
-          "5F6RV9Lx6DXPudiXAVkN5Lq7ffFczWNiUbwBEaNyo7u4cX23"
-        ]
-      },
-      "sudo": {
-        "key": "5CGHDgtYpLNEKYX2NEnTNs9K1FTket4Pps5cofYeDDFFoZkY"
       }
     }
   }
