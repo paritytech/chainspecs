@@ -28,7 +28,7 @@ INVULNERABLES='"invulnerables": [\n'
 SESSION='"session": {\n   "keys": [\n'
 COUNCIL='"council": {\n        "phantom": null,\n        "members": ['
 
-SUDO_ADDRESS='5GYtQ4moKKgVDhZXTW13E1JpDU1rQhekKH2TjoEkwxXi5VmF'
+SUDO_ADDRESS=$(subkey inspect "$VALIDATORS_ROOT_SEED" | grep "SS58 Address" | awk '{ print $3 }')
 BALANCES+="  [\"${SUDO_ADDRESS}\", 1000000000000000000]\n"
 
 for i in $(seq 0 $V_NUM); do
@@ -72,10 +72,7 @@ CHAINSPEC='{
       "collatorSelection": {
         '"${INVULNERABLES}"'
       },
-      '"${SESSION}"',
-      "sudo": {
-        "key": "'"$SUDO_ADDRESS"'"
-      }
+      '"${SESSION}"'
     }
   }
 }
