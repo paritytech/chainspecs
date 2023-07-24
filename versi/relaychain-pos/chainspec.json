@@ -2,7 +2,16 @@
   "name": "Versi PoS",
   "id": "versi_pos",
   "chainType": "Live",
-  "bootNodes": [],
+  "bootNodes": [
+    "/dns/versi-bootnode-0.parity-versi.parity.io/tcp/30333/p2p/12D3KooWMHy2qkBrpZVv11No8Ysfckab3cCkf1GWMTEVeAz3SQrC",
+    "/dns/versi-bootnode-1.parity-versi.parity.io/tcp/30333/p2p/12D3KooWEQShxW9m9MVecXK5FHq8jaqAqukcjVTkgmnhH61LDMNu",
+    "/dns/versi-bootnode-2.parity-versi.parity.io/tcp/30333/p2p/12D3KooWR1N3e5nwJaqAEn27ydg6dLian7LJYuHB6rx6rUuZWg3u",
+    "/dns/versi-bootnode-3.parity-versi.parity.io/tcp/30333/p2p/12D3KooWJRjtuu5xzjU6WSKYcWC326i8HtVQsyYAVa6x2Ky2hukY",
+    "/dns/versi-bootnode-4.parity-versi.parity.io/tcp/30333/p2p/12D3KooWHKy3VggzwJTMVuiAYJK3ARtfCYp8qYEjicHNF6py5TGG",
+    "/dns/versi-bootnode-5.parity-versi.parity.io/tcp/30333/p2p/12D3KooWLQNS8ULhha5LLTWnSV3DHeXBfUFqr8vjNPGM9SAzBdgu",
+    "/dns/versi-bootnode-6.parity-versi.parity.io/tcp/30333/p2p/12D3KooWGsHmcZFhu64ue51SzWNdWVaBdjpKvrURkRHNcX4sLAhh",
+    "/dns/versi-bootnode-7.parity-versi.parity.io/tcp/30333/p2p/12D3KooWDbKdQoWsjDwegEc2XarYWaiTogyVkixE52nAiTXtiEVp"
+  ],
   "telemetryEndpoints": [
     [
       "/dns/telemetry.polkadot.io/tcp/443/x-parity-wss/%2Fsubmit%2F",
