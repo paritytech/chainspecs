@@ -1,6 +1,6 @@
 {
   "name": "Versi PoS",
-  "id": "versi_pos",
+  "id": "westend",
   "chainType": "Live",
   "bootNodes": [
     "/dns/versi-bootnode-0.parity-versi.parity.io/tcp/30333/p2p/12D3KooWMHy2qkBrpZVv11No8Ysfckab3cCkf1GWMTEVeAz3SQrC",
@@ -18,12 +18,8 @@
       0
     ]
   ],
-  "protocolId": "versi",
-  "properties": {
-    "ss58Format": 42,
-    "tokenDecimals": 12,
-    "tokenSymbol": "VRS"
-  },
+  "protocolId": "dot",
+  "properties": null,
   "forkBlocks": null,
   "badBlocks": null,
   "lightSyncState": null,
