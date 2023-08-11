@@ -18,8 +18,12 @@
       0
     ]
   ],
-  "protocolId": "dot",
-  "properties": null,
+  "protocolId": "versi",
+  "properties": {
+    "ss58Format": 42,
+    "tokenDecimals": 12,
+    "tokenSymbol": "VRS"
+  },
   "forkBlocks": null,
   "badBlocks": null,
   "lightSyncState": null,

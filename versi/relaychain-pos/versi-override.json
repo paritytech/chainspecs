@@ -11,6 +11,12 @@
     "/dns/versi-bootnode-6.parity-versi.parity.io/tcp/30333/p2p/12D3KooWGsHmcZFhu64ue51SzWNdWVaBdjpKvrURkRHNcX4sLAhh",
     "/dns/versi-bootnode-7.parity-versi.parity.io/tcp/30333/p2p/12D3KooWDbKdQoWsjDwegEc2XarYWaiTogyVkixE52nAiTXtiEVp"
   ],
+  "protocolId": "versi",
+  "properties": {
+    "ss58Format": 42,
+    "tokenDecimals": 12,
+    "tokenSymbol": "VRS"
+  },
   "genesis": {
     "runtime": {
       "balances": {
