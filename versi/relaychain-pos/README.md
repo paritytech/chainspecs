@@ -2,7 +2,7 @@
 
 Run following script to generate chainspec.json:
 
-    DOCKER_IMAGE=docker.io/paritypr/polkadot-debug:7416-a16b6633 #v1.0.0
+    DOCKER_IMAGE=docker.io/paritypr/polkadot-debug:7416-abab28bd #v1.0.0
 
 # 1. generate base chainspec
 
