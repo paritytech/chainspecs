@@ -1,0 +1,42 @@
+name: Check Broken Submodules Links
+
+on:
+  pull_request:
+   types:
+    - opened
+    - synchronize
+    - reopened
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - name: Find and Check Linux File Links
+        run: |
+          # Create a temporary file to store broken links
+          tmpfile=$(mktemp)
+          
+          # Find all symbolic links in the repository and check if they are broken
+          find . -type l | while read -r link; do
+            if [ ! -e "$link" ]; then
+              echo "$link" >> "$tmpfile"
+            fi
+          done
+
+          # Check if there are broken links and print them
+          if [ -s "$tmpfile" ]; then
+            echo "Broken links found:"
+            cat "$tmpfile"
+            exit 1  # Set a non-zero exit code to mark the workflow as failed
+          else
+            echo "No broken links found."
+          fi
+
+          # Clean up the temporary file
+          rm "$tmpfile"
