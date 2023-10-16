@@ -1,5 +1,5 @@
 #!/bin/bash
-TAG=master-771c3fbd
+TAG=master-91c4360c
 
 DOCKER_IMAGE="docker.io/paritypr/polkadot-debug:$TAG"
 echo $DOCKER_IMAGE
