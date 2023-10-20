@@ -9,8 +9,8 @@ if [ "$#" -ne 1 ]; then
 	echo "Please provide the number of initial validators!"
 	echo "Usage: $0 8 > ./versi-override.json"
 	echo "export SUDO_SEED= # seed "
-	echo "export VALIDATORS_ROOT_SEED= #base seed to derive from"
-	echo "./prepare-test-net.sh 8 > ./versi-override.json"
+	echo "export DERIVATION_ROOT_SEED= #base seed to derive from"
+	echo "./generate-override.sh 8 > ./versi-override.json"
 	echo "NOTE: Update beefy manually subkey can not generate such key"
 	exit 1
 fi
@@ -18,7 +18,7 @@ fi
 PREFIX=versi-bootnode-
 
 generate_address() {
-	subkey inspect ${3:-} ${4:-} "$VALIDATORS_ROOT_SEED//$PREFIX$1//$2" | grep "SS58 Address" | awk '{ print $3 }'
+	subkey inspect ${3:-} ${4:-} "$DERIVATION_ROOT_SEED//$PREFIX$1//$2" | grep "SS58 Address" | awk '{ print $3 }'
 }
 
 V_NUM=$(($1 - 1))
@@ -71,8 +71,15 @@ CHAINSPEC='{
    ],
    "genesis": {
       "runtime": {
-         "runtime_genesis_config": {
-           '"$BALANCES, ${SESSION}"'
+         '"$BALANCES, ${SESSION}"',
+         "configuration": {
+           "config": {
+             "scheduling_lookahead": 2,
+             "async_backing_params": {
+               "max_candidate_depth": 3,
+               "allowed_ancestry_len": 2
+             }
+           }
          }
       }
    }
