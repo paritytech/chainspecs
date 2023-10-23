@@ -2,20 +2,22 @@
 
 Run following script to generate chainspec.json:
 
-    DOCKER_IMAGE=docker.io/parity/polkadot:v0.9.40
+# 1.a generate base chainspec
 
-# 1. generate base chainspec
+    DOCKER_IMAGE=***
+    EPOCH_DURATION_IN_BLOCKS=***
+    ./generate-chainspec-with-fast-rococo.sh
 
-    docker run $DOCKER_IMAGE  build-spec --chain versi-staging  > ./versi-base.json
+# 1.b generate overrides (if not already present)
 
-# 2. Merge versi-base.json and versi-override.json
+    SUDO_SEED=***
+    DERIVATION_ROOT_SEED=***
+    ./generate-override.sh 8 > ./versi-override.json
 
-    jq  -s '.[0] * .[1]'  versi-base.json versi-override.json | sed 's/1e+18/1000000000000000000/' > ./chainspec-nonraw.json
+# 2. Merge chainspec-rococo-staging-plain.json and versi-override.json
+
+    jq  -s '.[0] * .[1]' chainspec-rococo-staging-plain.json versi-override.json | sed 's/1e+18/1000000000000000000/' > ./chainspec-plain.json
 
 # 3. Convert to raw 
 
-    docker run --rm -v $(pwd):/dir:z -w /dir $DOCKER_IMAGE build-spec --chain /dir/chainspec-nonraw.json --raw  > ./chainspec.json
-
-# 4. Clean up
-
-    rm versi-base.json
+    docker run --rm -v $(pwd):/dir:z -w /dir $DOCKER_IMAGE build-spec --chain /dir/chainspec-plain.json --raw  > ./chainspec.json
