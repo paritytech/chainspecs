@@ -1,6 +1,6 @@
 {
   "name": "Versi PoS",
-  "id": "westend_versi_pos",
+  "id": "versi_pos",
   "bootNodes": [
     "/dns/versi-bootnode-0.parity-versi.parity.io/tcp/30333/p2p/12D3KooWMHy2qkBrpZVv11No8Ysfckab3cCkf1GWMTEVeAz3SQrC",
     "/dns/versi-bootnode-1.parity-versi.parity.io/tcp/30333/p2p/12D3KooWEQShxW9m9MVecXK5FHq8jaqAqukcjVTkgmnhH61LDMNu",
@@ -64,8 +64,7 @@
         ]
       },
       "staking": {
-        "validatorCount": 50,
-        "minimumValidatorCount": 8,
+        "validatorCount": 10,
         "invulnerables": [
           "5DV3X8jaZ2pwUFnApusxSQc3hPZrbCKByvdGfLvwFqcKXRte",
           "5Cag9DRBPYVHdpT4jTeciPeSikrFXmo6RvM7tvWTQgbtmVz8",
@@ -237,17 +236,7 @@
       },
       "sudo": {
         "key": "5DwBmEFPXRESyEam5SsQF1zbWSCn2kCjyLW51hJHXe9vW4xs"
-      },
-      "configuration": {
-        "config": {
-          "scheduling_lookahead": 2,
-          "async_backing_params": {
-            "max_candidate_depth": 3,
-            "allowed_ancestry_len": 2
-          }
-        }
       }
     }
   }
 }
-

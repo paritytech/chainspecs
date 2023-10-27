@@ -1,16 +1,9 @@
 {
-  "name": "Versi PoS",
-  "id": "westend_versi_pos",
+  "name": "Westend Staging Testnet",
+  "id": "westend_staging_testnet",
   "chainType": "Live",
   "bootNodes": [
-    "/dns/versi-bootnode-0.parity-versi.parity.io/tcp/30333/p2p/12D3KooWMHy2qkBrpZVv11No8Ysfckab3cCkf1GWMTEVeAz3SQrC",
-    "/dns/versi-bootnode-1.parity-versi.parity.io/tcp/30333/p2p/12D3KooWEQShxW9m9MVecXK5FHq8jaqAqukcjVTkgmnhH61LDMNu",
-    "/dns/versi-bootnode-2.parity-versi.parity.io/tcp/30333/p2p/12D3KooWR1N3e5nwJaqAEn27ydg6dLian7LJYuHB6rx6rUuZWg3u",
-    "/dns/versi-bootnode-3.parity-versi.parity.io/tcp/30333/p2p/12D3KooWJRjtuu5xzjU6WSKYcWC326i8HtVQsyYAVa6x2Ky2hukY",
-    "/dns/versi-bootnode-4.parity-versi.parity.io/tcp/30333/p2p/12D3KooWHKy3VggzwJTMVuiAYJK3ARtfCYp8qYEjicHNF6py5TGG",
-    "/dns/versi-bootnode-5.parity-versi.parity.io/tcp/30333/p2p/12D3KooWLQNS8ULhha5LLTWnSV3DHeXBfUFqr8vjNPGM9SAzBdgu",
-    "/dns/versi-bootnode-6.parity-versi.parity.io/tcp/30333/p2p/12D3KooWGsHmcZFhu64ue51SzWNdWVaBdjpKvrURkRHNcX4sLAhh",
-    "/dns/versi-bootnode-7.parity-versi.parity.io/tcp/30333/p2p/12D3KooWDbKdQoWsjDwegEc2XarYWaiTogyVkixE52nAiTXtiEVp"
+    "/ip4/127.0.0.1/tcp/30333/p2p/12D3KooWREMkgjwtMQYdQkbduVzL2YGnBLyV79MbL17krUqFWybo"
   ],
   "telemetryEndpoints": [
     [
@@ -18,12 +11,8 @@
       0
     ]
   ],
-  "protocolId": "versi",
-  "properties": {
-    "ss58Format": 42,
-    "tokenDecimals": 12,
-    "tokenSymbol": "VRS"
-  },
+  "protocolId": "dot",
+  "properties": null,
   "forkBlocks": null,
   "badBlocks": null,
   "lightSyncState": null,
@@ -49,109 +38,61 @@
       "balances": {
         "balances": [
           [
-            "5DwBmEFPXRESyEam5SsQF1zbWSCn2kCjyLW51hJHXe9vW4xs",
+            "5GVovvVdLiyLVhG9zstVXhftUnvKSdaFJCmHhhgWwcAqYxAn",
             1000000000000000000
           ],
           [
-            "5FvF2XQsgbAu7g5vGxLjUcsECu6KfwN9vFgknYMNHWgMBNqf",
-            1000000000000000000
-          ],
-          [
-            "5DV3X8jaZ2pwUFnApusxSQc3hPZrbCKByvdGfLvwFqcKXRte",
+            "5EvydUTtHvt39Khac3mMxNPgzcfu49uPDzUs3TL7KEzyrwbw",
             100000000000000
           ],
           [
-            "5Cag9DRBPYVHdpT4jTeciPeSikrFXmo6RvM7tvWTQgbtmVz8",
+            "5DFpvDUdCgw54E3E357GR1PyJe3Ft9s7Qyp7wbELAoJH9RQa",
             100000000000000
           ],
           [
-            "5GYgFK92vZj833faADWvFvtfQNEMKJruA6hfnQAb3Pwj9CMU",
+            "5E2cob2jrXsBkTih56pizwSqENjE4siaVdXhaD6akLdDyVq7",
             100000000000000
           ],
           [
-            "5F7EdNXunchNw4DnsSqXnhMZXLQRxuo1my2Ea86suAJYyzLE",
-            100000000000000
-          ],
-          [
-            "5Enyc7KFiNo3cya5nrDe4iwMGxMFxcJHGqAcraKnnrEocL8T",
-            100000000000000
-          ],
-          [
-            "5HisWy38kugc3Ay4XAsrg1DAU3pJfsQhmPToY5Y726ZbunV8",
-            100000000000000
-          ],
-          [
-            "5CkxZrGeGfpQApMw6HAtBF9xiPgxoA3Ei7xZ69aRry6iGzNL",
-            100000000000000
-          ],
-          [
-            "5EyVyQG5L4zY9xTrpqrH4NYFeTxz6Nv7QVi7mAKxashEDaDn",
+            "5H6j9ovzYk9opckVjvM9SvVfaK37ASTtPTzWeRfqk1tgLJUN",
             100000000000000
           ]
         ]
       },
       "staking": {
         "validatorCount": 50,
-        "minimumValidatorCount": 8,
+        "minimumValidatorCount": 4,
         "invulnerables": [
-          "5DV3X8jaZ2pwUFnApusxSQc3hPZrbCKByvdGfLvwFqcKXRte",
-          "5Cag9DRBPYVHdpT4jTeciPeSikrFXmo6RvM7tvWTQgbtmVz8",
-          "5GYgFK92vZj833faADWvFvtfQNEMKJruA6hfnQAb3Pwj9CMU",
-          "5F7EdNXunchNw4DnsSqXnhMZXLQRxuo1my2Ea86suAJYyzLE",
-          "5Enyc7KFiNo3cya5nrDe4iwMGxMFxcJHGqAcraKnnrEocL8T",
-          "5HisWy38kugc3Ay4XAsrg1DAU3pJfsQhmPToY5Y726ZbunV8",
-          "5CkxZrGeGfpQApMw6HAtBF9xiPgxoA3Ei7xZ69aRry6iGzNL",
-          "5EyVyQG5L4zY9xTrpqrH4NYFeTxz6Nv7QVi7mAKxashEDaDn"
+          "5EvydUTtHvt39Khac3mMxNPgzcfu49uPDzUs3TL7KEzyrwbw",
+          "5DFpvDUdCgw54E3E357GR1PyJe3Ft9s7Qyp7wbELAoJH9RQa",
+          "5E2cob2jrXsBkTih56pizwSqENjE4siaVdXhaD6akLdDyVq7",
+          "5H6j9ovzYk9opckVjvM9SvVfaK37ASTtPTzWeRfqk1tgLJUN"
         ],
         "forceEra": "ForceNone",
         "slashRewardFraction": 100000000,
         "canceledPayout": 0,
         "stakers": [
           [
-            "5DV3X8jaZ2pwUFnApusxSQc3hPZrbCKByvdGfLvwFqcKXRte",
-            "5Ey8RkgbfT2aJyXjHg9KgUxDVbY64LGdx328compLvRE3fzG",
+            "5EvydUTtHvt39Khac3mMxNPgzcfu49uPDzUs3TL7KEzyrwbw",
+            "5EvydUTtHvt39Khac3mMxNPgzcfu49uPDzUs3TL7KEzyrwbw",
             100000000000000,
             "Validator"
           ],
           [
-            "5Cag9DRBPYVHdpT4jTeciPeSikrFXmo6RvM7tvWTQgbtmVz8",
-            "5D51C2P7GMEyQCfxLiQz77DrkDiywnX21kKkwjskBNWWLxwv",
+            "5DFpvDUdCgw54E3E357GR1PyJe3Ft9s7Qyp7wbELAoJH9RQa",
+            "5DFpvDUdCgw54E3E357GR1PyJe3Ft9s7Qyp7wbELAoJH9RQa",
             100000000000000,
             "Validator"
           ],
           [
-            "5GYgFK92vZj833faADWvFvtfQNEMKJruA6hfnQAb3Pwj9CMU",
-            "5GYkr1M6niodK8wnfotoNyuyMfT8wkT7tiBBj7enkLDjg1kr",
+            "5E2cob2jrXsBkTih56pizwSqENjE4siaVdXhaD6akLdDyVq7",
+            "5E2cob2jrXsBkTih56pizwSqENjE4siaVdXhaD6akLdDyVq7",
             100000000000000,
             "Validator"
           ],
           [
-            "5F7EdNXunchNw4DnsSqXnhMZXLQRxuo1my2Ea86suAJYyzLE",
-            "5GCTSeDTPkTYb2wDgqBNfZCHyrsPNrQ7o3gaqxhBisxw2y1j",
-            100000000000000,
-            "Validator"
-          ],
-          [
-            "5Enyc7KFiNo3cya5nrDe4iwMGxMFxcJHGqAcraKnnrEocL8T",
-            "5H8hp25gnTvVuePYD5DkYnzS3nSuWm3y9tdrh1omFj8U8wxm",
-            100000000000000,
-            "Validator"
-          ],
-          [
-            "5HisWy38kugc3Ay4XAsrg1DAU3pJfsQhmPToY5Y726ZbunV8",
-            "5ERiUsDFC7W25CPJ7nZXQRa1hCNW3z5wdMNWeEfNJLQgVHuU",
-            100000000000000,
-            "Validator"
-          ],
-          [
-            "5CkxZrGeGfpQApMw6HAtBF9xiPgxoA3Ei7xZ69aRry6iGzNL",
-            "5CofQrypXYMKDygCjfshuaTeN92NhRh4kApgjnK99rgCm1Aq",
-            100000000000000,
-            "Validator"
-          ],
-          [
-            "5EyVyQG5L4zY9xTrpqrH4NYFeTxz6Nv7QVi7mAKxashEDaDn",
-            "5FYk4J9j7Vce4fLLQQCb7RwdgrXbZ4rBrPPuak8rwaZhDXyt",
+            "5H6j9ovzYk9opckVjvM9SvVfaK37ASTtPTzWeRfqk1tgLJUN",
+            "5H6j9ovzYk9opckVjvM9SvVfaK37ASTtPTzWeRfqk1tgLJUN",
             100000000000000,
             "Validator"
           ]
@@ -168,107 +109,55 @@
       "session": {
         "keys": [
           [
-            "5DV3X8jaZ2pwUFnApusxSQc3hPZrbCKByvdGfLvwFqcKXRte",
-            "5DV3X8jaZ2pwUFnApusxSQc3hPZrbCKByvdGfLvwFqcKXRte",
+            "5EvydUTtHvt39Khac3mMxNPgzcfu49uPDzUs3TL7KEzyrwbw",
+            "5EvydUTtHvt39Khac3mMxNPgzcfu49uPDzUs3TL7KEzyrwbw",
             {
-              "grandpa": "5GL8faNkBoJS6TeZANDGjo8PcPyPs5WZQ85J5uB4jqPpyvh8",
-              "babe": "5FNF9A2TFd8PgutZd8bdPpbR1WSZCcjtnggd9EEq3oVKVM36",
-              "im_online": "5EycsfQxcsFBjJ6setX8yivnceNiBoZtiQkcryvNQA9K4ULK",
-              "para_validator": "5DjqDw5NMmFdiafR9oVKZLasjY96jsd4sM5sdhMi8CT29vKx",
-              "para_assignment": "5F7Ka1qtTNVLityecYunrePHew3xCzV8HwZcrGZ9fuCS9NWv",
-              "authority_discovery": "5Hb3UnjMkuTWN47mKFxFfrad3gG8QzVNHogq3Nmj9drmnQPZ",
-              "beefy": "KW7vQVy7rsgoBKjBMSsroY7otKAjSesjexLcQjGFKisbHZT73"
+              "grandpa": "5Eb7wM65PNgtY6e33FEAzYtU5cRTXt6WQvZTnzaKQwkVcABk",
+              "babe": "5G13qYRudTyttwTJvHvnwp8StFtcfigyPnwfD4v7LNopsnX4",
+              "im_online": "5CdS2wGo4qdTQceVfEnbZH8vULeBrnGYCxSCxDna4tQSMV6y",
+              "para_validator": "5FqMLAgygdX9UqzukDp15Uid9PAKdFAR621U7xtp5ut2NfrW",
+              "para_assignment": "5DhXAV75BKvF9o447ikWqLttyL2wHtLMFSX7GrsKF9Ny61Ta",
+              "authority_discovery": "5GNHfmrtWLTawnGCmc39rjAEiW97vKvE7DGePYe4am5JtE4i",
+              "beefy": "KW36zse6TToHAg5an2L55zNmmQVaxmeZbwXUPuSNmdP9qguHV"
             }
           ],
           [
-            "5Cag9DRBPYVHdpT4jTeciPeSikrFXmo6RvM7tvWTQgbtmVz8",
-            "5Cag9DRBPYVHdpT4jTeciPeSikrFXmo6RvM7tvWTQgbtmVz8",
+            "5DFpvDUdCgw54E3E357GR1PyJe3Ft9s7Qyp7wbELAoJH9RQa",
+            "5DFpvDUdCgw54E3E357GR1PyJe3Ft9s7Qyp7wbELAoJH9RQa",
             {
-              "grandpa": "5CpyzFD8PePkdLNCpMkGSoHp5xQy4bNoga4fgSV3gik9A5gV",
-              "babe": "5FLny6BTcXSWMjZHgaiEbh5GPgyoTuDjqmd4PCCakKDPyYQL",
-              "im_online": "5HB5z5q5d2AdeT6EiQHd4KTweUr7m3KTZfvcMVJPBZfwh98v",
-              "para_validator": "5FTqYsXezAyeKREwBwMjrQURFMZ9VSVWLom4TNo514aD9F7A",
-              "para_assignment": "5HGhpDMW91xYabtKr29vUTuJqtsz1rucuEKiRz5cMUfYKVeG",
-              "authority_discovery": "5HKqyEHGaAo7zZYxeY5Q4Ti1B2ooXKYvvPBzjNXan3Fpz8z2",
-              "beefy": "KWBmGhFMDzivGY1KEqHaqL5FDPoc2oCVLk4YwTZZDJn4GQCqF"
+              "grandpa": "5FXFsPReTUEYPRNKhbTdUathcWBsxTNsLbk2mTpYdKCJewjA",
+              "babe": "5CPrgfRNDQvQSnLRdeCphP3ibj5PJW9ESbqj2fw29vBMNQNn",
+              "im_online": "5CDYSCJK91r8y2r1V4Ddrit4PFMEkwZXJe8mNBqGXJ4xWCWq",
+              "para_validator": "5CZjurB78XbSHf6SLkLhCdkqw52Zm7aBYUDdfkLqEDWJ9Zhj",
+              "para_assignment": "5DkAqCtSjUMVoJFauuGoAbSEgn2aFCRGziKJiLGpPwYgE1pS",
+              "authority_discovery": "5GsBt9MhGwkg8Jfb1F9LAy2kcr88WNyNy4L5ezwbCr8NWKQU",
+              "beefy": "KW8fd3aBDRRywzKHrveVQMHgUSvE7AVshhARUexPzw4dxPx7b"
             }
           ],
           [
-            "5GYgFK92vZj833faADWvFvtfQNEMKJruA6hfnQAb3Pwj9CMU",
-            "5GYgFK92vZj833faADWvFvtfQNEMKJruA6hfnQAb3Pwj9CMU",
+            "5E2cob2jrXsBkTih56pizwSqENjE4siaVdXhaD6akLdDyVq7",
+            "5E2cob2jrXsBkTih56pizwSqENjE4siaVdXhaD6akLdDyVq7",
             {
-              "grandpa": "5ExhjXhUcbD6BDDS4B4EUoDkxTWxuh2eADJS9XkrRMBSfp4a",
-              "babe": "5EWkYHRWeLtsZ9ZZcTLt4hvsZ7vFeCyu5N8SFGvghNWN9BMX",
-              "im_online": "5F7YM3nbu6MpYpaLhnTr44dyvkte1T6T5ZPxznRPkL6NA5JY",
-              "para_validator": "5DyXfRM9Q7y9ai88iRwUL9PhGsFu1qsuXkUhV96HyN2QzPB5",
-              "para_assignment": "5Hp5F5ANNvzfAPrAKjMAervCzkrjBTBD1G8FosrVAtAvsA5K",
-              "authority_discovery": "5FjR5ZGcphJwa8ASbN4Zy7G68CBSYncMCvnzb8NKjgavRu8c",
-              "beefy": "KWAE8UnJYapZXwZG1TrEZ4wu1oUpH85GEQTGmaa2jpYEkCPL4"
+              "grandpa": "5G4kCbgqUhEyrRHCyFwFEkgBZXoYA8sbgsRxT9rY8Tp5Jj5F",
+              "babe": "5Ea2D65KXqe625sz4uV1jjhSfuigVnkezC8VgEj9LXN7ERAk",
+              "im_online": "5HVhFBLFTKSZK9fX6RktckWDTgYNoSd33fgonsEC8zfr4ddm",
+              "para_validator": "5CS7thd2n54WfqeKU3cjvZzK4z5p7zku1Zw97mSzXgPioAAs",
+              "para_assignment": "5DSaL4ZmSYarZSazhL5NQh7LT6pWhNRDcefk2QS9RxEXfsJe",
+              "authority_discovery": "5CaNLkYEbFYXZodXhd3UjV6RNLjFGNLiYafc8X5NooMkZiAq",
+              "beefy": "KWADepCew8VYuE7YBbz9fPH1DTsVywXmQJjXt4bKBjHaC65zZ"
             }
           ],
           [
-            "5F7EdNXunchNw4DnsSqXnhMZXLQRxuo1my2Ea86suAJYyzLE",
-            "5F7EdNXunchNw4DnsSqXnhMZXLQRxuo1my2Ea86suAJYyzLE",
+            "5H6j9ovzYk9opckVjvM9SvVfaK37ASTtPTzWeRfqk1tgLJUN",
+            "5H6j9ovzYk9opckVjvM9SvVfaK37ASTtPTzWeRfqk1tgLJUN",
             {
-              "grandpa": "5G112ibbo5RpVoEZzfk925XC5ZhudgGGcVp89EtjH8p4sgSd",
-              "babe": "5Dqqu4PZ6CEfLmuHMq1Zh445sNoWMyGJ2koKDvViJaSNSym1",
-              "im_online": "5G8uMor82Z361AL26srzShBJPcZW2WeBWnyQ8zY8HeVT8iDc",
-              "para_validator": "5Cvs52pMzW6ygaKuy9PqBuqd486aaXEi3jGrdAvSPcBqAuMN",
-              "para_assignment": "5CV7RehhbrMXhRy5ULMLz1Z6K9phjAHTh7NciS32PAxcdhUS",
-              "authority_discovery": "5CvZfiLpvRFXnL3TnQ6q174AaKU5ZbEEApDfXqyfwTZthpxp",
-              "beefy": "KWDMyYTBtbn228kuRmdpyMok9LVynZwRJoU63DTVB3JX4s9Kn"
-            }
-          ],
-          [
-            "5Enyc7KFiNo3cya5nrDe4iwMGxMFxcJHGqAcraKnnrEocL8T",
-            "5Enyc7KFiNo3cya5nrDe4iwMGxMFxcJHGqAcraKnnrEocL8T",
-            {
-              "grandpa": "5Dp77hZ1bG4kdkVa2LR44dZqCDrLDfgfRpSygZTCVrhHuFjX",
-              "babe": "5H3Yis5m8ikyU8nUHGYNfvvPyFtHPDb19KGTxYhweznNJHUH",
-              "im_online": "5D5aY6RacUAtLQPRJLNfYUogDmJxQKpuRfGSm75mFLU25cdM",
-              "para_validator": "5Hpvfs89hBjqEF1cXUiKZXBv4no1oC2mHw1NpQ11C6XCgMGW",
-              "para_assignment": "5EPXP8yv65npdoSig3ru22XXS4CYeK1W5P2pGXrTSu13CnUo",
-              "authority_discovery": "5HGTYBcTgosXkVGUchpPT2VYi5QEhYNbYgUdXhX1NQwpAYGD",
-              "beefy": "KW913N8emAEsDFNaQi24g6PCZdQXqfEXed6We9AamguwkRTgj"
-            }
-          ],
-          [
-            "5HisWy38kugc3Ay4XAsrg1DAU3pJfsQhmPToY5Y726ZbunV8",
-            "5HisWy38kugc3Ay4XAsrg1DAU3pJfsQhmPToY5Y726ZbunV8",
-            {
-              "grandpa": "5E2BMeeNPfHoaoeGkRcwuSXmHxQKt7kkVWwzzg1EyeM9Uxsq",
-              "babe": "5FsX7MZEXD8PV4VMKitxHJDQHaw9aufVYDeHj9TnSZMxh19Z",
-              "im_online": "5GNT2rvcVbiyXoBEFCEmyuKPHCeyU7t6Z9b9P9QZZQt5zkyP",
-              "para_validator": "5CDkpJJQDfjwrhWG6mHMQehLLvykkqcutcU8hyv5qR5cxeAs",
-              "para_assignment": "5FgrEDFDrbmghpVaeg59cy5hsRk5bNpXcKBy9sCg8STa9KZ8",
-              "authority_discovery": "5GTFG9KW6j628acwSV9GgjNxMRenUihEvBGfoz8L74EGog9t",
-              "beefy": "KWAkePAS2vGHxESoMeB33Y3E18Qd8rwR1fpzBA5cAj2QU55rx"
-            }
-          ],
-          [
-            "5CkxZrGeGfpQApMw6HAtBF9xiPgxoA3Ei7xZ69aRry6iGzNL",
-            "5CkxZrGeGfpQApMw6HAtBF9xiPgxoA3Ei7xZ69aRry6iGzNL",
-            {
-              "grandpa": "5EvP4zKAJDnj7JSomquk2pVRucYG6vvcepf6b6Hpjv95hKHf",
-              "babe": "5Fv73X7dtFm15hqYG338MNJ1qw351BbgjzFAh3rgXdjDFaCT",
-              "im_online": "5EcGLLCftCN9zGM3sB769kJfZrPDsdvrSskUubGhP8nCH6Zr",
-              "para_validator": "5DAgS6rUfqrVec19jTSZkMFJdQWLUT3WtnvdnHBmigYWadSk",
-              "para_assignment": "5HMfW3gxehXWQzTs7xLcau5jFe5448PB7BzJKzTTUNPbN6xc",
-              "authority_discovery": "5CrF49SzojrG99QMbSJfQAuqaC8Ui23mk8V4crWwfZ2tbA68",
-              "beefy": "KWBPJEgS11nKWgGiCz9W5biznEpHSkTPNgV45XNS8Y2zvEQKd"
-            }
-          ],
-          [
-            "5EyVyQG5L4zY9xTrpqrH4NYFeTxz6Nv7QVi7mAKxashEDaDn",
-            "5EyVyQG5L4zY9xTrpqrH4NYFeTxz6Nv7QVi7mAKxashEDaDn",
-            {
-              "grandpa": "5Ddf9e2CRXeqFaJ7xqvndZwGTY3waxPXCEdYgR81gYfyMTwz",
-              "babe": "5DLugVPwnwTdpxcoL54UVrJy22mBWR1ojy6ft589NSm23jSB",
-              "im_online": "5Eh7u54DiiGH4QUj8sbkL8gDgW5vMh7SP5JFVa8CBMCQvkqi",
-              "para_validator": "5HontyHjLF3jQD7sqwKbKn1u3oFDPX2aoiqnQw1UGDBT1MKc",
-              "para_assignment": "5CSyR1g4pHHzQ7ppafUhXcg6RiqNJpsN5sbrVLnCfX9DCCUp",
-              "authority_discovery": "5HGaFebZR87Yz94GA52uc8eb7k9nLwEqjqdmYUAfk9SveXah",
-              "beefy": "KW6Zrzh4X7y1YiHFgviKAJfPgiTX6GKy4TKSRMEWuXNDhhRRb"
+              "grandpa": "5ChfdrAqmLjCeDJvynbMjcxYLHYzPe8UWXd3HnX9JDThUMbn",
+              "babe": "5CSPYDYoCDGSoSLgSp4EHkJ52YasZLHG2woqhPZkdbtNQpke",
+              "im_online": "5DnsMm24575xK2b2aGfmafiDxwCet6Mr4iiZQeDdWvi8CzuF",
+              "para_validator": "5D8C3HHEp5E8fJsXRD56494F413CdRSR9QKGXe7v5ZEfymdj",
+              "para_assignment": "5GxeTYCGmp1C3ZRLDkRWqJc6gB2GYmuqnygweuH3vsivMQq6",
+              "authority_discovery": "5DoGpsgSLcJsHa9B8V4PKjxegWAqDZttWfxicAd68prUX654",
+              "beefy": "KWD1vFjGJqN7J7Q5W1A6udqvDMB7kkA1VdSfvKwojnEhpnTNr"
             }
           ]
         ]
@@ -286,7 +175,7 @@
         "vesting": []
       },
       "sudo": {
-        "key": "5DwBmEFPXRESyEam5SsQF1zbWSCn2kCjyLW51hJHXe9vW4xs"
+        "key": "5GVovvVdLiyLVhG9zstVXhftUnvKSdaFJCmHhhgWwcAqYxAn"
       },
       "nominationPools": {
         "minJoinBond": 0,
@@ -309,8 +198,8 @@
           "validation_upgrade_cooldown": 2,
           "validation_upgrade_delay": 2,
           "async_backing_params": {
-            "max_candidate_depth": 3,
-            "allowed_ancestry_len": 2
+            "max_candidate_depth": 0,
+            "allowed_ancestry_len": 0
           },
           "max_pov_size": 5242880,
           "max_downward_message_size": 1048576,
@@ -332,7 +221,7 @@
           "on_demand_ttl": 5,
           "group_rotation_frequency": 20,
           "paras_availability_period": 4,
-          "scheduling_lookahead": 2,
+          "scheduling_lookahead": 1,
           "max_validators_per_core": null,
           "max_validators": null,
           "dispute_period": 6,
