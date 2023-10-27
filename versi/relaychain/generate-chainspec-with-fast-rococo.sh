@@ -1,12 +1,13 @@
 #!/bin/bash -eu
+set -ex
 # Original author: @michalkucharczyk
 # Taken from https://raw.githubusercontent.com/paritytech/polkadot-sdk/d55ae688a8d0769966a125fde2f0dd6cc7f8e762/polkadot/scripts/update-chain-spec-with-fast-rococo.sh
 # Sample script showing how to update the chain-spec 'code' field with the pre-built rococo runtime blob with
 # non-standard epoch duration.
 
 CURRENT_DIR=$(pwd)
-CHAIN_NAME=rococo-staging
-DOCKER_IMAGE="${DOCKER_IMAGE:-'paritypr/polkadot-debug:master-76994356'}"
+CHAIN_NAME="${CHAIN_NAME:-rococo-staging}"
+DOCKER_IMAGE="${DOCKER_IMAGE:-paritypr/polkadot-debug:master-76994356}"
 EPOCH_DURATION_IN_BLOCKS="${EPOCH_DURATION_IN_BLOCKS:-100}"
 
 if [ -z $DOCKER_IMAGE ]; then
