@@ -21,7 +21,9 @@
     "tokenSymbol": "ROC"
   },
   "forkBlocks": null,
-  "badBlocks": null,
+  "badBlocks": [
+    "0xea13975b16a70fb9727a7c0238920bc0df7c0c0bea0723af74ba6e41cccba299"
+  ],
   "lightSyncState": null,
   "codeSubstitutes": {},
   "genesis": {
