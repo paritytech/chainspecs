@@ -5,20 +5,8 @@
   "bootNodes": [
     "/dns/westend-collectives-collator-0.parity-testnet.parity.io/tcp/30334/p2p/12D3KooWN8B1ChzED6DkWekX3QnNo6fZ6gGGwjnAhSkhG6QsWkLr",
     "/dns/westend-collectives-collator-1.parity-testnet.parity.io/tcp/30334/p2p/12D3KooWHeAG244H1UfB8516KVspL1V7ubeeKLLnHNfxxDfbBAvg",
-    "/dns/westend-collectives-collator-2.parity-testnet.parity.io/tcp/30334/p2p/12D3KooWFZQoNPiCdyPg5yzUhQJyBDo9XPYfNA97njfhH57smsud",
-    "/dns/westend-collectives-collator-3.parity-testnet.parity.io/tcp/30334/p2p/12D3KooWQ7p65S7koitvskQuEwsoHHEM3g78pCdwZ5RpJi2FAtxE",
-    "/dns/westend-collectives-collator-4.parity-testnet.parity.io/tcp/30334/p2p/12D3KooWCui467sJqUd7GzxB9HWpxrvXQfHWuYGN14KoSQwJQ9Sk",
-    "/dns/westend-collectives-collator-5.parity-testnet.parity.io/tcp/30334/p2p/12D3KooWLGeRp67Y4LTpDYW15ophkcn8VAbNf4mhw9MXwPUamCss",
-    "/dns/westend-collectives-collator-6.parity-testnet.parity.io/tcp/30334/p2p/12D3KooWDVdnw4fU8KsvVmXYwC7ifqsXssQgQ5rzPpBNEJPZewEB",
-    "/dns/westend-collectives-collator-7.parity-testnet.parity.io/tcp/30334/p2p/12D3KooWCYmG2HhYQTSs7PHcrBcsdfte7SJhctW6PeTYLLDyN4Yb",
     "/dns/westend-collectives-collator-0.parity-testnet.parity.io/tcp/443/wss/p2p/12D3KooWN8B1ChzED6DkWekX3QnNo6fZ6gGGwjnAhSkhG6QsWkLr",
-    "/dns/westend-collectives-collator-1.parity-testnet.parity.io/tcp/443/wss/p2p/12D3KooWHeAG244H1UfB8516KVspL1V7ubeeKLLnHNfxxDfbBAvg",
-    "/dns/westend-collectives-collator-2.parity-testnet.parity.io/tcp/443/wss/p2p/12D3KooWFZQoNPiCdyPg5yzUhQJyBDo9XPYfNA97njfhH57smsud",
-    "/dns/westend-collectives-collator-3.parity-testnet.parity.io/tcp/443/wss/p2p/12D3KooWQ7p65S7koitvskQuEwsoHHEM3g78pCdwZ5RpJi2FAtxE",
-    "/dns/westend-collectives-collator-4.parity-testnet.parity.io/tcp/443/wss/p2p/12D3KooWCui467sJqUd7GzxB9HWpxrvXQfHWuYGN14KoSQwJQ9Sk",
-    "/dns/westend-collectives-collator-5.parity-testnet.parity.io/tcp/443/wss/p2p/12D3KooWLGeRp67Y4LTpDYW15ophkcn8VAbNf4mhw9MXwPUamCss",
-    "/dns/westend-collectives-collator-6.parity-testnet.parity.io/tcp/443/wss/p2p/12D3KooWDVdnw4fU8KsvVmXYwC7ifqsXssQgQ5rzPpBNEJPZewEB",
-    "/dns/westend-collectives-collator-7.parity-testnet.parity.io/tcp/443/wss/p2p/12D3KooWCYmG2HhYQTSs7PHcrBcsdfte7SJhctW6PeTYLLDyN4Yb"
+    "/dns/westend-collectives-collator-1.parity-testnet.parity.io/tcp/443/wss/p2p/12D3KooWHeAG244H1UfB8516KVspL1V7ubeeKLLnHNfxxDfbBAvg"
   ],
   "telemetryEndpoints": null,
   "protocolId": null,
