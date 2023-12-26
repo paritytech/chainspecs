@@ -1,3 +1,6 @@
 [submodule "submodules/polkadot-sdk"]
 	path = submodules/polkadot-sdk
 	url = https://github.com/paritytech/polkadot-sdk.git
+[submodule "submodules/paseo-runtimes"]
+	path = submodules/submodules/paseo-runtimes
+	url = https://github.com/paseo-network/runtimes.git
