@@ -13,9 +13,9 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 # List of Chainspecs
 ### Polkadot
 - [Polkadot](polkadot/relaychain/chainspec.json)
-- [Polkadot Bridge Hub](polkadot/parachain/bridge-hub/chainspec.json)
+- [Polkadot AssetHub](polkadot/parachain/asset-hub/chainspec.json)
+- [Polkadot BridgeHub](polkadot/parachain/bridge-hub/chainspec.json)
 - [Polkadot Collectives](polkadot/parachain/collectives/chainspec.json)
-- [Polkadot Statemint](polkadot/parachain/statemint/chainspec.json)
 
 ### Kusama
 - [Kusama](kusama/relaychain/chainspec.json)
