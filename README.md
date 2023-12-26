@@ -32,9 +32,9 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 
 ### Westend
 - [Westend](westend/relaychain/chainspec.json)
-- [Westend Collectives](westend/parachain/westend-collectives/chainspec.json)
+- [Westend AssetHub](westend/parachain/asset-hub/chainspec.json)
 - [Westend BridgeHub](westend/parachain/bridge-hub/chainspec.json)
-- [Westend Westmint](westend/parachain/westmint/chainspec.json)
+- [Westend Collectives](westend/parachain/westend-collectives/chainspec.json)
 
 ### Wococo
 - [Wococo](wococo/relaychain/chainspec.json)
