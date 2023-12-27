@@ -13,13 +13,14 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 # List of Chainspecs
 ### Polkadot
 - [Polkadot](polkadot/relaychain/chainspec.json)
-- [Polkadot Bridge Hub](polkadot/parachain/bridge-hub/chainspec.json)
+- [Polkadot AssetHub](polkadot/parachain/asset-hub/chainspec.json)
+- [Polkadot BridgeHub](polkadot/parachain/bridge-hub/chainspec.json)
 - [Polkadot Collectives](polkadot/parachain/collectives/chainspec.json)
 
 ### Kusama
 - [Kusama](kusama/relaychain/chainspec.json)
-- [Kusama Bridge Hub](kusama/parachain/bridge-hub/chainspec.json)
-- [Kusama Statemine](kusama/parachain/statemine/chainspec.json)
+- [Kusama AssetHub](kusama/parachain/asset-hub/chainspec.json)
+- [Kusama BridgeHub](kusama/parachain/bridge-hub/chainspec.json)
 
 
 ### Paseo
@@ -35,11 +36,6 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 
 ### Westend
 - [Westend](westend/relaychain/chainspec.json)
-- [Westend Collectives](westend/parachain/westend-collectives/chainspec.json)
+- [Westend AssetHub](westend/parachain/asset-hub/chainspec.json)
 - [Westend BridgeHub](westend/parachain/bridge-hub/chainspec.json)
-- [Westend Westmint](westend/parachain/westmint/chainspec.json)
-
-### Wococo
-- [Wococo](wococo/relaychain/chainspec.json)
-- [Wococo BridgeHub](wococo/parachain/bridge-hub/chainspec.json)
-- [Wococo Westmint](wococo/parachain/wockmint/chainspec.json)
+- [Westend Collectives](westend/parachain/westend-collectives/chainspec.json)
