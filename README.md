@@ -15,12 +15,15 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Polkadot](polkadot/relaychain/chainspec.json)
 - [Polkadot Bridge Hub](polkadot/parachain/bridge-hub/chainspec.json)
 - [Polkadot Collectives](polkadot/parachain/collectives/chainspec.json)
-- [Polkadot Statemint](polkadot/parachain/statemint/chainspec.json)
 
 ### Kusama
 - [Kusama](kusama/relaychain/chainspec.json)
 - [Kusama Bridge Hub](kusama/parachain/bridge-hub/chainspec.json)
 - [Kusama Statemine](kusama/parachain/statemine/chainspec.json)
+
+
+### Paseo
+- [Paseo](paseo/relaychain/chainspec.json)
 
 ### Rococo
 - [Rococo](rococo/relaychain/chainspec.json)
