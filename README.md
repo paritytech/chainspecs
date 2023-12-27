@@ -28,11 +28,10 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 
 ### Rococo
 - [Rococo](rococo/relaychain/chainspec.json)
-- [Rococo Rockmine](rococo/parachain/rockmine/chainspec.json)
-- [Rococo adz](rococo/parachain/adz/chainspec.json)
-- [Rococo Contracts](rococo/parachain/contracts/chainspec.json)
-- [Rococo Moonbase](rococo/parachain/moonbase/chainspec.json)
+- [Rococo AssetHub](rococo/parachain/asset-hub/chainspec.json)
 - [Rococo Bridge-Hub](rococo/parachain/bridge-hub/chainspec.json)
+- [Rococo Coretime](rococo/parachain/coretime/chainspec.json)
+- [Rococo Contracts](rococo/parachain/contracts/chainspec.json)
 
 ### Westend
 - [Westend](westend/relaychain/chainspec.json)
