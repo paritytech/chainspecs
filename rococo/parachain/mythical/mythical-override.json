@@ -1,0 +1,37 @@
+{
+  "name": "mythical",
+  "id": "mythical-rococo",
+  "bootNodes": [
+    "/dns/rococo-mythical-collator-node-0.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWMQz93xtrqmzMMB27Gk9cAG3vsZF7WHUDcAWQv57R5YkP",
+    "/dns/rococo-mythical-collator-node-1.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWFueUcDTkP9tJGCVFancDM3LgDBKEFpvr3jEzoXdMebdM"
+  ],
+  "relay_chain": "rococo",
+  "genesis": {
+    "runtime": {
+      "collatorSelection": {
+        "invulnerables": [
+          "0xe04cc55ebee1cbce552f250e85c57b70b2e2625b",
+          "0x25451a4de12dccc2d166922fa938e900fcc4ed24"
+        ]
+      },
+      "session": {
+        "keys": [
+          [
+            "0xe04cc55ebee1cbce552f250e85c57b70b2e2625b",
+            "0xe04cc55ebee1cbce552f250e85c57b70b2e2625b",
+            {
+              "aura": "5HHCdHjbeyuVhbjyXTM7NKuHj7ZkaTfkNGQB8gmUbBWxSCBZ"
+            }
+          ],
+          [
+            "0x25451a4de12dccc2d166922fa938e900fcc4ed24",
+            "0x25451a4de12dccc2d166922fa938e900fcc4ed24",
+            {
+              "aura": "5H8zB54i2nAdz79N5RvcSiwsNfpmgVojfyQ41QbPVynjFzjK"
+            }
+          ]
+        ]
+      }
+    }
+  }
+}
