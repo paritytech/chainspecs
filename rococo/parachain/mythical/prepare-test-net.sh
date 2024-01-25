@@ -53,8 +53,6 @@ INVULNERABLES+="]"
 BOOTNODES+="]"
 
 CHAINSPEC='{
-  "name": "mythical",
-  "id": "mythical-rococo",
   '"${BOOTNODES}"',
   "relay_chain": "rococo",
   "genesis": {

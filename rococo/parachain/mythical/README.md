@@ -3,10 +3,10 @@
 `
  1. Run following script to generate chainspec.json:
 ```
-DOCKER_IMAGE=harbor.parity-mgmt.parity.io/parity-internal/mythical-node:main-ddecd5f0
+DOCKER_IMAGE=mythicalgamesengineering/parity:v1.3.0
 
 # 1. generate base chainspec  
-docker run $DOCKER_IMAGE /usr/bin/mythical-node build-spec --chain mainnet-dev  > ./mythical-base.json
+docker run $DOCKER_IMAGE /usr/bin/mythical-node build-spec --chain muse  > ./mythical-base.json
 
 # 2. Merge mythical-base.json and mythical-override.json
 jq  -s '.[0] * .[1]'  mythical-base.json mythical-override.json | sed 's/1e+27/1000000000000000000000000000/' > ./chainspec-nonraw.json
