@@ -3,7 +3,7 @@
 `
  1. Run following script to generate chainspec.json:
 ```
-DOCKER_IMAGE=mythicalgamesengineering/parity:v1.3.0
+DOCKER_IMAGE=mythicalgamesengineering/parity:main@sha256:3838d673d264cf8a2d7381bdebb89299e146504e66af739db2fe0d9d60f0933d
 
 # 1. generate base chainspec  
 docker run $DOCKER_IMAGE /usr/bin/mythical-node build-spec --chain muse  > ./mythical-base.json
