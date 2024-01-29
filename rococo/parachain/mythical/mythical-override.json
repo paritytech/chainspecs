@@ -5,7 +5,7 @@
   ],
   "relay_chain": "rococo",
   "genesis": {
-    "runtime": {
+    "runtimeGenesis": {
       "collatorSelection": {
         "invulnerables": [
           "0xe6b4f55209a70384db3d147c06b99e32feb03d6f",

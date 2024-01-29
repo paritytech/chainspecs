@@ -56,7 +56,7 @@ CHAINSPEC='{
   '"${BOOTNODES}"',
   "relay_chain": "rococo",
   "genesis": {
-    "runtime": {
+    "runtimeGenesis": {
       "collatorSelection": {
         '"${INVULNERABLES}"'
       },
