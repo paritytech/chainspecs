@@ -1,6 +1,6 @@
 {
     "genesis": {
-      "runtime": {
+      "runtimeGenesis": {
         "balances": {
             "balances": [
             [
