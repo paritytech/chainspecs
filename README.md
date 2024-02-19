@@ -30,13 +30,16 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Rococo](rococo/relaychain/chainspec.json)
 - [Rococo AssetHub](rococo/parachain/asset-hub/chainspec.json)
 - [Rococo Bridge-Hub](rococo/parachain/bridge-hub/chainspec.json)
-- [Rococo Coretime](rococo/parachain/coretime/chainspec.json)
 - [Rococo Contracts](rococo/parachain/contracts/chainspec.json)
+- [Rococo Coretime](rococo/parachain/coretime/chainspec.json)
+- [Rococo Muse](rococo/parachain/mythical/chainspec.json)
 - [Rococo People](rococo/parachain/people/chainspec.json)
+- [Rococo Trappist](rococo/parachain/trappist/chainspec.json)
 
 ### Westend
 - [Westend](westend/relaychain/chainspec.json)
 - [Westend AssetHub](westend/parachain/asset-hub/chainspec.json)
 - [Westend BridgeHub](westend/parachain/bridge-hub/chainspec.json)
+- [Westend Coretime](westend/parachain/coretime/chainspec.json)
 - [Westend Collectives](westend/parachain/westend-collectives/chainspec.json)
 - [Westend People](westend/parachain/people/chainspec.json)
