@@ -7,7 +7,7 @@ set -ex
 
 CURRENT_DIR=$(pwd)
 CHAIN_NAME="${CHAIN_NAME:-rococo-staging}"
-DOCKER_IMAGE="${DOCKER_IMAGE:-paritypr/polkadot-debug:master-76994356}"
+DOCKER_IMAGE="${DOCKER_IMAGE:-paritypr/polkadot-debug:master-a71f018c}"
 EPOCH_DURATION_IN_BLOCKS="${EPOCH_DURATION_IN_BLOCKS:-100}"
 
 if [ -z $DOCKER_IMAGE ]; then
@@ -33,7 +33,7 @@ hexdump -v -e '/1 "%02x"' $WASM_RUNTIME_BLOB_PATH > $WASM_RUNTIME_BLOB_PATH.hex
 $POLKADOT_CMD build-spec --chain $CHAIN_NAME > $CURRENT_DIR/chainspec-$CHAIN_NAME-source.json
 
 # replace runtime in chainspec with newly built runtime with overwritten epoch duration:
-jq --rawfile code $WASM_RUNTIME_BLOB_PATH.hex '.genesis.runtime.system.code = "0x" + $code' > $CURRENT_DIR/chainspec-$CHAIN_NAME-plain.json < $CURRENT_DIR/chainspec-$CHAIN_NAME-source.json 
+jq --rawfile code $WASM_RUNTIME_BLOB_PATH.hex '.genesis.runtimeGenesis.code = "0x" + $code' > $CURRENT_DIR/chainspec-$CHAIN_NAME-plain.json < $CURRENT_DIR/chainspec-$CHAIN_NAME-source.json 
 
 # jq will write numbers in compact way with 1e+18, substrate json parser dont support it.
 sed 's/1e+18/1000000000000000000/' -i $CURRENT_DIR/chainspec-$CHAIN_NAME-plain.json
