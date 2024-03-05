@@ -70,17 +70,18 @@ CHAINSPEC='{
       "/dns/versi-bootnode-7.parity-versi.parity.io/tcp/30333/p2p/12D3KooWDbKdQoWsjDwegEc2XarYWaiTogyVkixE52nAiTXtiEVp"
    ],
    "genesis": {
-      "runtime": {
-         '"$BALANCES, ${SESSION}"',
-         "configuration": {
-           "config": {
-             "scheduling_lookahead": 2,
-             "async_backing_params": {
-               "max_candidate_depth": 3,
-               "allowed_ancestry_len": 2
-             }
-           }
-         }
+      "runtimeGenesis": {
+        "patch": {
+          '"$BALANCES, ${SESSION}"',
+          "configuration": {
+            "config": {
+              "async_backing_params": {
+                "max_candidate_depth": 3,
+                "allowed_ancestry_len": 2
+              }
+            }
+          }
+        }
       }
    }
 }
