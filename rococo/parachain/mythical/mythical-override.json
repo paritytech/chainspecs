@@ -1,7 +1,7 @@
 {
   "bootNodes": [
-    "/dns/rococo-mythical-collator-node-0.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWMQz93xtrqmzMMB27Gk9cAG3vsZF7WHUDcAWQv57R5YkP",
-    "/dns/rococo-mythical-collator-node-1.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWFueUcDTkP9tJGCVFancDM3LgDBKEFpvr3jEzoXdMebdM"
+    "/dns/rococo-muse-collator-node-0.polkadot.io/tcp/30333/p2p/12D3KooWMQz93xtrqmzMMB27Gk9cAG3vsZF7WHUDcAWQv57R5YkP",
+    "/dns/rococo-muse-collator-node-1.polkadot.io/tcp/30333/p2p/12D3KooWFueUcDTkP9tJGCVFancDM3LgDBKEFpvr3jEzoXdMebdM"
   ],
   "relay_chain": "rococo",
   "genesis": {
