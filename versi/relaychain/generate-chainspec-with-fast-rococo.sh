@@ -7,7 +7,7 @@ set -ex
 
 CURRENT_DIR=$(pwd)
 CHAIN_NAME="${CHAIN_NAME:-rococo-staging}"
-DOCKER_IMAGE="${DOCKER_IMAGE:-paritypr/polkadot-debug:master-69cc7f20}"
+DOCKER_IMAGE="${DOCKER_IMAGE:-paritypr/polkadot-debug:4085-3b670926}"
 EPOCH_DURATION_IN_BLOCKS="${EPOCH_DURATION_IN_BLOCKS:-100}"
 
 if [ -z $DOCKER_IMAGE ]; then
