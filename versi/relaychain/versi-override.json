@@ -12,7 +12,7 @@
     "/dns/versi-bootnode-7.parity-versi.parity.io/tcp/30333/p2p/12D3KooWDbKdQoWsjDwegEc2XarYWaiTogyVkixE52nAiTXtiEVp"
   ],
   "genesis": {
-    "runtime": {
+    "runtimeGenesis": {
       "balances": {
         "balances": [
           [
@@ -132,15 +132,6 @@
             }
           ]
         ]
-      },
-      "configuration": {
-        "config": {
-          "scheduling_lookahead": 2,
-          "async_backing_params": {
-            "max_candidate_depth": 3,
-            "allowed_ancestry_len": 2
-          }
-        }
       }
     }
   }
