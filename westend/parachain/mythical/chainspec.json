@@ -1,6 +1,6 @@
 {
-  "name": "Mythos Mainnet",
-  "id": "mythos",
+  "name": "Mythos Westend",
+  "id": "mythos-westend",
   "chainType": "Live",
   "bootNodes": [
     "/dns/westend-mythical-collator-node-0.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWEAvWsrRFfvGm8iv31u6qT3hQv3FEbi5C62wnM4jfqgDm",
