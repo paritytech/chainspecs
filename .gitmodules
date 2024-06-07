@@ -26,3 +26,6 @@
 [submodule "submodules/litentry"]
 	path = submodules/litentry
 	url = https://github.com/litentry/litentry-parachain.git
+[submodule "submodules/composable"]
+	path = submodules/composable
+	url = https://github.com/ComposableFi/composable.git
