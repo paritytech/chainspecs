@@ -4,3 +4,6 @@
 [submodule "paseo-runtimes"]
 	path = submodules/paseo-runtimes
 	url = https://github.com/paseo-network/runtimes.git
+[submodule "submodules/acala"]
+	path = submodules/acala
+	url = https://github.com/AcalaNetwork/Acala.git
