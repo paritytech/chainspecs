@@ -11,3 +11,6 @@
 	path = submodules/clover
 	url = https://github.com/clover-network/clover.git
 	branch = clover-parachain
+[submodule "submodules/moonbeam"]
+	path = submodules/moonbeam
+	url = https://github.com/moonbeam-foundation/moonbeam.git
