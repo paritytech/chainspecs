@@ -16,15 +16,19 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Polkadot AssetHub](polkadot/parachain/asset-hub/chainspec.json)
 - [Polkadot BridgeHub](polkadot/parachain/bridge-hub/chainspec.json)
 - [Polkadot Collectives](polkadot/parachain/collectives/chainspec.json)
+- [Polkadot Mythos](polkadot/parachain/mythos/chainspec.json)
 
 ### Kusama
 - [Kusama](kusama/relaychain/chainspec.json)
 - [Kusama AssetHub](kusama/parachain/asset-hub/chainspec.json)
 - [Kusama BridgeHub](kusama/parachain/bridge-hub/chainspec.json)
+- [Kusama Coretime](kusama/parachain/coretime/chainspec.json)
+- [Kusama People](kusama/parachain/people/chainspec.json)
 
 
 ### Paseo
 - [Paseo](paseo/relaychain/chainspec.json)
+- [Paseo AssetHub](paseo/parachain/asset-hub/chainspec.json)
 
 ### Rococo
 - [Rococo](rococo/relaychain/chainspec.json)
@@ -34,12 +38,12 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Rococo Coretime](rococo/parachain/coretime/chainspec.json)
 - [Rococo Muse](rococo/parachain/mythical/chainspec.json)
 - [Rococo People](rococo/parachain/people/chainspec.json)
-- [Rococo Trappist](rococo/parachain/trappist/chainspec.json)
 
 ### Westend
 - [Westend](westend/relaychain/chainspec.json)
 - [Westend AssetHub](westend/parachain/asset-hub/chainspec.json)
 - [Westend BridgeHub](westend/parachain/bridge-hub/chainspec.json)
+- [Westend Collectives](westend/parachain/collectives/chainspec.json)
 - [Westend Coretime](westend/parachain/coretime/chainspec.json)
-- [Westend Collectives](westend/parachain/westend-collectives/chainspec.json)
+- [Westend Muse](westend/parachain/mythical/chainspec.json)
 - [Westend People](westend/parachain/people/chainspec.json)
