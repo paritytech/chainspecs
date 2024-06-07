@@ -35,8 +35,12 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Polkadot Unique](polkadot/parachain/unique/chainspec.json)
 - [Polkadot Integritee](polkadot/parachain/integritee/chainspec.json)
 - [Polkadot Polkadex](polkadot/parachain/polkadex/chainspec.json)
-
-
+- [Polkadot NeuroWeb](polkadot/parachain/neuroweb/chainspec.json)
+- [Polkadot Darwinia](polkadot/parachain/darwinia/chainspec.json)
+- [Polkadot Bitgreen](polkadot/parachain/bitgreen/chainspec.json)
+- [Polkadot Ajuna](polkadot/parachain/ajuna/chainspec.json)
+- [Polkadot OmniBTC](polkadot/parachain/omnibtc/chainspec.json)
+- [Polkadot Aventus](polkadot/parachain/aventus/chainspec.json)
 
 - [Polkadot Mythos](polkadot/parachain/mythos/chainspec.json)
 

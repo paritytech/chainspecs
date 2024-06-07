@@ -59,3 +59,21 @@
 [submodule "submodules/polkadex"]
 	path = submodules/polkadex
 	url = https://github.com/Polkadex-Substrate/parachain.git
+[submodule "submodules/neuroweb"]
+	path = submodules/neuroweb
+	url = https://github.com/OriginTrail/neuroweb.git
+[submodule "submodules/darwinia"]
+	path = submodules/darwinia
+	url = https://github.com/darwinia-network/darwinia-parachain.git
+[submodule "submodules/bitgreen"]
+	path = submodules/bitgreen
+	url = https://github.com/bitgreen/bitgreen-node.git
+[submodule "submodules/ajuna"]
+	path = submodules/ajuna
+	url = https://github.com/ajuna-network/ajuna-parachain.git
+[submodule "submodules/omnibtc"]
+	path = submodules/omnibtc
+	url = https://github.com/OmniBTC/PSC.git
+[submodule "submodules/aventus"]
+	path = submodules/aventus
+	url = https://github.com/AventusProtocolFoundation/avn-node-parachain.git
