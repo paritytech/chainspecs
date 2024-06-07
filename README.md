@@ -32,7 +32,9 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Polkadot Interlay](polkadot/parachain/interlay/chainspec.json)
 - [Polkadot HydraDX](polkadot/parachain/hydradx/chainspec.json)
 - [Polkadot Phala](polkadot/parachain/phala/chainspec.json)
-- 
+- [Polkadot Unique](polkadot/parachain/unique/chainspec.json)
+- [Polkadot Integritee](polkadot/parachain/integritee/chainspec.json)
+- [Polkadot Polkadex](polkadot/parachain/polkadex/chainspec.json)
 
 
 

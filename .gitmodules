@@ -50,3 +50,12 @@
 [submodule "submodules/nodle"]
 	path = submodules/nodle
 	url = https://github.com/NodleCode/chain.git
+[submodule "submodules/integritee"]
+	path = submodules/integritee
+	url = https://github.com/integritee-network/parachain.git
+[submodule "submodules/unique"]
+	path = submodules/unique
+	url = https://github.com/UniqueNetwork/unique-chain.git
+[submodule "submodules/polkadex"]
+	path = submodules/polkadex
+	url = https://github.com/Polkadex-Substrate/parachain.git
