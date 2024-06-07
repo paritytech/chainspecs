@@ -104,3 +104,21 @@
 [submodule "submodules/kilt"]
 	path = submodules/kilt
 	url = https://github.com/KILTprotocol/kilt-node.git
+[submodule "submodules/peaq"]
+	path = submodules/peaq
+	url = https://github.com/peaqnetwork/peaq-network-node.git
+[submodule "submodules/invarch"]
+	path = submodules/invarch
+	url = https://github.com/InvArch/InvArch-Node.git
+[submodule "submodules/continuum"]
+	path = submodules/continuum
+	url = https://github.com/bit-country/Metaverse-Network.git
+[submodule "submodules/logion"]
+	path = submodules/logion
+	url = https://github.com/logion-network/logion-collator.git
+[submodule "submodules/polimec"]
+	path = submodules/polimec
+	url = https://github.com/Polimec/polimec-node.git
+[submodule "submodules/hyperbridge"]
+	path = submodules/hyperbridge
+	url = https://github.com/polytope-labs/hyperbridge.git
