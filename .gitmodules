@@ -17,3 +17,6 @@
 [submodule "submodules/astar"]
 	path = submodules/astar
 	url = https://github.com/AstarNetwork/Astar.git
+[submodule "submodules/crust"]
+	path = submodules/crust
+	url = https://github.com/crustio/crust.git
