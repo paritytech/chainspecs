@@ -41,6 +41,16 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Polkadot Ajuna](polkadot/parachain/ajuna/chainspec.json)
 - [Polkadot OmniBTC](polkadot/parachain/omnibtc/chainspec.json)
 - [Polkadot Aventus](polkadot/parachain/aventus/chainspec.json)
+- [Polkadot Watr](polkadot/parachain/watr/chainspec.json)
+- [Polkadot OAK]
+- [Polkadot KILT Spiritnet](polkadot/parachain/kilt/chainspec.json)
+- [Polkadot Frequency](polkadot/parachain/frequency/chainspec.json)
+- [Polkadot Zeitgeist](polkadot/parachain/zeitgeist/chainspec.json)
+- [Polkadot Hashed](polkadot/parachain/hashed/chainspec.json)
+- [Polkadot Pendulum](polkadot/parachain/pendulum/chainspec.json)
+- [Polkadot Subsocial](polkadot/parachain/subsocial/chainspec.json)
+- [Polkadot Manta](polkadot/parachain/manta/chainspec.json)
+- [Polkadot t3rn](polkadot/parachain/t3rn/chainspec.json)
 
 - [Polkadot Mythos](polkadot/parachain/mythos/chainspec.json)
 

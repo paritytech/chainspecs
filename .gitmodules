@@ -77,3 +77,30 @@
 [submodule "submodules/aventus"]
 	path = submodules/aventus
 	url = https://github.com/AventusProtocolFoundation/avn-node-parachain.git
+[submodule "submodules/watr"]
+	path = submodules/watr
+	url = https://github.com/Watr-Protocol/watr.git
+[submodule "submodules/hashed"]
+	path = submodules/hashed
+	url = https://github.com/hashed-io/hashed-substrate-parachain.git
+[submodule "submodules/subsocial"]
+	path = submodules/subsocial
+	url = https://github.com/dappforce/subsocial-parachain.git
+[submodule "submodules/zeitgeist"]
+	path = submodules/zeitgeist
+	url = https://github.com/zeitgeistpm/zeitgeist.git
+[submodule "submodules/pendulum"]
+	path = submodules/pendulum
+	url = https://github.com/pendulum-chain/pendulum.git
+[submodule "submodules/frequency"]
+	path = submodules/frequency
+	url = https://github.com/frequency-chain/frequency.git
+[submodule "submodules/t3rn"]
+	path = submodules/t3rn
+	url = https://github.com/t3rn/t3rn.git
+[submodule "submodules/manta"]
+	path = submodules/manta
+	url = https://github.com/Manta-Network/Manta.git
+[submodule "submodules/kilt"]
+	path = submodules/kilt
+	url = https://github.com/KILTprotocol/kilt-node.git
