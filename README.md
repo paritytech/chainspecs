@@ -16,7 +16,11 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Polkadot AssetHub](polkadot/parachain/asset-hub/chainspec.json)
 - [Polkadot BridgeHub](polkadot/parachain/bridge-hub/chainspec.json)
 - [Polkadot Collectives](polkadot/parachain/collectives/chainspec.json)
+
+- [Polkadot Acala](polkadot/parachain/acala/chainspec.json)
+- [Polkadot Clover](polkadot/parachain/clover/chainspec.json)
 - [Polkadot Mythos](polkadot/parachain/mythos/chainspec.json)
+
 
 ### Kusama
 - [Kusama](kusama/relaychain/chainspec.json)

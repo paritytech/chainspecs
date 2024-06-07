@@ -7,3 +7,7 @@
 [submodule "submodules/acala"]
 	path = submodules/acala
 	url = https://github.com/AcalaNetwork/Acala.git
+[submodule "submodules/clover"]
+	path = submodules/clover
+	url = https://github.com/clover-network/clover.git
+	branch = clover-parachain
