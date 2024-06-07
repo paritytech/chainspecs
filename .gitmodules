@@ -29,3 +29,6 @@
 [submodule "submodules/composable"]
 	path = submodules/composable
 	url = https://github.com/ComposableFi/composable.git
+[submodule "submodules/sora"]
+	path = submodules/sora
+	url = https://github.com/sora-xor/sora2-parachain.git
