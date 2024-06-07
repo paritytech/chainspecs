@@ -23,3 +23,6 @@
 [submodule "submodules/parallel"]
 	path = submodules/parallel
 	url = https://github.com/parallel-finance/specs.git
+[submodule "submodules/litentry"]
+	path = submodules/litentry
+	url = https://github.com/litentry/litentry-parachain.git
