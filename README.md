@@ -23,6 +23,18 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Polkadot Astar](polkadot/parachain/astar/chainspec.json)
 - [Polkadot Crust](polkadot/parachain/crust/chainspec.json)
 - [Polkadot Parallel](polkadot/parachain/parallel/chainspec.json)
+- [Polkadot Litentry](polkadot/parachain/litentry/chainspec.json)
+- [Polkadot Composable](polkadot/parachain/composable/chainspec.json)
+- [Polkadot Sora](polkadot/parachain/sora/chainspec.json)
+- [Polkadot nodle](polkadot/parachain/nodle/chainspec.json)
+- [Polkadot Bifrost](polkadot/parachain/bifrost/chainspec.json)
+- [Polkadot Centrifuge](polkadot/parachain/centrifuge/chainspec.json)
+- [Polkadot Interlay](polkadot/parachain/interlay/chainspec.json)
+- [Polkadot HydraDX](polkadot/parachain/hydradx/chainspec.json)
+- [Polkadot Phala](polkadot/parachain/phala/chainspec.json)
+- 
+
+
 
 - [Polkadot Mythos](polkadot/parachain/mythos/chainspec.json)
 

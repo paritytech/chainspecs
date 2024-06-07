@@ -32,3 +32,21 @@
 [submodule "submodules/sora"]
 	path = submodules/sora
 	url = https://github.com/sora-xor/sora2-parachain.git
+[submodule "submodules/bifrost"]
+	path = submodules/bifrost
+	url = https://github.com/bifrost-finance/bifrost.git
+[submodule "submodules/centrifuge"]
+	path = submodules/centrifuge
+	url = https://github.com/centrifuge/centrifuge-chain.git
+[submodule "submodules/hydradx"]
+	path = submodules/hydradx
+	url = https://github.com/galacticcouncil/HydraDX-node.git
+[submodule "submodules/phala"]
+	path = submodules/phala
+	url = https://github.com/Phala-Network/khala-parachain.git
+[submodule "submodules/interlay"]
+	path = submodules/interlay
+	url = https://github.com/interlay/interbtc.git
+[submodule "submodules/nodle"]
+	path = submodules/nodle
+	url = https://github.com/NodleCode/chain.git
