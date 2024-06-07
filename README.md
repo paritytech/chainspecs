@@ -22,6 +22,7 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Polkadot Moonbeam](polkadot/parachain/moonbeam/chainspec.json)
 - [Polkadot Astar](polkadot/parachain/astar/chainspec.json)
 - [Polkadot Crust](polkadot/parachain/crust/chainspec.json)
+- [Polkadot Parallel](polkadot/parachain/parallel/chainspec.json)
 
 - [Polkadot Mythos](polkadot/parachain/mythos/chainspec.json)
 

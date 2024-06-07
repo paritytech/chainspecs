@@ -20,3 +20,6 @@
 [submodule "submodules/crust"]
 	path = submodules/crust
 	url = https://github.com/crustio/crust.git
+[submodule "submodules/parallel"]
+	path = submodules/parallel
+	url = https://github.com/parallel-finance/specs.git
