@@ -14,3 +14,6 @@
 [submodule "submodules/moonbeam"]
 	path = submodules/moonbeam
 	url = https://github.com/moonbeam-foundation/moonbeam.git
+[submodule "submodules/astar"]
+	path = submodules/astar
+	url = https://github.com/AstarNetwork/Astar.git

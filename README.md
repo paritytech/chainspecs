@@ -20,6 +20,7 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Polkadot Acala](polkadot/parachain/acala/chainspec.json)
 - [Polkadot Clover](polkadot/parachain/clover/chainspec.json)
 - [Polkadot Moonbeam](polkadot/parachain/moonbeam/chainspec.json)
+- [Polkadot Astar](polkadot/parachain/astar/chainspec.json)
 
 - [Polkadot Mythos](polkadot/parachain/mythos/chainspec.json)
 
