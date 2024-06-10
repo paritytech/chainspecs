@@ -16,7 +16,55 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Polkadot AssetHub](polkadot/parachain/asset-hub/chainspec.json)
 - [Polkadot BridgeHub](polkadot/parachain/bridge-hub/chainspec.json)
 - [Polkadot Collectives](polkadot/parachain/collectives/chainspec.json)
+
+- [Polkadot Acala](polkadot/parachain/acala/chainspec.json)
+- [Polkadot Clover](polkadot/parachain/clover/chainspec.json)
+- [Polkadot Moonbeam](polkadot/parachain/moonbeam/chainspec.json)
+- [Polkadot Astar](polkadot/parachain/astar/chainspec.json)
+- [Polkadot Crust](polkadot/parachain/crust/chainspec.json)
+- [Polkadot Parallel](polkadot/parachain/parallel/chainspec.json)
+- [Polkadot Litentry](polkadot/parachain/litentry/chainspec.json)
+- [Polkadot Composable](polkadot/parachain/composable/chainspec.json)
+- [Polkadot Sora](polkadot/parachain/sora/chainspec.json)
+- [Polkadot nodle](polkadot/parachain/nodle/chainspec.json)
+- [Polkadot Bifrost](polkadot/parachain/bifrost/chainspec.json)
+- [Polkadot Centrifuge](polkadot/parachain/centrifuge/chainspec.json)
+- [Polkadot Interlay](polkadot/parachain/interlay/chainspec.json)
+- [Polkadot HydraDX](polkadot/parachain/hydradx/chainspec.json)
+- [Polkadot Phala](polkadot/parachain/phala/chainspec.json)
+- [Polkadot Unique](polkadot/parachain/unique/chainspec.json)
+- [Polkadot Integritee](polkadot/parachain/integritee/chainspec.json)
+- [Polkadot Polkadex](polkadot/parachain/polkadex/chainspec.json)
+- [Polkadot NeuroWeb](polkadot/parachain/neuroweb/chainspec.json)
+- [Polkadot Darwinia](polkadot/parachain/darwinia/chainspec.json)
+- [Polkadot Bitgreen](polkadot/parachain/bitgreen/chainspec.json)
+- [Polkadot Ajuna](polkadot/parachain/ajuna/chainspec.json)
+- [Polkadot OmniBTC](polkadot/parachain/omnibtc/chainspec.json)
+- [Polkadot Aventus](polkadot/parachain/aventus/chainspec.json)
+- [Polkadot Watr](polkadot/parachain/watr/chainspec.json)
+- Polkadot OAK
+- [Polkadot KILT Spiritnet](polkadot/parachain/kilt/chainspec.json)
+- [Polkadot Frequency](polkadot/parachain/frequency/chainspec.json)
+- [Polkadot Zeitgeist](polkadot/parachain/zeitgeist/chainspec.json)
+- [Polkadot Hashed](polkadot/parachain/hashed/chainspec.json)
+- [Polkadot Pendulum](polkadot/parachain/pendulum/chainspec.json)
+- [Polkadot Subsocial](polkadot/parachain/subsocial/chainspec.json)
+- [Polkadot Manta](polkadot/parachain/manta/chainspec.json)
+- [Polkadot t3rn](polkadot/parachain/t3rn/chainspec.json)
+- [Polkadot peaq](polkadot/parachain/peaq/chainspec.json)
+- [Polkadot InvArch](polkadot/parachain/invarch/chainspec.json)
+- [Polkadot Polimec](polkadot/parachain/polimec/chainspec.json)
+- Polkadot Energy Web X
+- [Polkadot Continuum](polkadot/parachain/continuum/chainspec.json)
+- [Polkadot Logion](polkadot/parachain/logion/chainspec.json)
+- [Polkadot Hyperbridge (Nexus)](polkadot/parachain/hyperbridge/chainspec.json)
 - [Polkadot Mythos](polkadot/parachain/mythos/chainspec.json)
+- 2,003
+- 2,055
+- 2,106
+- 3,360
+- 3,366
+
 
 ### Kusama
 - [Kusama](kusama/relaychain/chainspec.json)

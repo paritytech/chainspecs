@@ -4,3 +4,121 @@
 [submodule "paseo-runtimes"]
 	path = submodules/paseo-runtimes
 	url = https://github.com/paseo-network/runtimes.git
+[submodule "submodules/acala"]
+	path = submodules/acala
+	url = https://github.com/AcalaNetwork/Acala.git
+[submodule "submodules/clover"]
+	path = submodules/clover
+	url = https://github.com/clover-network/clover.git
+	branch = clover-parachain
+[submodule "submodules/moonbeam"]
+	path = submodules/moonbeam
+	url = https://github.com/moonbeam-foundation/moonbeam.git
+[submodule "submodules/astar"]
+	path = submodules/astar
+	url = https://github.com/AstarNetwork/Astar.git
+[submodule "submodules/crust"]
+	path = submodules/crust
+	url = https://github.com/crustio/crust.git
+[submodule "submodules/parallel"]
+	path = submodules/parallel
+	url = https://github.com/parallel-finance/specs.git
+[submodule "submodules/litentry"]
+	path = submodules/litentry
+	url = https://github.com/litentry/litentry-parachain.git
+[submodule "submodules/composable"]
+	path = submodules/composable
+	url = https://github.com/ComposableFi/composable.git
+[submodule "submodules/sora"]
+	path = submodules/sora
+	url = https://github.com/sora-xor/sora2-parachain.git
+[submodule "submodules/bifrost"]
+	path = submodules/bifrost
+	url = https://github.com/bifrost-finance/bifrost.git
+[submodule "submodules/centrifuge"]
+	path = submodules/centrifuge
+	url = https://github.com/centrifuge/centrifuge-chain.git
+[submodule "submodules/hydradx"]
+	path = submodules/hydradx
+	url = https://github.com/galacticcouncil/HydraDX-node.git
+[submodule "submodules/phala"]
+	path = submodules/phala
+	url = https://github.com/Phala-Network/khala-parachain.git
+[submodule "submodules/interlay"]
+	path = submodules/interlay
+	url = https://github.com/interlay/interbtc.git
+[submodule "submodules/nodle"]
+	path = submodules/nodle
+	url = https://github.com/NodleCode/chain.git
+[submodule "submodules/integritee"]
+	path = submodules/integritee
+	url = https://github.com/integritee-network/parachain.git
+[submodule "submodules/unique"]
+	path = submodules/unique
+	url = https://github.com/UniqueNetwork/unique-chain.git
+[submodule "submodules/polkadex"]
+	path = submodules/polkadex
+	url = https://github.com/Polkadex-Substrate/parachain.git
+[submodule "submodules/neuroweb"]
+	path = submodules/neuroweb
+	url = https://github.com/OriginTrail/neuroweb.git
+[submodule "submodules/darwinia"]
+	path = submodules/darwinia
+	url = https://github.com/darwinia-network/darwinia-parachain.git
+[submodule "submodules/bitgreen"]
+	path = submodules/bitgreen
+	url = https://github.com/bitgreen/bitgreen-node.git
+[submodule "submodules/ajuna"]
+	path = submodules/ajuna
+	url = https://github.com/ajuna-network/ajuna-parachain.git
+[submodule "submodules/omnibtc"]
+	path = submodules/omnibtc
+	url = https://github.com/OmniBTC/PSC.git
+[submodule "submodules/aventus"]
+	path = submodules/aventus
+	url = https://github.com/AventusProtocolFoundation/avn-node-parachain.git
+[submodule "submodules/watr"]
+	path = submodules/watr
+	url = https://github.com/Watr-Protocol/watr.git
+[submodule "submodules/hashed"]
+	path = submodules/hashed
+	url = https://github.com/hashed-io/hashed-substrate-parachain.git
+[submodule "submodules/subsocial"]
+	path = submodules/subsocial
+	url = https://github.com/dappforce/subsocial-parachain.git
+[submodule "submodules/zeitgeist"]
+	path = submodules/zeitgeist
+	url = https://github.com/zeitgeistpm/zeitgeist.git
+[submodule "submodules/pendulum"]
+	path = submodules/pendulum
+	url = https://github.com/pendulum-chain/pendulum.git
+[submodule "submodules/frequency"]
+	path = submodules/frequency
+	url = https://github.com/frequency-chain/frequency.git
+[submodule "submodules/t3rn"]
+	path = submodules/t3rn
+	url = https://github.com/t3rn/t3rn.git
+[submodule "submodules/manta"]
+	path = submodules/manta
+	url = https://github.com/Manta-Network/Manta.git
+[submodule "submodules/kilt"]
+	path = submodules/kilt
+	url = https://github.com/KILTprotocol/kilt-node.git
+[submodule "submodules/peaq"]
+	path = submodules/peaq
+	url = https://github.com/peaqnetwork/peaq-network-node.git
+[submodule "submodules/invarch"]
+	path = submodules/invarch
+	url = https://github.com/InvArch/InvArch-Node.git
+[submodule "submodules/continuum"]
+	path = submodules/continuum
+	url = https://github.com/bit-country/Metaverse-Network.git
+[submodule "submodules/logion"]
+	path = submodules/logion
+	url = https://github.com/logion-network/logion-collator.git
+[submodule "submodules/polimec"]
+	path = submodules/polimec
+	url = https://github.com/Polimec/polimec-node.git
+[submodule "submodules/hyperbridge"]
+	path = submodules/hyperbridge
+	url = https://github.com/polytope-labs/hyperbridge.git
