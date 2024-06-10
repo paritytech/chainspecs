@@ -1,5 +1,6 @@
-# Collection of Chain Specification
-[https://paritytech.github.io/chainspecs](https://paritytech.github.io/chainspecs/)
+# Parity Chainspecs Collections
+
+Source repository: [github.com/paritytech/chainspecs](https://github.com/paritytech/chainspecs)
 
 A chain specification, or "chainspec", is a collection of configuration information that dictates which network a blockchain node will connect to, which entities it will initially communicate with, and what consensus-critical state it must have at genesis.
 
