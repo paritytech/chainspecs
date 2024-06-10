@@ -22,7 +22,7 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Polkadot Clover](polkadot/parachain/clover/chainspec.json)
 - [Polkadot Moonbeam](polkadot/parachain/moonbeam/chainspec.json)
 - [Polkadot Astar](polkadot/parachain/astar/chainspec.json)
-- Polkadot Crust <!--- Need to fix repo  https://github.com/crustio/crust/issues/942 -->
+- [Polkadot Crust](polkadot/parachain/crust/chainspec.json)
 - [Polkadot Parallel](polkadot/parachain/parallel/chainspec.json)
 - [Polkadot Litentry](polkadot/parachain/litentry/chainspec.json)
 - [Polkadot Composable](polkadot/parachain/composable/chainspec.json)

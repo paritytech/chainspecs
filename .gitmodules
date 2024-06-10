@@ -17,10 +17,9 @@
 [submodule "submodules/astar"]
 	path = submodules/astar
 	url = https://github.com/AstarNetwork/Astar.git
-; https://github.com/crustio/crust/issues/942
-; [submodule "submodules/crust"]
-; 	path = submodules/crust
-; 	url = https://github.com/crustio/crust.git
+[submodule "submodules/crust"]
+	path = submodules/crust
+	url = https://github.com/crustio/crust.git
 [submodule "submodules/parallel"]
 	path = submodules/parallel
 	url = https://github.com/parallel-finance/specs.git
