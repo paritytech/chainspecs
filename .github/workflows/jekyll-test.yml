@@ -1,0 +1,17 @@
+name: Jekyll Test
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Build Jekyll site
+      uses: actions/jekyll-build-pages@v1
