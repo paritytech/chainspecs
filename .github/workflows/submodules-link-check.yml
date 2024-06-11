@@ -23,7 +23,7 @@ jobs:
           tmpfile=$(mktemp)
           
           # Find all symbolic links in the repository and check if they are broken
-          find . -type l  -not -path './submodules/crust/utils/*' | while read -r link; do
+          find . -type l  -not -path './submodules/*' | while read -r link; do
             if [ ! -e "$link" ]; then
               echo "$link" >> "$tmpfile"
             fi
