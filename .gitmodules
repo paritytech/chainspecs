@@ -137,3 +137,15 @@
 [submodule "submodules/kabocha"]
 	path = submodules/kabocha
 	url = https://github.com/kabocha-network/parachain.git
+[submodule "submodules/oak"]
+	path = submodules/oak
+	url = https://github.com/AvaProtocol/OAK-blockchain.git
+[submodule "submodules/bajun"]
+	path = submodules/bajun
+	url = https://github.com/ajuna-network/bajun-parachain.git
+[submodule "submodules/gm"]
+	path = submodules/gm
+	url = https://github.com/GMorDIE/gm-chain.git
+[submodule "submodules/acurast"]
+	path = submodules/acurast
+	url = https://github.com/Acurast/acurast-substrate.git

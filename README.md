@@ -92,6 +92,14 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Kusama Litmus](kusama/parachain/litmus/chainspec.json)
 - Kusama Mangata
 - [Kusama Kabocha](kusama/parachain/kabocha/chainspec.json)
+- [Kusama Turing Network](kusama/parachain/turing/chainspec.json)
+- [Kusama Bajun Network](kusama/parachain/bajun/chainspec.json)
+- Kusama Imbue Network
+- [Kusama GM](kusama/parachain/gm/chainspec.json)
+- [Kusama InvArch Tinkernet](kusama/parachain/invarch/chainspec.json)
+- Kusama DAO IPCI
+- Kusama ZERO Canary
+- [Kusama Acurast Canary](kusama/parachain/acurast/chainspec.json)
 
 
 ### Paseo
