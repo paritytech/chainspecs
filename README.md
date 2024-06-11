@@ -17,7 +17,6 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Polkadot AssetHub](polkadot/parachain/asset-hub/chainspec.json)
 - [Polkadot BridgeHub](polkadot/parachain/bridge-hub/chainspec.json)
 - [Polkadot Collectives](polkadot/parachain/collectives/chainspec.json)
-
 - [Polkadot Acala](polkadot/parachain/acala/chainspec.json)
 - [Polkadot Clover](polkadot/parachain/clover/chainspec.json)
 - [Polkadot Moonbeam](polkadot/parachain/moonbeam/chainspec.json)
@@ -73,6 +72,16 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Kusama BridgeHub](kusama/parachain/bridge-hub/chainspec.json)
 - [Kusama Coretime](kusama/parachain/coretime/chainspec.json)
 - [Kusama People](kusama/parachain/people/chainspec.json)
+- [Kusama Encointer](kusama/parachain/encointer/chainspec.json)
+- [Kusama Karura](kusama/parachain/karura/chainspec.json)
+- [Kusama Bifrost](kusama/parachain/bifrost/chainspec.json)
+- [Kusama Khala](kusama/parachain/khala/chainspec.json)
+- [Kusama Shiden](kusama/parachain/shiden/chainspec.json)
+- [Kusama SORA](kusama/parachain/sora/chainspec.json)
+- Kusama Crust
+- [Kusama Moonriver](kusama/parachain/moonriver/chainspec.json)
+- Kusama Genshiro
+- [Kusama Robonomics](kusama/parachain/robonomics/chainspec.json)
 
 
 ### Paseo

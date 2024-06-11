@@ -122,3 +122,12 @@
 [submodule "submodules/hyperbridge"]
 	path = submodules/hyperbridge
 	url = https://github.com/polytope-labs/hyperbridge.git
+[submodule "submodules/encointer"]
+	path = submodules/encointer
+	url = https://github.com/encointer/encointer-parachain.git
+[submodule "submodules/khala"]
+	path = submodules/khala
+	url = https://github.com/Phala-Network/khala-parachain.git
+[submodule "submodules/robonomics"]
+	path = submodules/robonomics
+	url = https://github.com/airalab/robonomics.git
