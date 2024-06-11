@@ -100,6 +100,20 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - Kusama DAO IPCI
 - Kusama ZERO Canary
 - [Kusama Acurast Canary](kusama/parachain/acurast/chainspec.json)
+- [Kusama Krest](kusama/parachain/krest/chainspec.json)
+- [Kusama Quantum Portal Network](kusama/parachain/quantum/chainspec.json)
+- [Kusama Kreivo - By Virto](kusama/parachain/kreivo/chainspec.json)
+- [Kusama t1rn](kusama/parachain/t1rn/chainspec.json)
+- [Kusama K-Laos](kusama/parachain/klaos/chainspec.json)
+- Kusama Curio
+- [Kusama Hyperbridge (Messier)](kusama/parachain/messier/chainspec.json)
+- Kusama Xode
+- Kusama Yerba Network
+- 2,233
+- 2,275
+- 3,338
+- 3,343
+- 3,350
 
 
 ### Paseo

@@ -149,3 +149,12 @@
 [submodule "submodules/acurast"]
 	path = submodules/acurast
 	url = https://github.com/Acurast/acurast-substrate.git
+[submodule "submodules/ferrumnet"]
+	path = submodules/ferrumnet
+	url = https://github.com/ferrumnet/ferrum-network.git
+[submodule "submodules/virto"]
+	path = submodules/virto
+	url = https://github.com/virto-network/virto-node.git
+[submodule "submodules/laos"]
+	path = submodules/laos
+	url = https://github.com/freeverseio/laos.git
