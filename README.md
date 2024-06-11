@@ -1,4 +1,4 @@
-# Parity Chainspecs Collections
+# Chainspecs Collections
 
 Source repository: [github.com/paritytech/chainspecs](https://github.com/paritytech/chainspecs)
 
@@ -7,9 +7,12 @@ A chain specification, or "chainspec", is a collection of configuration informat
 ## Usage 
 You can download chainspec and save it as `chainspec.json` file, then start the substrate node with the `--chain ./chainspec.json` flag.
 
-> Note: for some nodes, you may save chainspec with a different name [see](https://github.com/PureStake/moonbeam/issues/1104#issuecomment-996787548)
+> ⚠️ For some nodes, you may save chainspec with a different name [see](https://github.com/PureStake/moonbeam/issues/1104#issuecomment-996787548)
 
-> Note: for production, it is better to use chainspec provided in binary, ( example: `--chain kusama`) this repo is designed for test networks that reset often.
+> ⚠️ For production, it is better to use the chainspec provided in the binary (e.g., `--chain kusama`). This repo is designed to contain the latest chainspecs before release (for test purposes).
+
+> ⚠️ All chainspecs are sourced from the default development branch, **not** the last release.
+> Source repositories (git submodules) are updated once a week.
 
 # List of Chainspecs
 ### Polkadot
