@@ -131,3 +131,9 @@
 [submodule "submodules/robonomics"]
 	path = submodules/robonomics
 	url = https://github.com/airalab/robonomics.git
+[submodule "submodules/basilisk"]
+	path = submodules/basilisk
+	url = https://github.com/galacticcouncil/Basilisk-node.git
+[submodule "submodules/kabocha"]
+	path = submodules/kabocha
+	url = https://github.com/kabocha-network/parachain.git

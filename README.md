@@ -82,6 +82,16 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Kusama Moonriver](kusama/parachain/moonriver/chainspec.json)
 - Kusama Genshiro
 - [Kusama Robonomics](kusama/parachain/robonomics/chainspec.json)
+- [Kusama Calamari](kusama/parachain/calamari/chainspec.json)
+- [Kusama Parallel Heiko](kusama/parachain/heiko/chainspec.json)
+- [Kusama Picasso](kusama/parachain/picasso/chainspec.json)
+- [Kusama Basilisk](kusama/parachain/basilisk/chainspec.json)
+- [Kusama QUARTZ by UNIQUE](kusama/parachain/quartz/chainspec.json)
+- [Kusama Pioneer](kusama/parachain/pioneer/chainspec.json)
+- [Kusama Crab](kusama/parachain/crab/chainspec.json)
+- [Kusama Litmus](kusama/parachain/litmus/chainspec.json)
+- Kusama Mangata
+- [Kusama Kabocha](kusama/parachain/kabocha/chainspec.json)
 
 
 ### Paseo
