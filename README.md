@@ -1,4 +1,4 @@
-# Parity Chainspecs Collections
+# Chainspecs Collections
 
 Source repository: [github.com/paritytech/chainspecs](https://github.com/paritytech/chainspecs)
 
@@ -7,9 +7,12 @@ A chain specification, or "chainspec", is a collection of configuration informat
 ## Usage 
 You can download chainspec and save it as `chainspec.json` file, then start the substrate node with the `--chain ./chainspec.json` flag.
 
-> Note: for some nodes, you may save chainspec with a different name [see](https://github.com/PureStake/moonbeam/issues/1104#issuecomment-996787548)
+> ⚠️ For some nodes, you may save chainspec with a different name [see](https://github.com/PureStake/moonbeam/issues/1104#issuecomment-996787548)
 
-> Note: for production, it is better to use chainspec provided in binary, ( example: `--chain kusama`) this repo is designed for test networks that reset often.
+> ⚠️ For production, it is better to use the chainspec provided in the binary (e.g., `--chain kusama`). This repo is designed to contain the latest chainspecs before release (for test purposes).
+
+> ⚠️ All chainspecs are sourced from the default development branch, **not** the last release.
+> Source repositories (git submodules) are updated once a week.
 
 # List of Chainspecs
 ### Polkadot
@@ -17,7 +20,6 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Polkadot AssetHub](polkadot/parachain/asset-hub/chainspec.json)
 - [Polkadot BridgeHub](polkadot/parachain/bridge-hub/chainspec.json)
 - [Polkadot Collectives](polkadot/parachain/collectives/chainspec.json)
-
 - [Polkadot Acala](polkadot/parachain/acala/chainspec.json)
 - [Polkadot Clover](polkadot/parachain/clover/chainspec.json)
 - [Polkadot Moonbeam](polkadot/parachain/moonbeam/chainspec.json)
@@ -73,6 +75,48 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Kusama BridgeHub](kusama/parachain/bridge-hub/chainspec.json)
 - [Kusama Coretime](kusama/parachain/coretime/chainspec.json)
 - [Kusama People](kusama/parachain/people/chainspec.json)
+- [Kusama Encointer](kusama/parachain/encointer/chainspec.json)
+- [Kusama Karura](kusama/parachain/karura/chainspec.json)
+- [Kusama Bifrost](kusama/parachain/bifrost/chainspec.json)
+- [Kusama Khala](kusama/parachain/khala/chainspec.json)
+- [Kusama Shiden](kusama/parachain/shiden/chainspec.json)
+- [Kusama SORA](kusama/parachain/sora/chainspec.json)
+- Kusama Crust
+- [Kusama Moonriver](kusama/parachain/moonriver/chainspec.json)
+- Kusama Genshiro
+- [Kusama Robonomics](kusama/parachain/robonomics/chainspec.json)
+- [Kusama Calamari](kusama/parachain/calamari/chainspec.json)
+- [Kusama Parallel Heiko](kusama/parachain/heiko/chainspec.json)
+- [Kusama Picasso](kusama/parachain/picasso/chainspec.json)
+- [Kusama Basilisk](kusama/parachain/basilisk/chainspec.json)
+- [Kusama QUARTZ by UNIQUE](kusama/parachain/quartz/chainspec.json)
+- [Kusama Pioneer](kusama/parachain/pioneer/chainspec.json)
+- [Kusama Crab](kusama/parachain/crab/chainspec.json)
+- [Kusama Litmus](kusama/parachain/litmus/chainspec.json)
+- Kusama Mangata
+- [Kusama Kabocha](kusama/parachain/kabocha/chainspec.json)
+- [Kusama Turing Network](kusama/parachain/turing/chainspec.json)
+- [Kusama Bajun Network](kusama/parachain/bajun/chainspec.json)
+- Kusama Imbue Network
+- [Kusama GM](kusama/parachain/gm/chainspec.json)
+- [Kusama InvArch Tinkernet](kusama/parachain/invarch/chainspec.json)
+- Kusama DAO IPCI
+- Kusama ZERO Canary
+- [Kusama Acurast Canary](kusama/parachain/acurast/chainspec.json)
+- [Kusama Krest](kusama/parachain/krest/chainspec.json)
+- [Kusama Quantum Portal Network](kusama/parachain/quantum/chainspec.json)
+- [Kusama Kreivo - By Virto](kusama/parachain/kreivo/chainspec.json)
+- [Kusama t1rn](kusama/parachain/t1rn/chainspec.json)
+- [Kusama K-Laos](kusama/parachain/klaos/chainspec.json)
+- Kusama Curio
+- [Kusama Hyperbridge (Messier)](kusama/parachain/messier/chainspec.json)
+- Kusama Xode
+- Kusama Yerba Network
+- 2,233
+- 2,275
+- 3,338
+- 3,343
+- 3,350
 
 
 ### Paseo

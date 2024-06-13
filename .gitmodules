@@ -122,3 +122,39 @@
 [submodule "submodules/hyperbridge"]
 	path = submodules/hyperbridge
 	url = https://github.com/polytope-labs/hyperbridge.git
+[submodule "submodules/encointer"]
+	path = submodules/encointer
+	url = https://github.com/encointer/encointer-parachain.git
+[submodule "submodules/khala"]
+	path = submodules/khala
+	url = https://github.com/Phala-Network/khala-parachain.git
+[submodule "submodules/robonomics"]
+	path = submodules/robonomics
+	url = https://github.com/airalab/robonomics.git
+[submodule "submodules/basilisk"]
+	path = submodules/basilisk
+	url = https://github.com/galacticcouncil/Basilisk-node.git
+[submodule "submodules/kabocha"]
+	path = submodules/kabocha
+	url = https://github.com/kabocha-network/parachain.git
+[submodule "submodules/oak"]
+	path = submodules/oak
+	url = https://github.com/AvaProtocol/OAK-blockchain.git
+[submodule "submodules/bajun"]
+	path = submodules/bajun
+	url = https://github.com/ajuna-network/bajun-parachain.git
+[submodule "submodules/gm"]
+	path = submodules/gm
+	url = https://github.com/GMorDIE/gm-chain.git
+[submodule "submodules/acurast"]
+	path = submodules/acurast
+	url = https://github.com/Acurast/acurast-substrate.git
+[submodule "submodules/ferrumnet"]
+	path = submodules/ferrumnet
+	url = https://github.com/ferrumnet/ferrum-network.git
+[submodule "submodules/virto"]
+	path = submodules/virto
+	url = https://github.com/virto-network/virto-node.git
+[submodule "submodules/laos"]
+	path = submodules/laos
+	url = https://github.com/freeverseio/laos.git
