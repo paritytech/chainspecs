@@ -2,7 +2,7 @@
 `
  1. Run following script to generate chainspec.json:
 ```
-DOCKER_IMAGE=harbor.parity-mgmt.parity.io/parity-internal/mythical-node:main-296e03cb
+DOCKER_IMAGE=registry.parity.io/parity-internal/mythical-node:main-296e03cb
 
 # 1. generate base chainspec  
 docker run $DOCKER_IMAGE /usr/bin/mythical-node build-spec --chain mainnet-dev  > ./mythical-base.json
