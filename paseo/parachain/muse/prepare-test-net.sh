@@ -52,10 +52,12 @@ CHAINSPEC='{
   "relay_chain": "paseo",
   "genesis": {
     "runtimeGenesis": {
-      "collatorSelection": {
-        '"${INVULNERABLES}"'
-      },
-      '"${SESSION}"'
+      "patch": {
+        "collatorSelection": {
+          '"${INVULNERABLES}"'
+        },
+        '"${SESSION}"'
+      }
     }
   }
 }
