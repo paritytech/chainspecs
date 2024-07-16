@@ -122,6 +122,7 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 ### Paseo
 - [Paseo](paseo/relaychain/chainspec.json)
 - [Paseo AssetHub](paseo/parachain/asset-hub/chainspec.json)
+- [Paseo Muse](paseo/parachain/muse/chainspec.json)
 
 ### Rococo
 - [Rococo](rococo/relaychain/chainspec.json)
