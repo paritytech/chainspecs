@@ -1,6 +1,6 @@
 {
-  "name": "Muse Testnet",
-  "id": "muse",
+  "name": "Muse Paseo",
+  "id": "muse-paseo",
   "chainType": "Live",
   "bootNodes": [
     "/dns/paseo-muse-collator-node-0.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWB8giN3F91u8Z9umKGSAgPChaZGw6hgS2dasB8EGD8Mpn",
