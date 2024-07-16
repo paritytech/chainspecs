@@ -49,7 +49,7 @@ BOOTNODES+="]"
 
 CHAINSPEC='{
   '"${BOOTNODES}"',
-  "relay_chain": "rococo",
+  "relay_chain": "paseo",
   "genesis": {
     "runtimeGenesis": {
       "collatorSelection": {

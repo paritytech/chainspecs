@@ -14,7 +14,7 @@
     "tokenDecimals": 18,
     "tokenSymbol": "MUSE"
   },
-  "relay_chain": "rococo",
+  "relay_chain": "paseo",
   "para_id": 3369,
   "codeSubstitutes": {},
   "genesis": {
