@@ -55,14 +55,14 @@
               "0xe6b4f55209a70384db3d147c06b99e32feb03d6f",
               "0xe6b4f55209a70384db3d147c06b99e32feb03d6f",
               {
-                "aura": "5HHCdHjbeyuVhbjyXTM7NKuHj7ZkaTfkNGQB8gmUbBWxSCBZ"
+                "aura": "5Fn7MvvQsPm7rESaa6zALjrdHpfvtH4vDNUxZCUheynW3TEC"
               }
             ],
             [
               "0xe07113e692708775d0cc39e00fe7f2974bff4e20",
               "0xe07113e692708775d0cc39e00fe7f2974bff4e20",
               {
-                "aura": "5H8zB54i2nAdz79N5RvcSiwsNfpmgVojfyQ41QbPVynjFzjK"
+                "aura": "5DyhdTzSGahEKN5WWELMMJRBQx8zwQiG7aVjUgtNgo3tGhkb"
               }
             ]
           ]
@@ -70,30 +70,6 @@
         "sudo": {
           "key": "0x8cc95e7dfa96a86d728d2e6eb86400defbb56c90"
         }
-      },
-      "collatorSelection": {
-        "invulnerables": [
-          "0xe6b4f55209a70384db3d147c06b99e32feb03d6f",
-          "0xe07113e692708775d0cc39e00fe7f2974bff4e20"
-        ]
-      },
-      "session": {
-        "keys": [
-          [
-            "0xe6b4f55209a70384db3d147c06b99e32feb03d6f",
-            "0xe6b4f55209a70384db3d147c06b99e32feb03d6f",
-            {
-              "aura": "5Fn7MvvQsPm7rESaa6zALjrdHpfvtH4vDNUxZCUheynW3TEC"
-            }
-          ],
-          [
-            "0xe07113e692708775d0cc39e00fe7f2974bff4e20",
-            "0xe07113e692708775d0cc39e00fe7f2974bff4e20",
-            {
-              "aura": "5DyhdTzSGahEKN5WWELMMJRBQx8zwQiG7aVjUgtNgo3tGhkb"
-            }
-          ]
-        ]
       }
     }
   }

@@ -8,29 +8,31 @@
   "relay_chain": "paseo",
   "genesis": {
     "runtimeGenesis": {
-      "collatorSelection": {
-        "invulnerables": [
-          "0xe6b4f55209a70384db3d147c06b99e32feb03d6f",
-          "0xe07113e692708775d0cc39e00fe7f2974bff4e20"
-        ]
-      },
-      "session": {
-        "keys": [
-          [
+      "patch": {
+        "collatorSelection": {
+          "invulnerables": [
             "0xe6b4f55209a70384db3d147c06b99e32feb03d6f",
-            "0xe6b4f55209a70384db3d147c06b99e32feb03d6f",
-            {
-              "aura": "5Fn7MvvQsPm7rESaa6zALjrdHpfvtH4vDNUxZCUheynW3TEC"
-            }
-          ],
-          [
-            "0xe07113e692708775d0cc39e00fe7f2974bff4e20",
-            "0xe07113e692708775d0cc39e00fe7f2974bff4e20",
-            {
-              "aura": "5DyhdTzSGahEKN5WWELMMJRBQx8zwQiG7aVjUgtNgo3tGhkb"
-            }
+            "0xe07113e692708775d0cc39e00fe7f2974bff4e20"
           ]
-        ]
+        },
+        "session": {
+          "keys": [
+            [
+              "0xe6b4f55209a70384db3d147c06b99e32feb03d6f",
+              "0xe6b4f55209a70384db3d147c06b99e32feb03d6f",
+              {
+                "aura": "5Fn7MvvQsPm7rESaa6zALjrdHpfvtH4vDNUxZCUheynW3TEC"
+              }
+            ],
+            [
+              "0xe07113e692708775d0cc39e00fe7f2974bff4e20",
+              "0xe07113e692708775d0cc39e00fe7f2974bff4e20",
+              {
+                "aura": "5DyhdTzSGahEKN5WWELMMJRBQx8zwQiG7aVjUgtNgo3tGhkb"
+              }
+            ]
+          ]
+        }
       }
     }
   }
