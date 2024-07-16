@@ -3,7 +3,7 @@
     "/dns/paseo-muse-collator-node-0.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWB8giN3F91u8Z9umKGSAgPChaZGw6hgS2dasB8EGD8Mpn",
     "/dns/paseo-muse-collator-node-1.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWS8mvwnF1GXT3JkSgtXsmS43xd6528qkmytSxYdHwMBR5"
   ],
-  "relay_chain": "rococo",
+  "relay_chain": "paseo",
   "genesis": {
     "runtimeGenesis": {
       "collatorSelection": {
