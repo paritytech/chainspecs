@@ -130,7 +130,6 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Rococo Bridge-Hub](rococo/parachain/bridge-hub/chainspec.json)
 - [Rococo Contracts](rococo/parachain/contracts/chainspec.json)
 - [Rococo Coretime](rococo/parachain/coretime/chainspec.json)
-- [Rococo Muse](rococo/parachain/mythical/chainspec.json)
 - [Rococo People](rococo/parachain/people/chainspec.json)
 
 ### Westend
