@@ -62,6 +62,7 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Polkadot Logion](polkadot/parachain/logion/chainspec.json)
 - [Polkadot Hyperbridge (Nexus)](polkadot/parachain/hyperbridge/chainspec.json)
 - [Polkadot Mythos](polkadot/parachain/mythos/chainspec.json)
+- [Polkadot Laos](polkadot/parachain/laos/chainspec.json)
 - 2,003
 - 2,055
 - 2,106
@@ -107,7 +108,6 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Kusama Quantum Portal Network](kusama/parachain/quantum/chainspec.json)
 - [Kusama Kreivo - By Virto](kusama/parachain/kreivo/chainspec.json)
 - [Kusama t1rn](kusama/parachain/t1rn/chainspec.json)
-- [Kusama K-Laos](kusama/parachain/klaos/chainspec.json)
 - Kusama Curio
 - [Kusama Hyperbridge (Messier)](kusama/parachain/messier/chainspec.json)
 - Kusama Xode
