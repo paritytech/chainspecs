@@ -93,7 +93,7 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Kusama QUARTZ by UNIQUE](kusama/parachain/quartz/chainspec.json)
 - [Kusama Pioneer](kusama/parachain/pioneer/chainspec.json)
 - [Kusama Crab](kusama/parachain/crab/chainspec.json)
-- [Kusama Litmus](kusama/parachain/litmus/chainspec.json)
+- Kusama Litmus (removed https://github.com/litentry/litentry-parachain/pull/3018)
 - Kusama Mangata
 - [Kusama Kabocha](kusama/parachain/kabocha/chainspec.json)
 - [Kusama Turing Network](kusama/parachain/turing/chainspec.json)
