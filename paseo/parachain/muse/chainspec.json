@@ -3,8 +3,10 @@
   "id": "muse",
   "chainType": "Live",
   "bootNodes": [
-    "/dns/rococo-muse-collator-node-0.polkadot.io/tcp/30333/p2p/12D3KooWMQz93xtrqmzMMB27Gk9cAG3vsZF7WHUDcAWQv57R5YkP",
-    "/dns/rococo-muse-collator-node-1.polkadot.io/tcp/30333/p2p/12D3KooWFueUcDTkP9tJGCVFancDM3LgDBKEFpvr3jEzoXdMebdM"
+    "/dns/paseo-muse-collator-node-0.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWB8giN3F91u8Z9umKGSAgPChaZGw6hgS2dasB8EGD8Mpn",
+    "/dns/paseo-muse-collator-node-1.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWS8mvwnF1GXT3JkSgtXsmS43xd6528qkmytSxYdHwMBR5",
+    "/dns/paseo-muse-collator-node-0.parity-testnet.parity.io/tcp/443/wss/p2p/12D3KooWB8giN3F91u8Z9umKGSAgPChaZGw6hgS2dasB8EGD8Mpn",
+    "/dns/paseo-muse-collator-node-1.parity-testnet.parity.io/tcp/443/wss/p2p/12D3KooWS8mvwnF1GXT3JkSgtXsmS43xd6528qkmytSxYdHwMBR5"
   ],
   "telemetryEndpoints": null,
   "protocolId": "muse",
