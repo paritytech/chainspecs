@@ -77,6 +77,7 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Kusama Coretime](kusama/parachain/coretime/chainspec.json)
 - [Kusama People](kusama/parachain/people/chainspec.json)
 - [Kusama Encointer](kusama/parachain/encointer/chainspec.json)
+- [Kusama Integritee](kusama/parachain/integritee/chainspec.json)
 - [Kusama Karura](kusama/parachain/karura/chainspec.json)
 - [Kusama Bifrost](kusama/parachain/bifrost/chainspec.json)
 - [Kusama Khala](kusama/parachain/khala/chainspec.json)
