@@ -123,9 +123,6 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 ### Paseo
 - [Paseo](paseo/relaychain/chainspec.json)
 - [Paseo AssetHub](paseo/parachain/asset-hub/chainspec.json)
-- [Paseo BridgeHub](paseo/parachain/bridge-hub/chainspec.json)
-- [Paseo Coretime](paseo/parachain/coretime/chainspec.json)
-- [Paseo People](paseo/parachain/people/chainspec.json)
 - [Paseo Muse](paseo/parachain/muse/chainspec.json)
 
 ### Westend
