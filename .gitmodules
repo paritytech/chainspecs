@@ -1,9 +1,6 @@
 [submodule "submodules/polkadot-sdk"]
 	path = submodules/polkadot-sdk
 	url = https://github.com/paritytech/polkadot-sdk.git
-[submodule "paseo-runtimes"]
-	path = submodules/paseo-runtimes
-	url = https://github.com/paseo-network/runtimes.git
 [submodule "submodules/acala"]
 	path = submodules/acala
 	url = https://github.com/AcalaNetwork/Acala.git
@@ -158,3 +155,6 @@
 [submodule "submodules/laos"]
 	path = submodules/laos
 	url = https://github.com/freeverseio/laos.git
+[submodule "submodules/paseo-chain-specs"]
+	path = submodules/paseo-chain-specs
+	url = https://github.com/paseo-network/paseo-chain-specs.git
