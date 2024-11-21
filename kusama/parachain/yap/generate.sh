@@ -1,9 +1,12 @@
 set -ex
 
+# Usage:
+# export SEED=xxx
+# for i in  `seq 3360 3388`; do ./generate.sh $i; done
+
+
 PARAID=$1
-#IMAGE=docker.io/paritypr/polkadot-parachain-debug:6089-56f1fe5f
-IMAGE=docker.io/paritypr/polkadot-parachain-debug:6539-10725ea1
-# Need to set manually: SEED
+IMAGE=docker.io/paritypr/polkadot-parachain-debug:6089-0836891c
 
 BASE_DIR=../yap-$PARAID
 BASE_CHAIN="yap-kusama-live-${PARAID}"
