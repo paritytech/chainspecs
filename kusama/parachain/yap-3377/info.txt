@@ -1,4 +1,4 @@
 PARAID=3377
-IMAGE=docker.io/paritypr/polkadot-parachain-debug:6089-0836891c
+IMAGE=docker.io/paritypr/polkadot-parachain-debug:6089-c86d6f60
 BASE_CHAIN=yap-kusama-live-3377
 AUTHORITY=5CZekAGkRMuC5SX2XQ8aKn6tN46VVEiRoJV1NNiSn464nsKA

@@ -6,7 +6,7 @@ set -ex
 
 
 PARAID=$1
-IMAGE=docker.io/paritypr/polkadot-parachain-debug:6089-0836891c
+IMAGE=docker.io/paritypr/polkadot-parachain-debug:6089-c86d6f60
 
 BASE_DIR=../yap-$PARAID
 BASE_CHAIN="yap-kusama-live-${PARAID}"
