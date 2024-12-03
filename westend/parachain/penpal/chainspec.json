@@ -9,7 +9,7 @@
   "telemetryEndpoints": null,
   "protocolId": null,
   "properties": null,
-  "relay_chain": "westend-local",
+  "relay_chain": "westend",
   "para_id": 2042,
   "codeSubstitutes": {},
   "genesis": {
