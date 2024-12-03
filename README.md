@@ -135,4 +135,5 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Westend Collectives](westend/parachain/collectives/chainspec.json)
 - [Westend Coretime](westend/parachain/coretime/chainspec.json)
 - [Westend Muse](westend/parachain/mythical/chainspec.json)
+- [Westend Penpal](westend/parachain/penpal/chainspec.json)
 - [Westend People](westend/parachain/people/chainspec.json)
