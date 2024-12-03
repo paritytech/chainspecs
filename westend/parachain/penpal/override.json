@@ -1,31 +1,31 @@
 {
   "bootNodes": [
-    "/dns/westend-penpal-node-0.parity-testnet.parity.io/tcp/443/wss/p2p/12D3KooWDps6LkkPpxyUJCagbmJDwMHeUznzqxjTwYtBsS3P66EQ",
-    "/dns/westend-penpal-node-1.parity-testnet.parity.io/tcp/443/wss/p2p/12D3KooWLsMQ31RZ9tUENs6bN5y5LqDnaQvfmoGqWSPPBuAgDffY"
+    "/dns/westend-penpal-collator-node-0.parity-testnet.parity.io/tcp/443/wss/p2p/12D3KooWHmHbPU8k1EAwJk6nVrvhALnZtrEnNrEGwbQsiFZJQq62",
+    "/dns/westend-penpal-collator-node-1.parity-testnet.parity.io/tcp/443/wss/p2p/12D3KooWNfLZ3dWkFiMksf4yYjnXwf9rDiJuZgL8oU5RexYMbQqM"
   ],
   "genesis": {
     "runtimeGenesis": {
       "patch": {
         "collatorSelection": {
           "invulnerables": [
-            "5CexzP1XUEifQF66bXPgJ2726JQAFKvWkqbMUU6VjCHyvXeK",
-            "5F4MTnR5HgTGWcPDoeEVe3Q2bVYX4ntXjv5KHPsZrt4hP5Fe"
+            "5CvgCX5FJiN25V6fEDUBsv7sRwZips7cQ3Jev9jbDY5MuaJ3",
+            "5GqFzC6RuSHhhTdpyTh3McpBDuAJfDGkYV3f7mEPwQ2YP11n"
           ]
         },
         "session": {
           "keys": [
             [
-              "5CexzP1XUEifQF66bXPgJ2726JQAFKvWkqbMUU6VjCHyvXeK",
-              "5CexzP1XUEifQF66bXPgJ2726JQAFKvWkqbMUU6VjCHyvXeK",
+              "5CvgCX5FJiN25V6fEDUBsv7sRwZips7cQ3Jev9jbDY5MuaJ3",
+              "5CvgCX5FJiN25V6fEDUBsv7sRwZips7cQ3Jev9jbDY5MuaJ3",
               {
-                "aura": "5CexzP1XUEifQF66bXPgJ2726JQAFKvWkqbMUU6VjCHyvXeK"
+                "aura": "5CvgCX5FJiN25V6fEDUBsv7sRwZips7cQ3Jev9jbDY5MuaJ3"
               }
             ],
             [
-              "5F4MTnR5HgTGWcPDoeEVe3Q2bVYX4ntXjv5KHPsZrt4hP5Fe",
-              "5F4MTnR5HgTGWcPDoeEVe3Q2bVYX4ntXjv5KHPsZrt4hP5Fe",
+              "5GqFzC6RuSHhhTdpyTh3McpBDuAJfDGkYV3f7mEPwQ2YP11n",
+              "5GqFzC6RuSHhhTdpyTh3McpBDuAJfDGkYV3f7mEPwQ2YP11n",
               {
-                "aura": "5F4MTnR5HgTGWcPDoeEVe3Q2bVYX4ntXjv5KHPsZrt4hP5Fe"
+                "aura": "5GqFzC6RuSHhhTdpyTh3McpBDuAJfDGkYV3f7mEPwQ2YP11n"
               }
             ]
           ]

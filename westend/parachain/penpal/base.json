@@ -3,7 +3,7 @@
   "id": "penpal-westend",
   "chainType": "Development",
   "bootNodes": [
-    "/ip4/127.0.0.1/tcp/30333/p2p/12D3KooWMj1j4YeBdUoj2iYLH8hBmnpqNQeibMFkPXpCqgX1K7Gy"
+    "/ip4/127.0.0.1/tcp/30333/p2p/12D3KooWL8oEnVekHyrUQNXwe9U3EYpt4TcSojU3DTE7TA5z98Cc"
   ],
   "telemetryEndpoints": null,
   "protocolId": null,
