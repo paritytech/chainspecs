@@ -16,6 +16,9 @@ jobs:
       with:
         submodules: true
         lfs: true
+    - name: Download Paseo chainspecs
+      run: |
+        wget --directory-prefix=downloads/paseo-chain-specs --input-file=paseo/urls.txt
 
     - name: Build Jekyll site
       uses: actions/jekyll-build-pages@v1

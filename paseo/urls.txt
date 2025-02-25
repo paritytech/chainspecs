@@ -1,0 +1,5 @@
+https://paseo-r2.zondax.ch/chain-specs/paseo-asset-hub.json
+https://paseo-r2.zondax.ch/chain-specs/paseo-bridge-hub.raw.json
+https://paseo-r2.zondax.ch/chain-specs/paseo-coretime.raw.json
+https://paseo-r2.zondax.ch/chain-specs/paseo-people.raw.json
+https://paseo-r2.zondax.ch/chain-specs/paseo.raw.json
