@@ -155,6 +155,3 @@
 [submodule "submodules/laos"]
 	path = submodules/laos
 	url = https://github.com/freeverseio/laos.git
-[submodule "submodules/paseo-chain-specs"]
-	path = submodules/paseo-chain-specs
-	url = https://github.com/paseo-network/paseo-chain-specs.git
