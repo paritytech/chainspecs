@@ -1,0 +1,4 @@
+PARAID=3410
+IMAGE=europe-docker.pkg.dev/parity-ci-2024/temp-images/polkadot-parachain-debug:44ae6a8b
+BASE_CHAIN=yap-kusama-live-3410
+AUTHORITY=5EZ1yBNRZpeaXeU4n4hEUZaQS4GhFq2sr4ZVw36kviytAqH9

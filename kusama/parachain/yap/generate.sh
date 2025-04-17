@@ -1,12 +1,12 @@
 set -ex
 
 # Usage:
-# export SEED=xxx
-# for i in  `seq 3360 3388`; do ./generate.sh $i; done
+# export SEED='xxx'
+# for i in  `seq 3392 3411`; do ./generate.sh $i; done
 
 
 PARAID=$1
-IMAGE=docker.io/paritypr/polkadot-parachain-debug:6089-c86d6f60
+IMAGE=europe-docker.pkg.dev/parity-ci-2024/temp-images/polkadot-parachain-debug:44ae6a8b
 
 BASE_DIR=../yap-$PARAID
 BASE_CHAIN="yap-kusama-live-${PARAID}"
@@ -22,7 +22,7 @@ update_json(){
 
 mkdir -p $BASE_DIR
 echo -e "PARAID=$PARAID\nIMAGE=$IMAGE\nBASE_CHAIN=$BASE_CHAIN" > $BASE_DIR/info.txt
-echo '{"name": "Yap '$PARAID'","id": "yap-'$PARAID'"}' > $BASE_DIR/override1.json
+echo '{"name": "Yap Kusama '$PARAID'","id": "yap-kusama-'$PARAID'"}' > $BASE_DIR/override1.json
 last=0
 for i in `seq 0 $last`; do
   HOSTNAME=kusama-yap-${PARAID}-node-${i}

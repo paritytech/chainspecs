@@ -1,0 +1,18 @@
+{
+  "name": "Yap Polkadot 3419",
+  "id": "yap-polkadot-3419",
+  "bootNodes": [
+    "/dns/polkadot-yap-3419-node-0.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWE73vK5pfJeZQnYm5rgLUt7fHqxcEKBoPGg8PkBg3Xynh"
+  ],
+  "genesis": {
+    "runtimeGenesis": {
+      "patch": {
+        "aura": {
+          "authorities": [
+            "5GuhUqnAWHJwnDPBhTZ7rFBEJpvMvTzeDK8gB2yA9o13Zy2g"
+          ]
+        }
+      }
+    }
+  }
+}
