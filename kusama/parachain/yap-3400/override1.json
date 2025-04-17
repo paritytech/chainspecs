@@ -1,0 +1,18 @@
+{
+  "name": "Yap Kusama 3400",
+  "id": "yap-kusama-3400",
+  "bootNodes": [
+    "/dns/kusama-yap-3400-node-0.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWSKZ9rXaeH4g1SW3tMzV1J4ZTVTcK4xYLkPN5hkC3XPJ8"
+  ],
+  "genesis": {
+    "runtimeGenesis": {
+      "patch": {
+        "aura": {
+          "authorities": [
+            "5Hjfp7BQdb4VBFv6ECtCYEQXaiJFQNpDKgNqYf7buyXQaXhk"
+          ]
+        }
+      }
+    }
+  }
+}

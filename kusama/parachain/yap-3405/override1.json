@@ -1,0 +1,18 @@
+{
+  "name": "Yap Kusama 3405",
+  "id": "yap-kusama-3405",
+  "bootNodes": [
+    "/dns/kusama-yap-3405-node-0.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWNgfy7WvQZESpVp6t9roJiLeg8BQSSCghHpa8nJ8ukAH9"
+  ],
+  "genesis": {
+    "runtimeGenesis": {
+      "patch": {
+        "aura": {
+          "authorities": [
+            "5ERy69HnuqPmmK3bTvfEtm9fAy2HVqmeciuQukeCxajPv7GG"
+          ]
+        }
+      }
+    }
+  }
+}
