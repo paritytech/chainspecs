@@ -19,7 +19,7 @@
         "collatorSelection": {
           "candidacyBond": 16000000000,
           "invulnerables": [
-            "5GH7AoR6ucYrqnTdtwhnVUS9GLK5DV11WTEXhYPesJNPMAwt"
+            "5HYyRfAuwqKbiA7kmUaGjz2Qy6TT9N2NfLf63jBCZ51wKrXF"
           ]
         },
         "parachainInfo": {
@@ -31,10 +31,10 @@
         "session": {
           "keys": [
             [
-              "5GH7AoR6ucYrqnTdtwhnVUS9GLK5DV11WTEXhYPesJNPMAwt",
-              "5GH7AoR6ucYrqnTdtwhnVUS9GLK5DV11WTEXhYPesJNPMAwt",
+              "5HYyRfAuwqKbiA7kmUaGjz2Qy6TT9N2NfLf63jBCZ51wKrXF",
+              "5HYyRfAuwqKbiA7kmUaGjz2Qy6TT9N2NfLf63jBCZ51wKrXF",
               {
-                "aura": "5GH7AoR6ucYrqnTdtwhnVUS9GLK5DV11WTEXhYPesJNPMAwt"
+                "aura": "5HYyRfAuwqKbiA7kmUaGjz2Qy6TT9N2NfLf63jBCZ51wKrXF"
               }
             ]
           ]
