@@ -44,7 +44,6 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Polkadot Ajuna](polkadot/parachain/ajuna/chainspec.json)
 - [Polkadot OmniBTC](polkadot/parachain/omnibtc/chainspec.json)
 - [Polkadot Aventus](polkadot/parachain/aventus/chainspec.json)
-- [Polkadot Watr](polkadot/parachain/watr/chainspec.json)
 - Polkadot OAK
 - [Polkadot KILT Spiritnet](polkadot/parachain/kilt/chainspec.json)
 - [Polkadot Frequency](polkadot/parachain/frequency/chainspec.json)
@@ -126,6 +125,7 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Paseo BridgeHub](paseo/parachain/bridge-hub/chainspec.json)
 - [Paseo Coretime](paseo/parachain/coretime/chainspec.json)
 - [Paseo People](paseo/parachain/people/chainspec.json)
+- [Paseo People Next](paseo/parachain/people-next/chainspec.json)
 - [Paseo Muse](paseo/parachain/muse/chainspec.json)
 
 ### Westend

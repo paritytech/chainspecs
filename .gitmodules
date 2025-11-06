@@ -74,9 +74,6 @@
 [submodule "submodules/aventus"]
 	path = submodules/aventus
 	url = https://github.com/AventusProtocolFoundation/avn-node-parachain.git
-[submodule "submodules/watr"]
-	path = submodules/watr
-	url = https://github.com/Watr-Protocol/watr.git
 [submodule "submodules/hashed"]
 	path = submodules/hashed
 	url = https://github.com/hashed-io/hashed-substrate-parachain.git
