@@ -9,7 +9,7 @@
     "raw": {
       "childrenDefault": {},
       "top": {
-        "0x0d715f2646c8f85767b5d2764bb2782604a74d81251e398fd8a0a4d55023bb3f": "0xae080000",
+        "0x0d715f2646c8f85767b5d2764bb2782604a74d81251e398fd8a0a4d55023bb3f": "0xb7090000",
         "0x0d715f2646c8f85767b5d2764bb278264e7b9012096b41c4eb3aaf947f6ea429": "0x0000",
         "0x0e7b504e5df47062be129a8958a7a1271689c014e0a5b9a8ca8aafdff753c41c": "0xe8030000000000000000000000000000",
         "0x0e7b504e5df47062be129a8958a7a1274e7b9012096b41c4eb3aaf947f6ea429": "0x0000",
@@ -64,7 +64,7 @@
   },
   "id": "bulletin-westend",
   "name": "Westend Bulletin",
-  "para_id": 2222,
+  "para_id": 2487,
   "properties": {
     "tokenDecimals": 12,
     "tokenSymbol": "BLTN"

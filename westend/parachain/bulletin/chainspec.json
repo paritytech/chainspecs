@@ -13,7 +13,7 @@
     "tokenSymbol": "BLTN"
   },
   "relay_chain": "westend",
-  "para_id": 2222,
+  "para_id": 2487,
   "codeSubstitutes": {},
   "genesis": {
     "runtimeGenesis": {
@@ -39,7 +39,7 @@
           ]
         },
         "parachainInfo": {
-          "parachainId": 2222
+          "parachainId": 2487
         },
         "polkadotXcm": {
           "safeXcmVersion": 5
