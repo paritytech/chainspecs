@@ -10,7 +10,7 @@
   "protocolId": null,
   "properties": {
     "tokenDecimals": 12,
-    "tokenSymbol": "BLTN"
+    "tokenSymbol": "WND"
   },
   "relay_chain": "westend",
   "para_id": 2487,
@@ -27,6 +27,10 @@
             ],
             [
               "5DwCdEUucQwbfRmC6hmRQE2U3XqgP9N7o69A9nBViPY8hnuL",
+              1000000000000000000
+            ],
+            [
+              "5C7gTm4UGHkaS1TpjdJ5T8fS52PM6zRWcXW6BQSWMEtNnzMa",
               1000000000000000000
             ]
           ]
