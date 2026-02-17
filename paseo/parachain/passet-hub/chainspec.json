@@ -1,6 +1,8 @@
 {
   "bootNodes": [
-    "/dns/paseo-passet-hub-collator-node-0.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWRYpkLtt6YyvkZKiG2st1oPAgivi3ZfeSRk1w53PjyzwP"
+    "/dns/paseo-passet-hub-collator-node-0.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWRYpkLtt6YyvkZKiG2st1oPAgivi3ZfeSRk1w53PjyzwP",
+    "/dns/passet-hub-paseo-boot-ng.dwellir.com/tcp/30381/p2p/12D3KooWBRMvjrFHqAvzSjUxj8wJi32jFLo3jmehMj1pkGysh9K2",
+    "/dns/passet-hub-paseo-boot-ng.dwellir.com/tcp/30333/ws/p2p/12D3KooWBRMvjrFHqAvzSjUxj8wJi32jFLo3jmehMj1pkGysh9K2"
   ],
   "chainType": "Live",
   "codeSubstitutes": {},
