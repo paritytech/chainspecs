@@ -1,6 +1,7 @@
 {
   "bootNodes": [
-    "/dns/paseo-passet-hub-collator-node-0.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWRYpkLtt6YyvkZKiG2st1oPAgivi3ZfeSRk1w53PjyzwP"
+    "/dns/paseo-passet-hub-collator-node-0.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWRYpkLtt6YyvkZKiG2st1oPAgivi3ZfeSRk1w53PjyzwP",
+    "/dns/passet-hub-paseo-01.bootnode.stkd.io/tcp/30633/wss/p2p/12D3KooWNNyKc92XgC9s56XxEVffMKAbdwXWVhmyUwjvcKHt34Ji"
   ],
   "chainType": "Live",
   "codeSubstitutes": {},
