@@ -6,7 +6,7 @@
     "/dns/westend-bulletin-collator-node-0.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWSxYQRoTT9rZNZRrjCfG2fPpBwPumkQsxLroTKjX6Mvkw",
     "/dns/westend-bulletin-collator-node-1.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWSD5tovFkmja9aFYA6QM8eU3mFhZKdAuCsa5MgSsNDmxc"
   ],
-  "telemetryEndpoints": null,
+  "telemetryEndpoints": [["wss://telemetry.polkadot.io/submit/", 0]],
   "protocolId": null,
   "properties": {
     "tokenDecimals": 12,
