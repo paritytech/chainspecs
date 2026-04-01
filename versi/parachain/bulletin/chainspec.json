@@ -1,7 +1,7 @@
 {
   "bootNodes": [
-    "/dns4/versi-bc-3000-node-0/tcp/30333/p2p/12D3KooWKNwmWjk3v1vtojWUpRAVpLvdc71Cwb4xZYZX7vYAH4vF",
-    "/dns4/versi-bc-3000-node-1/tcp/30333/p2p/12D3KooWGuidsWUDchhzSiNGBp74oSs2ZEtFfePQgHJh7gmmRrfC"
+    "/dns4/versi-bc-3000-node-0/tcp/30334/p2p/12D3KooWKNwmWjk3v1vtojWUpRAVpLvdc71Cwb4xZYZX7vYAH4vF",
+    "/dns4/versi-bc-3000-node-1/tcp/30334/p2p/12D3KooWGuidsWUDchhzSiNGBp74oSs2ZEtFfePQgHJh7gmmRrfC"
   ],
   "chainType": "Live",
   "codeSubstitutes": {},
