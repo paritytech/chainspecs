@@ -35,7 +35,7 @@
           ]
         },
         "parachainInfo": {
-          "parachainId": 5118
+          "parachainId": 1501
         },
         "polkadotXcm": {
           "safeXcmVersion": 5
