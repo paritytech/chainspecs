@@ -1,26 +1,17 @@
 {
-  "name": "Paseo Bulletin Next",
-  "id": "next-bulletin-paseo",
-  "chainType": "Live",
   "bootNodes": [
     "/dns4/paseo-bulletin-next-collator-node-0.parity-testnet.parity.io/tcp/443/wss/p2p/12D3KooWDGdPBWpytPdNAXDT2KJWwmPXkxvxyQLGc7pRdFWeZnyB",
     "/dns4/paseo-bulletin-next-collator-node-1.parity-testnet.parity.io/tcp/443/wss/p2p/12D3KooWC45NgktSLMPQafAhi8TMAtiiatnmNc3Qv6wA74u7YBVc",
     "/dns4/paseo-bulletin-next-rpc-node-0.polkadot.io/tcp/443/wss/p2p/12D3KooWS4ptBbHGritdb1T7JPxKT2EN7FXvqq9rUp12jUvjnqQ1",
     "/dns4/paseo-bulletin-next-rpc-node-1.polkadot.io/tcp/443/wss/p2p/12D3KooWKMc4jJsU7fdEsis4AsM8Assk5jFqhEUEa2ZSiWJGKpfv"
   ],
-  "telemetryEndpoints": null,
-  "protocolId": null,
-  "properties": {
-    "tokenDecimals": 10,
-    "tokenSymbol": "PAS"
-  },
-  "relay_chain": "paseo",
-  "para_id": 1501,
+  "chainType": "Live",
   "codeSubstitutes": {},
   "genesis": {
     "raw": {
+      "childrenDefault": {},
       "top": {
-        "0x0d715f2646c8f85767b5d2764bb2782604a74d81251e398fd8a0a4d55023bb3f": "0xfe130000",
+        "0x0d715f2646c8f85767b5d2764bb2782604a74d81251e398fd8a0a4d55023bb3f": "0xdd050000",
         "0x0d715f2646c8f85767b5d2764bb278264e7b9012096b41c4eb3aaf947f6ea429": "0x0000",
         "0x0e7b504e5df47062be129a8958a7a1271689c014e0a5b9a8ca8aafdff753c41c": "0xe8030000000000000000000000000000",
         "0x0e7b504e5df47062be129a8958a7a1274e7b9012096b41c4eb3aaf947f6ea429": "0x0100",
@@ -72,8 +63,17 @@
         "0xe38f185207498abb5c213d0fb059b3d86323ae84c43568be0d1394d5d0d522c4": "0x05000000",
         "0xf0c365c3cf59d671eb72da0e7a4113c44e7b9012096b41c4eb3aaf947f6ea429": "0x0000",
         "0xf52655874ffe10d91f60f35a7739938b4e7b9012096b41c4eb3aaf947f6ea429": "0x0000"
-      },
-      "childrenDefault": {}
+      }
     }
-  }
+  },
+  "id": "next-bulletin-paseo",
+  "name": "Paseo Bulletin Next",
+  "para_id": 1501,
+  "properties": {
+    "tokenDecimals": 10,
+    "tokenSymbol": "PAS"
+  },
+  "protocolId": null,
+  "relay_chain": "paseo",
+  "telemetryEndpoints": null
 }
