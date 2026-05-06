@@ -1,5 +1,10 @@
 {
-  "bootNodes": [],
+  "bootNodes": [
+    "/dns/bulletin.dpstk.de/tcp/30333/p2p/12D3KooWHPmACsPbXDo9n4qjBZqGEqJ7JLG2fvaCWNCMWyysg6vQ",
+    "/dns/bulletin.amperfix.de/tcp/30333/p2p/12D3KooWMc7ZJ6JGiehG1H45JL69QTPivEBnzm8LihkEEFjYMRnr",
+    "/dns/bulletin.dpstk.de/tcp/30335/wss/p2p/12D3KooWHPmACsPbXDo9n4qjBZqGEqJ7JLG2fvaCWNCMWyysg6vQ",
+    "/dns/bulletin.amperfix.de/tcp/30335/wss/p2p/12D3KooWMc7ZJ6JGiehG1H45JL69QTPivEBnzm8LihkEEFjYMRnr"
+  ],
   "chainType": "Live",
   "codeSubstitutes": {},
   "genesis": {
