@@ -1,0 +1,24 @@
+{
+  "name": "Versi",
+  "id": "westend_versi_v1_10",
+  "chainType": "Live",
+  "bootNodes": [
+    "/dns/versi-bootnode-0.parity-versi.parity.io./tcp/30333/p2p/12D3KooWMHy2qkBrpZVv11No8Ysfckab3cCkf1GWMTEVeAz3SQrC",
+    "/dns/versi-bootnode-1.parity-versi.parity.io./tcp/30333/p2p/12D3KooWEQShxW9m9MVecXK5FHq8jaqAqukcjVTkgmnhH61LDMNu"
+  ],
+  "telemetryEndpoints": [
+    [
+      "/dns/telemetry.polkadot.io/tcp/443/x-parity-wss/%2Fsubmit%2F",
+      0
+    ]
+  ],
+  "protocolId": "dot",
+  "properties": null,
+  "forkBlocks": null,
+  "badBlocks": null,
+  "lightSyncState": null,
+  "codeSubstitutes": {},
+  "genesis": {
+    "stateRootHash": "0x9d463b3d611b5ab314d9c9889e2af064e2af21198b5ad41c27f60575e386b47f"
+  }
+}
