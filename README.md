@@ -127,7 +127,8 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Paseo Coretime](paseo/parachain/coretime/chainspec.json)
 - [Paseo People](paseo/parachain/people/chainspec.json)
 - [Paseo People Next](paseo/parachain/people-next/chainspec.json)
-- [Paseo Bulletin](paseo/parachain/bulletin/chainspec.json)
+- [Paseo Bulletin Next](paseo/parachain/bulletin/chainspec.json)
+- [Paseo Bulletin Next v2](paseo/parachain/bulletin-next/chainspec.json)
 - [Paseo Muse](paseo/parachain/muse/chainspec.json)
 
 ### Westend
