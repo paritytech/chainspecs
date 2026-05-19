@@ -3,10 +3,10 @@
   "id": "mythos",
   "chainType": "Live",
   "bootNodes": [
-    "/dns/polkadot-mythos-connect-0.polkadot.io/tcp/30333/p2p/12D3KooWJ3zJMjcReodmHx5KLm9LwbFtLvScncqj89UX5j8VYMUf",
-    "/dns/polkadot-mythos-connect-0.polkadot.io/tcp/443/wss/p2p/12D3KooWJ3zJMjcReodmHx5KLm9LwbFtLvScncqj89UX5j8VYMUf",
-    "/dns/polkadot-mythos-connect-1.polkadot.io/tcp/30333/p2p/12D3KooWLin9rPs8irgJZgFTab6nhQjFSVp6xYTPTrLGrbjZypeu",
-    "/dns/polkadot-mythos-connect-1.polkadot.io/tcp/443/wss/p2p/12D3KooWLin9rPs8irgJZgFTab6nhQjFSVp6xYTPTrLGrbjZypeu"
+    "/ip4/34.6.75.154/tcp/30334/p2p/12D3KooWL7kLBf2AdTmxp9BiKrkGyvoVNvHmuAGdDB9YsKkH6Ac4",
+    "/ip4/34.12.63.85/tcp/30334/p2p/12D3KooWCAZDq4ZWMWNN322REpffeuiCEBh8k7jxemrq5eu98Avx",
+    "/dns/mythos-rpc.dmarket.com/tcp/443/wss/p2p/12D3KooWL7kLBf2AdTmxp9BiKrkGyvoVNvHmuAGdDB9YsKkH6Ac4",
+    "/dns/mythos-rpc.dmarket.com/tcp/443/wss/p2p/12D3KooWCAZDq4ZWMWNN322REpffeuiCEBh8k7jxemrq5eu98Avx"
   ],
   "telemetryEndpoints": null,
   "protocolId": "mythos",
