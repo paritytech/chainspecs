@@ -152,3 +152,6 @@
 [submodule "submodules/laos"]
 	path = submodules/laos
 	url = https://github.com/freeverseio/laos.git
+[submodule "submodules/polkadot-bulletin-chain"]
+	path = submodules/polkadot-bulletin-chain
+	url = https://github.com/paritytech/polkadot-bulletin-chain.git

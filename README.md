@@ -20,6 +20,7 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Polkadot AssetHub](polkadot/parachain/asset-hub/chainspec.json)
 - [Polkadot BridgeHub](polkadot/parachain/bridge-hub/chainspec.json)
 - [Polkadot Collectives](polkadot/parachain/collectives/chainspec.json)
+- [Polkadot Bulletin](polkadot/parachain/bulletin/chainspec.json)
 - [Polkadot Acala](polkadot/parachain/acala/chainspec.json)
 - [Polkadot Clover](polkadot/parachain/clover/chainspec.json)
 - [Polkadot Moonbeam](polkadot/parachain/moonbeam/chainspec.json)
@@ -126,6 +127,8 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Paseo Coretime](paseo/parachain/coretime/chainspec.json)
 - [Paseo People](paseo/parachain/people/chainspec.json)
 - [Paseo People Next](paseo/parachain/people-next/chainspec.json)
+- [Paseo Bulletin Next](paseo/parachain/bulletin-next/chainspec.json)
+- [Paseo Bulletin Next v2](paseo/parachain/bulletin-next-v2/chainspec.json)
 - [Paseo Muse](paseo/parachain/muse/chainspec.json)
 
 ### Westend
@@ -138,3 +141,4 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Westend Muse](westend/parachain/mythical/chainspec.json)
 - [Westend Penpal](westend/parachain/penpal/chainspec.json)
 - [Westend People](westend/parachain/people/chainspec.json)
+- [Westend Bulletin](westend/parachain/bulletin/chainspec.json)
