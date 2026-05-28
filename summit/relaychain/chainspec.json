@@ -2,7 +2,13 @@
   "name": "Summit",
   "id": "summit",
   "chainType": "Live",
-  "bootNodes": [],
+  "bootNodes": [
+    "/dns/summit-validator-node-0.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWHseepkcg9dt2CLQoh4TT6kMMU1vaLwzmodQ3VdNxvxnQ",
+    "/dns/summit-validator-node-1.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWHgAdFbN1J9J7M4M1tvPFkDry6iJv8Rj9sJYHntFpifhn",
+    "/dns/summit-validator-node-2.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWMQjPngGei8ZYgMcYfji34curnUsFZjmZUVpPwfxY4AKh",
+    "/dns/summit-validator-node-3.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWAXfrji1fasUkQvQVApgvuUTYiTjQ9XptvuEenhiYiPQi",
+    "/dns/summit-validator-node-4.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWFMSN1YDRmWCpJYpeZmmJeYKEEmV2fS8W6VmZY3NduNGc"
+  ],
   "telemetryEndpoints": null,
   "protocolId": null,
   "properties": {
