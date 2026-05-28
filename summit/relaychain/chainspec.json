@@ -7,7 +7,7 @@
   "protocolId": null,
   "properties": {
     "tokenDecimals": 10,
-    "tokenSymbol": "PAS"
+    "tokenSymbol": "SUM"
   },
   "codeSubstitutes": {},
   "genesis": {

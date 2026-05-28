@@ -200,7 +200,7 @@
   "name": "Summit",
   "properties": {
     "tokenDecimals": 10,
-    "tokenSymbol": "PAS"
+    "tokenSymbol": "SUM"
   },
   "protocolId": null,
   "telemetryEndpoints": null

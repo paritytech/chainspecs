@@ -67,7 +67,7 @@
   "para_id": 1010,
   "properties": {
     "tokenDecimals": 10,
-    "tokenSymbol": "PAS"
+    "tokenSymbol": "SUM"
   },
   "protocolId": null,
   "relay_chain": "summit",
