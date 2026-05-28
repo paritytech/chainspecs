@@ -29,7 +29,14 @@
             ]
           }
         },
-        "balances": {},
+        "balances": {
+          "balances": [
+            [
+              "5Ge8pVre9DuMnxUNQzwQsazFtAMZVcdjiBSHhp9zsDP5ZFuD",
+              10000000000000000
+            ]
+          ]
+        },
         "configuration": {
           "config": {
             "approval_voting_params": {
