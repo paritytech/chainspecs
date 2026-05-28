@@ -23,42 +23,7 @@
             ]
           }
         },
-        "balances": {
-          "balances": [
-            [
-              "5FyQB9HjYDB32jVcXnRa3aQpN8nY68cJyYt8t4FH5eZ5DgCj",
-              10000000000000000
-            ],
-            [
-              "5FCFvSDx3iqsZUfHnw8mjoj9A7BZdiZgmPh31Nx1tBK9ZQQy",
-              10000000000000000
-            ],
-            [
-              "5E2d3MgXFg1BRhzVkSfbcvNQPFaDH297zrLat4Zkha2fGJk1",
-              10000000000000000
-            ],
-            [
-              "5HNRh87XhtXth2BVcAhUTQqgWNjeV8TZtMBtnEFabwigpuT7",
-              10000000000000000
-            ],
-            [
-              "5C5Ktn42yF9zGePztafXYfGokDNVwtWzKBeSzMqJ1Nf6i32x",
-              10000000000000000
-            ],
-            [
-              "5CfhcfnYM7MUmNksbV67vGexXxs4BoCzyQcZe7VAAzqUYfvZ",
-              10000000000000000
-            ],
-            [
-              "5HKRZm64ppY99gqyPTZPFvy46DhVEGpjD6PnweFXSqTL8oxV",
-              10000000000000000
-            ],
-            [
-              "5Ge8pVre9DuMnxUNQzwQsazFtAMZVcdjiBSHhp9zsDP5ZFuD",
-              10000000000000000
-            ]
-          ]
-        },
+        "balances": {},
         "configuration": {
           "config": {
             "approval_voting_params": {
@@ -227,65 +192,6 @@
               }
             ]
           ]
-        },
-        "staking": {
-          "forceEra": "NotForcing",
-          "invulnerables": [
-            "5FyQB9HjYDB32jVcXnRa3aQpN8nY68cJyYt8t4FH5eZ5DgCj",
-            "5FCFvSDx3iqsZUfHnw8mjoj9A7BZdiZgmPh31Nx1tBK9ZQQy",
-            "5E2d3MgXFg1BRhzVkSfbcvNQPFaDH297zrLat4Zkha2fGJk1",
-            "5HNRh87XhtXth2BVcAhUTQqgWNjeV8TZtMBtnEFabwigpuT7",
-            "5C5Ktn42yF9zGePztafXYfGokDNVwtWzKBeSzMqJ1Nf6i32x",
-            "5CfhcfnYM7MUmNksbV67vGexXxs4BoCzyQcZe7VAAzqUYfvZ",
-            "5HKRZm64ppY99gqyPTZPFvy46DhVEGpjD6PnweFXSqTL8oxV"
-          ],
-          "minimumValidatorCount": 1,
-          "slashRewardFraction": 100000000,
-          "stakers": [
-            [
-              "5FyQB9HjYDB32jVcXnRa3aQpN8nY68cJyYt8t4FH5eZ5DgCj",
-              "5FyQB9HjYDB32jVcXnRa3aQpN8nY68cJyYt8t4FH5eZ5DgCj",
-              1000000000000,
-              "Validator"
-            ],
-            [
-              "5FCFvSDx3iqsZUfHnw8mjoj9A7BZdiZgmPh31Nx1tBK9ZQQy",
-              "5FCFvSDx3iqsZUfHnw8mjoj9A7BZdiZgmPh31Nx1tBK9ZQQy",
-              1000000000000,
-              "Validator"
-            ],
-            [
-              "5E2d3MgXFg1BRhzVkSfbcvNQPFaDH297zrLat4Zkha2fGJk1",
-              "5E2d3MgXFg1BRhzVkSfbcvNQPFaDH297zrLat4Zkha2fGJk1",
-              1000000000000,
-              "Validator"
-            ],
-            [
-              "5HNRh87XhtXth2BVcAhUTQqgWNjeV8TZtMBtnEFabwigpuT7",
-              "5HNRh87XhtXth2BVcAhUTQqgWNjeV8TZtMBtnEFabwigpuT7",
-              1000000000000,
-              "Validator"
-            ],
-            [
-              "5C5Ktn42yF9zGePztafXYfGokDNVwtWzKBeSzMqJ1Nf6i32x",
-              "5C5Ktn42yF9zGePztafXYfGokDNVwtWzKBeSzMqJ1Nf6i32x",
-              1000000000000,
-              "Validator"
-            ],
-            [
-              "5CfhcfnYM7MUmNksbV67vGexXxs4BoCzyQcZe7VAAzqUYfvZ",
-              "5CfhcfnYM7MUmNksbV67vGexXxs4BoCzyQcZe7VAAzqUYfvZ",
-              1000000000000,
-              "Validator"
-            ],
-            [
-              "5HKRZm64ppY99gqyPTZPFvy46DhVEGpjD6PnweFXSqTL8oxV",
-              "5HKRZm64ppY99gqyPTZPFvy46DhVEGpjD6PnweFXSqTL8oxV",
-              1000000000000,
-              "Validator"
-            ]
-          ],
-          "validatorCount": 7
         },
         "sudo": {
           "key": "5Ge8pVre9DuMnxUNQzwQsazFtAMZVcdjiBSHhp9zsDP5ZFuD"
