@@ -23,7 +23,7 @@
         "balances": {
           "balances": [
             [
-              "5FPMAACVcvE9BTvtJpmCpdmvNioFvsQGEj3h3pXuExkQYz2T",
+              "5GYan5HovK5RD1NfunRxDAh3XMCcVHhkgckwwRyTTjBoKErs",
               1152921504606846976000
             ],
             [
@@ -44,8 +44,8 @@
           "candidacyBond": 0,
           "desiredCandidates": 0,
           "invulnerables": [
-            "5FPMAACVcvE9BTvtJpmCpdmvNioFvsQGEj3h3pXuExkQYz2T",
-            "5EveKsBUbESTpwK8aaMLCrMaMSRCVayTk24xsoXi1ys6s9oZ"
+            "5GYan5HovK5RD1NfunRxDAh3XMCcVHhkgckwwRyTTjBoKErs",
+            "5DJdrhdpvkaQ2jPmSrErx8PneSbiz6arxgKLXATfoz9VnqBk"
           ]
         },
         "parachainInfo": {
@@ -59,17 +59,17 @@
         "session": {
           "keys": [
             [
-              "5FPMAACVcvE9BTvtJpmCpdmvNioFvsQGEj3h3pXuExkQYz2T",
-              "5FPMAACVcvE9BTvtJpmCpdmvNioFvsQGEj3h3pXuExkQYz2T",
+              "5GYan5HovK5RD1NfunRxDAh3XMCcVHhkgckwwRyTTjBoKErs",
+              "5GYan5HovK5RD1NfunRxDAh3XMCcVHhkgckwwRyTTjBoKErs",
               {
-                "aura": "5FPMAACVcvE9BTvtJpmCpdmvNioFvsQGEj3h3pXuExkQYz2T"
+                "aura": "5GYan5HovK5RD1NfunRxDAh3XMCcVHhkgckwwRyTTjBoKErs"
               }
             ],
             [
-              "5GNcZfE4KrNmYerVu95Aah7XSpqfuPvfxoAPH5RpUjfkwR8d",
-              "5GNcZfE4KrNmYerVu95Aah7XSpqfuPvfxoAPH5RpUjfkwR8d",
+              "5DJdrhdpvkaQ2jPmSrErx8PneSbiz6arxgKLXATfoz9VnqBk",
+              "5DJdrhdpvkaQ2jPmSrErx8PneSbiz6arxgKLXATfoz9VnqBk",
               {
-                "aura": "5GNcZfE4KrNmYerVu95Aah7XSpqfuPvfxoAPH5RpUjfkwR8d"
+                "aura": "5DJdrhdpvkaQ2jPmSrErx8PneSbiz6arxgKLXATfoz9VnqBk"
               }
             ]
           ],
