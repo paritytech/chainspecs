@@ -20,7 +20,7 @@
               1000000000000000000
             ],
             [
-              "5Ge8pVre9DuMnxUNQzwQsazFtAMZVcdjiBSHhp9zsDP5ZFuD",
+              "5GrgowzyziWi3BvAvwaYSHNiMnq4uVK6ug9UdGQprofJg5W6",
               1000000000000000000
             ]
           ]
@@ -57,7 +57,7 @@
           ]
         },
         "sudo": {
-          "key": "5Ge8pVre9DuMnxUNQzwQsazFtAMZVcdjiBSHhp9zsDP5ZFuD"
+          "key": "5GrgowzyziWi3BvAvwaYSHNiMnq4uVK6ug9UdGQprofJg5W6"
         }
       }
     }
