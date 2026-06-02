@@ -33,7 +33,7 @@
           ]
         },
         "parachainInfo": {
-          "parachainId": 1010
+          "parachainId": 1501
         },
         "polkadotXcm": {
           "safeXcmVersion": 5
@@ -64,7 +64,7 @@
   },
   "id": "bulletin-summit",
   "name": "Summit Bulletin",
-  "para_id": 1010,
+  "para_id": 1501,
   "properties": {
     "tokenDecimals": 10,
     "tokenSymbol": "SUM"

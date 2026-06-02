@@ -49,7 +49,7 @@
           ]
         },
         "parachainInfo": {
-          "parachainId": 1004
+          "parachainId": 1502
         },
         "parachainSystem": {},
         "polkadotXcm": {
@@ -87,7 +87,7 @@
   },
   "id": "next-people-summit",
   "name": "Summit People",
-  "para_id": 1004,
+  "para_id": 1502,
   "properties": {
     "tokenDecimals": 10,
     "tokenSymbol": "SUM"
