@@ -1,7 +1,9 @@
 {
   "bootNodes": [
     "/dns/summit-people-collator-node-0.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWHKvPNApiY8EQ6SjLZADMoqmpfAPc4Gjq3tfNkk9UUuyq",
-    "/dns/summit-people-collator-node-1.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWMr4tkiitFocsf79oqw2pRw1jQ7bSETm4PXbjvPtFmuTV"
+    "/dns/summit-people-collator-node-1.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWMr4tkiitFocsf79oqw2pRw1jQ7bSETm4PXbjvPtFmuTV",
+    "/dns/summit-people-rpc-node-0.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWRXfsY4QfhZ6c9f6zTRj1P2f6C3Ft81AD2ZjoVdmNF8Bc",
+    "/dns/summit-people-rpc-node-1.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWGjN7ME5fXKLzrUcFYb2LnBVbAuBWNxPwqFhDNehGJxnv"
   ],
   "chainType": "Live",
   "codeSubstitutes": {},
