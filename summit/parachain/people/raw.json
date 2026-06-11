@@ -3,7 +3,15 @@
     "/dns/summit-people-collator-node-0.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWHKvPNApiY8EQ6SjLZADMoqmpfAPc4Gjq3tfNkk9UUuyq",
     "/dns/summit-people-collator-node-1.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWMr4tkiitFocsf79oqw2pRw1jQ7bSETm4PXbjvPtFmuTV",
     "/dns/summit-people-rpc-node-0.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWRXfsY4QfhZ6c9f6zTRj1P2f6C3Ft81AD2ZjoVdmNF8Bc",
-    "/dns/summit-people-rpc-node-1.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWGjN7ME5fXKLzrUcFYb2LnBVbAuBWNxPwqFhDNehGJxnv"
+    "/dns/summit-people-rpc-node-1.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWGjN7ME5fXKLzrUcFYb2LnBVbAuBWNxPwqFhDNehGJxnv",
+    "/dns/summit-people-rpc-node-2.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWGQmATxUh48EMxdqBkZw9dtppTNKeWtc7AHdRLSfYaxtt",
+    "/dns/summit-people-rpc-node-3.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWL5tFsprxr29ZWHyATxek4Z1a4tjm4h2UuNzSjAYtL1WJ",
+    "/dns/summit-people-rpc-node-4.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWG6b3X1RM41DYLoxRqKoV57V1b5CvKMCKcs49nXeJxNdp",
+    "/dns/summit-people-rpc-node-5.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWFo7kUtRBdxPttD1UXNN4Hh7bZHWHBF9xMyYuyeV9EVj2",
+    "/dns/summit-people-rpc-node-6.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWGe1QiP68YjiFwkAwnMyUDqyUPYpGw7NSBUVuRL56h64u",
+    "/dns/summit-people-rpc-node-7.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWSaLy9typBTq82Hpn5YeK8ATL3oX2cayRLuWfksRB3giu",
+    "/dns/summit-people-rpc-node-8.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWLYhrFaN8NjuvKAT9Fb5QDqj3pq7hjruP5FRJoguHdwfL",
+    "/dns/summit-people-rpc-node-9.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWRrNAwy4HaBNmDo4rD9F2QfoBBNX5eaiujM9CYBPAuAio"
   ],
   "chainType": "Live",
   "codeSubstitutes": {},
