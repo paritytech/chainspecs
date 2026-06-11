@@ -3,7 +3,15 @@
     "/dns4/summit-bulletin-collator-node-0.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWC6q8q3NXscVcpxMbteYrmzjpy7NvYnD4QDRkAQJ9ng8r",
     "/dns4/summit-bulletin-collator-node-1.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWRiRRk8EzmENBD6SkP7v2riWa6s74X7wzhnx84SxfD4yr",
     "/dns4/summit-bulletin-rpc-node-0.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWSCrFvEXpRn9J5VC7TiabNwofVfbg3QPzJK9R5ZoDGjVq",
-    "/dns4/summit-bulletin-rpc-node-1.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWHV6qNxpwkbTezwgsDW1xBL4J56o3xZnJXvRzHLdsMQJG"
+    "/dns4/summit-bulletin-rpc-node-1.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWHV6qNxpwkbTezwgsDW1xBL4J56o3xZnJXvRzHLdsMQJG",
+    "/dns4/summit-bulletin-rpc-node-2.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWSogg76XkbuHwfTKBCyvtGaCqzQYsJ6FekSjov1SsM57s",
+    "/dns4/summit-bulletin-rpc-node-3.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWJSNSoW3bVbhT5PNimRr98a54qgFdcu5MyWVmA5EMpzNn",
+    "/dns4/summit-bulletin-rpc-node-4.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWAwfQNcf6yki513XytrtMpfoLi4RAbk54WxE2QuFn5T1a",
+    "/dns4/summit-bulletin-rpc-node-5.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWD1aNnmJzkgueWUKUbqicUzmWcTnT7mJjTk9QWgVwotwZ",
+    "/dns4/summit-bulletin-rpc-node-6.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWERphn7KFJGBnSPg2hibGXRwe6CSQ7VqrRHubfD1cKppo",
+    "/dns4/summit-bulletin-rpc-node-7.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWQvhA9tZLVVkuqj4ohzChmFkBPEoXV6F1Usow1Kr4H35U",
+    "/dns4/summit-bulletin-rpc-node-8.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWQowXTNq84Nu5usMZDKacgcBSBrVKf7a7cYjdbr6tCiqN",
+    "/dns4/summit-bulletin-rpc-node-9.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWECRNwBExmdcgsN9YyPptMoSQ8kYNa9apjpSc6NBmgFyh"
   ],
   "chainType": "Live",
   "codeSubstitutes": {},
