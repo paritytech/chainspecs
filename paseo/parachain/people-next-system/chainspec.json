@@ -1,8 +1,8 @@
 {
   "bootNodes": [
-    "/dns/paseo-people-next-system-collator-node-0.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWN5JKhxNAfij5EvbY2Kdr5oJvAVhL5WovmxaZ2Q6m69uP",
+    "/dns/paseo-people-next-system-collator-p2p-node-0.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWN5JKhxNAfij5EvbY2Kdr5oJvAVhL5WovmxaZ2Q6m69uP",
     "/dns/paseo-people-next-system-collator-node-0.parity-testnet.parity.io/tcp/443/wss/p2p/12D3KooWN5JKhxNAfij5EvbY2Kdr5oJvAVhL5WovmxaZ2Q6m69uP",
-    "/dns/paseo-people-next-system-collator-node-1.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWGboxsnnd1uqRUZUf3vL9fFgqnDvXxHtQ7LQN3YmPXhhY",
+    "/dns/paseo-people-next-system-collator-p2p-node-1.parity-testnet.parity.io/tcp/30333/p2p/12D3KooWGboxsnnd1uqRUZUf3vL9fFgqnDvXxHtQ7LQN3YmPXhhY",
     "/dns/paseo-people-next-system-collator-node-1.parity-testnet.parity.io/tcp/443/wss/p2p/12D3KooWGboxsnnd1uqRUZUf3vL9fFgqnDvXxHtQ7LQN3YmPXhhY"
   ],
   "chainType": "Live",
