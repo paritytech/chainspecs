@@ -15,8 +15,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
-        with:
-          submodules: true
+      - name: Fetch parachain chainspecs
+        run: ./scripts/fetch-chainspecs.sh
       - name: Download Paseo chainspecs
         run: |
           wget --directory-prefix=downloads/paseo-chain-specs --input-file=paseo/urls.txt
