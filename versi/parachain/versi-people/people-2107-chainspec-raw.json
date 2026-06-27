@@ -1,0 +1,33 @@
+{
+  "name": "Versi People 2107",
+  "id": "versi-people-2107",
+  "chainType": "Live",
+  "bootNodes": [
+    "/dns/versi-people-2107-node-0/tcp/30334/p2p/12D3KooWGDd2cgd9Gc1exApyKxnguQj12FKt5UXBf9EvCy6r135J",
+    "/dns/versi-people-2107-node-1/tcp/30334/p2p/12D3KooWSz2X7t8jYoDuwvzi65Q1vzov2TrJQ42Fvxt5bwdS3qvc",
+    "/dns/versi-people-2107-node-2/tcp/30334/p2p/12D3KooWFvaDsSpFnj7c4MFRS5ZbxdGaSNo8RrXn8zRWByorWH5H",
+    "/dns/versi-people-2107-node-3/tcp/30334/p2p/12D3KooWHRcTfyvRtpgE1HASLudahJ78aCydV34zUbFVokbMmtmg",
+    "/dns/versi-people-2107-node-4/tcp/30334/p2p/12D3KooWRXRDiC8VxXseB5ikM6PCtWMAd8JtGJy3M4BWS4bjLaD8",
+    "/dns/versi-people-2107-node-5/tcp/30334/p2p/12D3KooWEXfs2fvonDC8tVesWfnoFo32Pgef92TQRvEXGpoj4Qoi",
+    "/dns/versi-people-2107-node-6/tcp/30334/p2p/12D3KooWJeD48gLEt1MQATnpJQnQBeb13GC6KBMiaqHqEwjM1Ypz",
+    "/dns/versi-people-2107-node-7/tcp/30334/p2p/12D3KooWKhSpuv133pwtosb4BgqcFTj1qxaT6f6V7ZRF5FKbBX6t",
+    "/dns/versi-people-2107-node-8/tcp/30334/p2p/12D3KooWSHdLuzgAu3C3V6Fw1PnAzYcpBkgWA2ZZFfazq7PMLmXx",
+    "/dns/versi-people-2107-node-9/tcp/30334/p2p/12D3KooWMiz5BLCfAvqn57bQA4oKSVPnMVcU7e5UPfEbprdKzFrf",
+    "/dns/versi-people-2107-node-10/tcp/30334/p2p/12D3KooWBo5LcNTa5Mzb7qFaz6HUbBh4TB5n3R5kb5XngHA8ZPhN",
+    "/dns/versi-people-2107-node-11/tcp/30334/p2p/12D3KooWN6Srn5oKw1pUWX77s3TxbqCpkxkHdsA5FtToKejkNbAn",
+    "/dns/versi-people-2107-node-12/tcp/30334/p2p/12D3KooWKtGKKdJDEDpUP4EZQCLtwspthYYR6NgkYa8rNGDrnLrx",
+    "/dns/versi-people-2107-node-13/tcp/30334/p2p/12D3KooWDhqJN8Mf4JfC5u5q1q2SC23a4iVUZ77fHVB1nWViaYFk"
+  ],
+  "telemetryEndpoints": null,
+  "protocolId": null,
+  "properties": {
+    "tokenDecimals": 12,
+    "tokenSymbol": "UNIT"
+  },
+  "relay_chain": "westend_versi_v1_10",
+  "para_id": 2107,
+  "codeSubstitutes": {},
+  "genesis": {
+    "stateRootHash": "0x77a96e2320f38155576e49cc09a1c4304f4a07d3a20c0bd330b44ff5b79d56fb"
+  }
+}
