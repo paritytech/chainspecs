@@ -61,7 +61,10 @@
         "collatorSelection": {
           "candidacyBond": 16000000000,
           "invulnerables": [
-            "5CV6ZhJnZVJZP61exG8JkPPHSJrjCa8iYwnKKaxFeFpfK4NM"
+            "5CV6ZhJnZVJZP61exG8JkPPHSJrjCa8iYwnKKaxFeFpfK4NM",
+            "5DRYUX6ArkaWXzpcgwkJvcFsbfCXqapBo5MLSd1PVEL7CdtX",
+            "5DXvgvUQopX68RPeJaYxfi7WrgEfLGk5DnoVHFxRkureXuaJ",
+            "5Dt6m21t8NkExdZv8XKimbMupJiWGT43mWQTp9mRNkpDxKj5"
           ]
         },
         "parachainInfo": {
@@ -77,6 +80,27 @@
               "5CV6ZhJnZVJZP61exG8JkPPHSJrjCa8iYwnKKaxFeFpfK4NM",
               {
                 "aura": "5CV6ZhJnZVJZP61exG8JkPPHSJrjCa8iYwnKKaxFeFpfK4NM"
+              }
+            ],
+            [
+              "5DRYUX6ArkaWXzpcgwkJvcFsbfCXqapBo5MLSd1PVEL7CdtX",
+              "5DRYUX6ArkaWXzpcgwkJvcFsbfCXqapBo5MLSd1PVEL7CdtX",
+              {
+                "aura": "5DRYUX6ArkaWXzpcgwkJvcFsbfCXqapBo5MLSd1PVEL7CdtX"
+              }
+            ],
+            [
+              "5DXvgvUQopX68RPeJaYxfi7WrgEfLGk5DnoVHFxRkureXuaJ",
+              "5DXvgvUQopX68RPeJaYxfi7WrgEfLGk5DnoVHFxRkureXuaJ",
+              {
+                "aura": "5DXvgvUQopX68RPeJaYxfi7WrgEfLGk5DnoVHFxRkureXuaJ"
+              }
+            ],
+            [
+              "5Dt6m21t8NkExdZv8XKimbMupJiWGT43mWQTp9mRNkpDxKj5",
+              "5Dt6m21t8NkExdZv8XKimbMupJiWGT43mWQTp9mRNkpDxKj5",
+              {
+                "aura": "5Dt6m21t8NkExdZv8XKimbMupJiWGT43mWQTp9mRNkpDxKj5"
               }
             ]
           ]
