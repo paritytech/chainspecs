@@ -8,7 +8,7 @@
     "/dns4/paseo-bulletin-rpc-node-0.polkadot.io/tcp/443/wss/p2p/12D3KooWG7dt8yAMBaNrWh5juvHMGvJtPKTCaS87kkadWZKpV7ox",
     "/dns4/paseo-bulletin-rpc-node-1.polkadot.io/tcp/443/wss/p2p/12D3KooWSS9QNRiLGBoZrDrtXvPyBV7QrV7F3A1V8f6xAXECSnj5"
   ],
-  "telemetryEndpoints": null,
+  "telemetryEndpoints": [["wss://telemetry.polkadot.io/submit/", 0]],
   "protocolId": null,
   "properties": {
     "tokenDecimals": 10,
