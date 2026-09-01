@@ -77,6 +77,9 @@
             ]
           ]
         },
+        "stakingAhClient" : {
+            "operatingMode": "Active"
+        },
         "configuration": {
           "config": {
             "approval_voting_params": {
