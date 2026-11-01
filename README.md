@@ -14,6 +14,10 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 > ⚠️ All chainspecs are sourced from the default development branch, **not** the last release.
 > Source repositories (git submodules) are updated once a week.
 
+A `light.json` next to a `raw.json` is the same spec for light clients such as smoldot, with the genesis storage
+replaced by the genesis state root. `scripts/light-spec.sh <dir>` writes it from the directory's `raw.json` and genesis
+header, so rerun it whenever `raw.json` changes.
+
 # List of Chainspecs
 ### Polkadot
 - [Polkadot](polkadot/relaychain/chainspec.json)
