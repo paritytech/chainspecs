@@ -14,6 +14,10 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 > ⚠️ All chainspecs are sourced from the default development branch, **not** the last release.
 > Source repositories (git submodules) are updated once a week.
 
+A `light.json` next to a `raw.json` is the same spec for light clients such as smoldot, with the genesis storage
+replaced by the genesis state root. `scripts/light-spec.sh <dir>` writes it from a parachain directory's `raw.json` and
+`genesis-head` file, so rerun it whenever `raw.json` changes.
+
 # List of Chainspecs
 ### Polkadot
 - [Polkadot](polkadot/relaychain/chainspec.json)
@@ -30,14 +34,12 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Polkadot Composable](polkadot/parachain/composable/chainspec.json)
 - [Polkadot Sora](polkadot/parachain/sora/chainspec.json)
 - [Polkadot nodle](polkadot/parachain/nodle/chainspec.json)
-- [Polkadot Bifrost](polkadot/parachain/bifrost/chainspec.json)
 - [Polkadot Centrifuge](polkadot/parachain/centrifuge/chainspec.json)
 - [Polkadot Interlay](polkadot/parachain/interlay/chainspec.json)
 - [Polkadot HydraDX](polkadot/parachain/hydradx/chainspec.json)
 - [Polkadot Phala](polkadot/parachain/phala/chainspec.json)
 - [Polkadot Unique](polkadot/parachain/unique/chainspec.json)
 - [Polkadot Integritee](polkadot/parachain/integritee/chainspec.json)
-- [Polkadot Polkadex](polkadot/parachain/polkadex/chainspec.json)
 - [Polkadot NeuroWeb](polkadot/parachain/neuroweb/chainspec.json)
 - [Polkadot Darwinia](polkadot/parachain/darwinia/chainspec.json)
 - [Polkadot Bitgreen](polkadot/parachain/bitgreen/chainspec.json)
@@ -78,7 +80,6 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 - [Kusama Encointer](kusama/parachain/encointer/chainspec.json)
 - [Kusama Integritee](kusama/parachain/integritee/chainspec.json)
 - [Kusama Karura](kusama/parachain/karura/chainspec.json)
-- [Kusama Bifrost](kusama/parachain/bifrost/chainspec.json)
 - [Kusama Khala](kusama/parachain/khala/chainspec.json)
 - [Kusama Shiden](kusama/parachain/shiden/chainspec.json)
 - [Kusama SORA](kusama/parachain/sora/chainspec.json)
