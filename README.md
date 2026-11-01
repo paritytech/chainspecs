@@ -15,8 +15,8 @@ You can download chainspec and save it as `chainspec.json` file, then start the 
 > Source repositories (git submodules) are updated once a week.
 
 A `light.json` next to a `raw.json` is the same spec for light clients such as smoldot, with the genesis storage
-replaced by the genesis state root. `scripts/light-spec.sh <dir>` writes it from the directory's `raw.json` and genesis
-header, so rerun it whenever `raw.json` changes.
+replaced by the genesis state root. `scripts/light-spec.sh <dir>` writes it from a parachain directory's `raw.json` and
+`genesis-head` file, so rerun it whenever `raw.json` changes.
 
 # List of Chainspecs
 ### Polkadot
