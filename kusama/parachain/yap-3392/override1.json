@@ -2,7 +2,9 @@
   "name": "Yap Kusama 3392",
   "id": "yap-kusama-3392",
   "bootNodes": [
-    "/dns/kusama-yap-3392-node-0.parity-chains.parity.io/tcp/443/wss/p2p/12D3KooWMsnrZM73Wt6pRmHRKQxaik1HD38Uv7H92KrSdVDtiZL1"
+    "/dns/kusama-yap-3392-node-0.parity-chains-scw.parity.io/tcp/443/wss/p2p/12D3KooWMsnrZM73Wt6pRmHRKQxaik1HD38Uv7H92KrSdVDtiZL1",
+    "/dns/kusama-yap-3392-node-1.parity-chains-scw.parity.io/tcp/443/wss/p2p/12D3KooWRejf1JYYjaaKhHAn28VJJR9ryZqs3wiGPsVjk6eFLLrn",
+    "/dns/kusama-yap-3392-node-2.parity-chains-scw.parity.io/tcp/443/wss/p2p/12D3KooWCDPqiHMVrTo2CEoS67d2nLe9FVWScM7t4pEKNoFy4gfb"
   ],
   "genesis": {
     "runtimeGenesis": {
