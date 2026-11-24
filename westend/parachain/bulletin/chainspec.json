@@ -8,7 +8,7 @@
     "/dns4/westend-bulletin-rpc-node-0.polkadot.io/tcp/443/wss/p2p/12D3KooWGb3sdXpdQPvL1wwHYHpQpMAEWxpgNNb6sndHmCByMXZw",
     "/dns4/westend-bulletin-rpc-node-1.polkadot.io/tcp/443/wss/p2p/12D3KooWN8hBVUWXNiur1w6EiEPkTJibbzpagZmm4cphMxWLv9yc"
   ],
-  "telemetryEndpoints": null,
+  "telemetryEndpoints": [["wss://telemetry.polkadot.io/submit/", 0]],
   "protocolId": null,
   "properties": {
     "tokenDecimals": 12,
